@@ -6,6 +6,7 @@ const partialDir = path.join(root, 'partials');
 
 const pages = [
   { file: 'index.html', header: 'header-home.html' },
+  { file: 'comparisons/index.html', header: 'header-utility.html' },
   { file: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel/index.html', header: 'header-article.html' },
   { file: 'vaonis-vespera-pro-vs-unistellar-odyssey-pro/index.html', header: 'header-article.html' },
   { file: 'about/index.html', header: 'header-utility.html' },
