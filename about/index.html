@@ -35,7 +35,7 @@
     .standard-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; max-width: 920px; margin-top: 26px; border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; background: var(--line); }
     .standard-card { padding: 20px; background: var(--surface); } .standard-card h2 { margin-top: 0; font-size: 1.28rem; } .standard-card p { margin-bottom: 0; color: var(--muted); }
     .note { max-width: 76ch; margin: 24px 0 0; padding: 18px; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
-    .footer { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); font-size: 0.92rem; } .footer-main, .footer-meta { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; } .footer-meta { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.8rem; } .footer a { color: var(--text); } .footer-meta a { color: var(--muted); }
+    .footer { border-top: 1px solid var(--line); padding: 28px 0 42px; color: var(--muted); font-size: 0.92rem; } .footer-inner { width: var(--content); margin: 0 auto; } .footer-main, .footer-meta { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; } .footer-meta { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 0.8rem; } .footer a { color: var(--text); } .footer-meta a { color: var(--muted); }
     @media (max-width: 700px) { .nav-links { display: none; } h1 { max-width: 10ch; } .standard-grid { grid-template-columns: 1fr; } }
     @media (max-width: 520px) { :root { --content: min(358px, calc(100vw - 32px)); } .nav-inner, .page-shell { margin-left: 16px; margin-right: 0; } .footer-meta span:last-child { display: block; margin-top: 8px; line-height: 1.8; } }
     :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
@@ -44,7 +44,26 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="nav"><div class="nav-inner"><a class="brand" href="https://worthadding.com/"><span class="brand-mark" aria-hidden="true"></span><span>Worth Adding</span></a><nav class="nav-links" aria-label="Utility navigation"><a href="https://worthadding.com/affiliate-disclosure/">Disclosure</a><a href="https://worthadding.com/privacy/">Privacy</a><a href="https://worthadding.com/contact/">Contact</a></nav><button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Toggle color theme"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></div></header>
+  <!-- site-header:start header-utility.html -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="https://worthadding.com/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Worth Adding</span>
+    </a>
+    <nav class="nav-links" aria-label="Utility navigation">
+      <a href="https://worthadding.com/about/">About</a>
+      <a href="https://worthadding.com/affiliate-disclosure/">Disclosure</a>
+      <a href="https://worthadding.com/privacy/">Privacy</a>
+      <a href="https://worthadding.com/contact/">Contact</a>
+    </nav>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Toggle color theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+  </div>
+</header>
+<!-- site-header:end -->
   <main id="main"><div class="page-shell"><section class="hero" aria-labelledby="page-title"><div class="eyebrow">Editorial standards</div><h1 id="page-title">About Worth Adding</h1><p class="intro">Worth Adding is built for the last stretch of a buying decision: when two good products overlap enough that the trade-offs need to be made plain.</p><p class="updated">Last updated: <time datetime="2026-05-07">May 7, 2026</time></p></section>
   <section class="content" aria-label="About and editorial standards">
     <h2>What we publish</h2>
@@ -66,7 +85,32 @@
     <p>If a source changes, a spec looks wrong, or a recommendation missed a material buying constraint, send a note to <a href="mailto:hello@worthadding.com">hello@worthadding.com</a>. Please include the page URL and the source for the correction.</p>
     <div class="note"><strong>Short version:</strong> the site should help a shopper decide, show its work, and avoid pretending unstable product data is permanent.</div>
   </section></div></main>
-  <footer class="footer"><div class="page-shell"><div class="footer-main"><div>&copy; 2026 Worth Adding. All rights reserved.</div><div><a href="https://worthadding.com/">Home</a> / <a href="https://worthadding.com/#recent">Latest posts</a></div></div><div class="footer-meta" aria-label="Site information"><span>Site info</span><span><a href="https://worthadding.com/about/">About / Editorial Standards</a> / <a href="https://worthadding.com/affiliate-disclosure/">Affiliate Disclosure</a> / <a href="https://worthadding.com/privacy/">Privacy Policy</a> / <a href="https://worthadding.com/contact/">Contact</a></span></div></div></footer>
+  <!-- site-footer:start footer.html -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <div>&copy; <span id="copyright-year">2026</span> Worth Adding. All rights reserved.</div>
+      <div>
+        <a href="https://worthadding.com/">Home</a>
+        &nbsp;/&nbsp;
+        <a href="https://worthadding.com/#recent">Latest posts</a>
+      </div>
+    </div>
+    <div class="footer-meta" aria-label="Site information">
+      <span>Site info</span>
+      <span>
+        <a href="https://worthadding.com/about/">About / Editorial Standards</a>
+        &nbsp;/&nbsp;
+        <a href="https://worthadding.com/affiliate-disclosure/">Affiliate Disclosure</a>
+        &nbsp;/&nbsp;
+        <a href="https://worthadding.com/privacy/">Privacy Policy</a>
+        &nbsp;/&nbsp;
+        <a href="https://worthadding.com/contact/">Contact</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<!-- site-footer:end -->
   <script>(function(){var toggle=document.getElementById('theme-toggle');if(!toggle)return;function setTheme(theme){var isDark=theme==='dark';document.documentElement.setAttribute('data-theme',theme);toggle.setAttribute('aria-pressed',isDark?'true':'false');toggle.setAttribute('aria-label',isDark?'Switch to light theme':'Switch to dark theme');}setTheme('light');toggle.addEventListener('click',function(){setTheme(document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark');});})();</script>
 </body>
 </html>

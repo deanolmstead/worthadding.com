@@ -1,0 +1,74 @@
+import { readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+
+const root = process.cwd();
+const partialDir = path.join(root, 'partials');
+
+const pages = [
+  { file: 'index.html', header: 'header-home.html' },
+  { file: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel/index.html', header: 'header-article.html' },
+  { file: 'vaonis-vespera-pro-vs-unistellar-odyssey-pro/index.html', header: 'header-article.html' },
+  { file: 'about/index.html', header: 'header-utility.html' },
+  { file: 'affiliate-disclosure/index.html', header: 'header-utility.html' },
+  { file: 'privacy/index.html', header: 'header-utility.html' },
+  { file: 'contact/index.html', header: 'header-utility.html' }
+];
+
+const start = (name, source) => `<!-- ${name}:start ${source} -->`;
+const end = (name) => `<!-- ${name}:end -->`;
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function wrap(name, source, content) {
+  return `${start(name, source)}\n${content.trim()}\n${end(name)}`;
+}
+
+function replaceManagedBlock(html, name, source, content, fallbackPattern) {
+  const managed = new RegExp(
+    `<!-- ${escapeRegExp(name)}:start [^>]*-->[\\s\\S]*?<!-- ${escapeRegExp(name)}:end -->`
+  );
+  const replacement = wrap(name, source, content);
+
+  if (managed.test(html)) {
+    return html.replace(managed, replacement);
+  }
+
+  if (!fallbackPattern.test(html)) {
+    throw new Error(`Could not find ${name} block to replace.`);
+  }
+
+  return html.replace(fallbackPattern, replacement);
+}
+
+async function loadPartial(name) {
+  return readFile(path.join(partialDir, name), 'utf8');
+}
+
+const footer = await loadPartial('footer.html');
+
+for (const page of pages) {
+  const fullPath = path.join(root, page.file);
+  const header = await loadPartial(page.header);
+  let html = await readFile(fullPath, 'utf8');
+
+  html = replaceManagedBlock(
+    html,
+    'site-header',
+    page.header,
+    header,
+    /<header class="nav">[\s\S]*?<\/header>/
+  );
+
+  html = replaceManagedBlock(
+    html,
+    'site-footer',
+    'footer.html',
+    footer,
+    /<footer class="footer">[\s\S]*?<\/footer>/
+  );
+
+  await writeFile(fullPath, html);
+  console.log(`Applied partials to ${page.file}`);
+}
