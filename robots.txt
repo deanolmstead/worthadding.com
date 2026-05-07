@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://clients.deanolmstead.com/sitemap.xml

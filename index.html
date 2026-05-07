@@ -1,0 +1,1916 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunroot Nursery</title>
+  <meta
+    name="description"
+    content="Sunroot Nursery is a local plant nursery offering native plants, garden guidance, seasonal workshops, and delivery for home gardeners."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f0e6;
+      color: #203127;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .switcher {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 0 14px;
+      background: rgba(14, 21, 18, 0.96);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+    }
+
+    .switcher span {
+      font: 700 11px/1 Manrope, sans-serif;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(247, 242, 233, 0.72);
+    }
+
+    .switcher button {
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(255, 255, 255, 0.06);
+      color: #f7f2e9;
+      border-radius: 999px;
+      padding: 7px 12px;
+      cursor: pointer;
+      transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+    }
+
+    .switcher button:hover,
+    .switcher button:focus-visible {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.22);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .switcher button.active {
+      background: #d9a441;
+      color: #182018;
+      border-color: #d9a441;
+    }
+
+    .switcher-spacer {
+      height: 44px;
+    }
+
+    .variation {
+      display: none;
+      min-height: 100vh;
+    }
+
+    .variation.active {
+      display: block;
+    }
+
+    .progress {
+      position: fixed;
+      top: 42px;
+      left: 0;
+      z-index: 9998;
+      height: 4px;
+      width: 0;
+      transform-origin: left center;
+      transition: width 120ms linear;
+    }
+
+    .site-nav {
+      position: fixed;
+      top: 42px;
+      left: 0;
+      right: 0;
+      z-index: 9997;
+      transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+      backdrop-filter: blur(14px);
+    }
+
+    .site-nav.is-scrolled {
+      transform: translateY(0);
+      box-shadow: 0 14px 40px rgba(15, 27, 16, 0.12);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .nav-links,
+    .nav-actions,
+    .stat-row,
+    .feature-grid,
+    .collection-grid,
+    .review-grid,
+    .visit-grid,
+    .story-grid,
+    .program-grid,
+    .season-grid,
+    .testimonial-grid,
+    .faq-grid,
+    .footer-grid,
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .nav-links a,
+    .nav-actions a,
+    .nav-actions button {
+      border-radius: 999px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 900px) {
+      .nav-inner {
+        padding: 14px 16px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    #v1 {
+      --bg: #f6f1e7;
+      --bg-soft: #fdf8ee;
+      --surface: rgba(255, 252, 245, 0.78);
+      --surface-strong: #fff9ef;
+      --text: #213226;
+      --muted: #5b6d5d;
+      --accent: #cf8f2f;
+      --accent-deep: #9f6221;
+      --line: rgba(33, 50, 38, 0.12);
+      --shadow: rgba(53, 70, 50, 0.12);
+      background:
+        radial-gradient(circle at top left, rgba(207, 143, 47, 0.16), transparent 28%),
+        linear-gradient(180deg, #f9f4ea 0%, #f2ecdf 100%);
+      color: var(--text);
+      font-family: Manrope, sans-serif;
+    }
+
+    #v1.dark {
+      --bg: #101a14;
+      --bg-soft: #162419;
+      --surface: rgba(20, 33, 24, 0.76);
+      --surface-strong: #19271d;
+      --text: #edf2e8;
+      --muted: #b8c6b6;
+      --accent: #f2bc59;
+      --accent-deep: #ffd183;
+      --line: rgba(237, 242, 232, 0.12);
+      --shadow: rgba(0, 0, 0, 0.3);
+      background:
+        radial-gradient(circle at top left, rgba(242, 188, 89, 0.12), transparent 24%),
+        linear-gradient(180deg, #101a14 0%, #0d1510 100%);
+    }
+
+    #v1 .progress {
+      background: linear-gradient(90deg, #d7a347 0%, #86a46b 100%);
+    }
+
+    #v1 .site-nav {
+      background: rgba(246, 241, 231, 0.64);
+      border-bottom: 1px solid rgba(33, 50, 38, 0.08);
+    }
+
+    #v1.dark .site-nav {
+      background: rgba(16, 26, 20, 0.72);
+      border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #v1 .site-nav.is-scrolled {
+      background: rgba(253, 248, 238, 0.9);
+      border-bottom-color: rgba(33, 50, 38, 0.12);
+    }
+
+    #v1.dark .site-nav.is-scrolled {
+      background: rgba(22, 36, 25, 0.92);
+      border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #v1 .brand,
+    #v1 .eyebrow,
+    #v1 h1,
+    #v1 h2,
+    #v1 h3 {
+      font-family: Fraunces, serif;
+    }
+
+    #v1 .brand {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+
+    #v1 .nav-links a {
+      padding: 8px 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    #v1 .nav-actions a,
+    #v1 .nav-actions button,
+    #v1 .hero-actions a,
+    #v1 .card-link {
+      transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+    }
+
+    #v1 .nav-actions button {
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    #v1 .nav-actions .cta,
+    #v1 .hero-actions .primary {
+      padding: 11px 16px;
+      background: var(--text);
+      color: var(--bg-soft);
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    #v1 .nav-actions .cta:hover,
+    #v1 .hero-actions .primary:hover {
+      transform: translateY(-1px);
+      background: var(--accent);
+      color: #162016;
+    }
+
+    #v1 .hero-actions .secondary {
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.28);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    #v1.dark .hero-actions .secondary {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    #v1 .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 158px 20px 54px;
+    }
+
+    #v1 .hero-shell,
+    #v1 .section-shell,
+    #v1 .footer-shell {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    #v1 .hero-panel {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    #v1 .hero-copy {
+      padding: 32px;
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.68), rgba(255, 248, 235, 0.44)),
+        var(--surface);
+      box-shadow: 0 28px 60px var(--shadow);
+    }
+
+    #v1.dark .hero-copy {
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01)),
+        var(--surface);
+    }
+
+    #v1 .eyebrow {
+      display: inline-block;
+      margin-bottom: 16px;
+      font-size: 0.92rem;
+      color: var(--accent-deep);
+      letter-spacing: 0.06em;
+    }
+
+    #v1 h1 {
+      margin: 0;
+      font-size: clamp(3rem, 6vw, 6rem);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+
+    #v1 .hero-copy p {
+      max-width: 44rem;
+      margin: 18px 0 0;
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    #v1 .hero-actions,
+    #v1 .stat-row {
+      margin-top: 22px;
+    }
+
+    #v1 .stat {
+      flex: 1 1 150px;
+      min-width: 140px;
+      padding: 14px 16px;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.45);
+      border: 1px solid var(--line);
+    }
+
+    #v1.dark .stat {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    #v1 .stat strong {
+      display: block;
+      font-size: 1.3rem;
+      color: var(--text);
+    }
+
+    #v1 .stat span {
+      display: block;
+      margin-top: 6px;
+      font-size: 0.94rem;
+      color: var(--muted);
+    }
+
+    #v1 .hero-visual {
+      position: relative;
+      min-height: 540px;
+      border-radius: 36px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      background:
+        linear-gradient(180deg, rgba(255, 250, 242, 0.1), rgba(255, 250, 242, 0.45)),
+        linear-gradient(140deg, #c9e0bc 0%, #93b686 34%, #57774e 100%);
+      box-shadow: 0 30px 70px rgba(74, 96, 65, 0.24);
+    }
+
+    #v1.dark .hero-visual {
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.02)),
+        linear-gradient(140deg, #284130 0%, #35533f 40%, #18251e 100%);
+    }
+
+    #v1 .hero-visual::before,
+    #v1 .hero-visual::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      filter: blur(2px);
+    }
+
+    #v1 .hero-visual::before {
+      width: 260px;
+      height: 260px;
+      top: -60px;
+      right: -50px;
+      background: rgba(255, 236, 191, 0.48);
+    }
+
+    #v1 .hero-visual::after {
+      width: 220px;
+      height: 220px;
+      bottom: 70px;
+      left: -70px;
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    #v1 .plant-illustration {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 36px;
+    }
+
+    #v1 .plant {
+      position: relative;
+      width: min(100%, 360px);
+      height: 420px;
+    }
+
+    #v1 .pot {
+      position: absolute;
+      left: 50%;
+      bottom: 24px;
+      width: 180px;
+      height: 128px;
+      transform: translateX(-50%);
+      clip-path: polygon(18% 0, 82% 0, 100% 100%, 0 100%);
+      background: linear-gradient(180deg, #b56f3f 0%, #90522d 100%);
+      box-shadow: inset 0 14px 18px rgba(255, 255, 255, 0.12);
+    }
+
+    #v1 .pot::before {
+      content: "";
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      top: 14px;
+      height: 18px;
+      border-radius: 12px;
+      background: rgba(255, 246, 233, 0.16);
+    }
+
+    #v1 .stem,
+    #v1 .leaf {
+      position: absolute;
+      transform-origin: bottom center;
+    }
+
+    #v1 .stem {
+      left: 50%;
+      bottom: 112px;
+      width: 16px;
+      height: 210px;
+      transform: translateX(-50%);
+      background: linear-gradient(180deg, #466637 0%, #284222 100%);
+      border-radius: 999px;
+    }
+
+    #v1 .leaf {
+      background: linear-gradient(140deg, #e6f3c7 0%, #95bd72 42%, #4e7e45 100%);
+      border-radius: 100% 0 100% 0;
+      box-shadow: inset 0 8px 18px rgba(255, 255, 255, 0.18);
+    }
+
+    #v1 .leaf-1 {
+      width: 140px;
+      height: 92px;
+      left: 26px;
+      bottom: 210px;
+      transform: rotate(-28deg);
+    }
+
+    #v1 .leaf-2 {
+      width: 154px;
+      height: 102px;
+      right: 22px;
+      bottom: 188px;
+      transform: scaleX(-1) rotate(-24deg);
+    }
+
+    #v1 .leaf-3 {
+      width: 112px;
+      height: 78px;
+      left: 98px;
+      bottom: 300px;
+      transform: rotate(-4deg);
+    }
+
+    #v1 .leaf-4 {
+      width: 104px;
+      height: 74px;
+      right: 92px;
+      bottom: 296px;
+      transform: scaleX(-1) rotate(-8deg);
+    }
+
+    #v1 .hero-note {
+      position: absolute;
+      right: 26px;
+      bottom: 24px;
+      max-width: 200px;
+      padding: 14px 16px;
+      border-radius: 22px;
+      background: rgba(255, 251, 244, 0.78);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 18px 34px rgba(49, 75, 46, 0.14);
+    }
+
+    #v1.dark .hero-note {
+      background: rgba(18, 27, 20, 0.8);
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #v1 .hero-note strong {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+    }
+
+    #v1 .hero-note span {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    #v1 section {
+      padding: 30px 20px;
+    }
+
+    #v1 .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    #v1 .section-head h2 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: -0.04em;
+    }
+
+    #v1 .section-head p,
+    #v1 .section-intro {
+      margin: 0;
+      max-width: 38rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    #v1 .feature-grid,
+    #v1 .collection-grid,
+    #v1 .review-grid,
+    #v1 .visit-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    #v1 .feature-card,
+    #v1 .collection-card,
+    #v1 .review-card,
+    #v1 .visit-card,
+    #v1 .cta-band {
+      border: 1px solid var(--line);
+      background: var(--surface);
+      border-radius: 28px;
+      box-shadow: 0 18px 40px rgba(63, 81, 57, 0.08);
+    }
+
+    #v1 .feature-card {
+      grid-column: span 4;
+      padding: 24px;
+    }
+
+    #v1 .feature-card .icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      background: rgba(207, 143, 47, 0.16);
+      color: var(--accent-deep);
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+
+    #v1 .feature-card h3,
+    #v1 .collection-card h3,
+    #v1 .visit-card h3,
+    #v1 .cta-band h2 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    #v1 .feature-card p,
+    #v1 .collection-card p,
+    #v1 .review-card p,
+    #v1 .visit-card p,
+    #v1 .cta-band p {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    #v1 .collection-card {
+      grid-column: span 4;
+      overflow: hidden;
+    }
+
+    #v1 .card-photo {
+      min-height: 220px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #v1 .photo-1 {
+      background-image:
+        linear-gradient(160deg, rgba(255, 253, 243, 0.18), rgba(0, 0, 0, 0.05)),
+        linear-gradient(135deg, #dbe7c6 0%, #91b46b 45%, #63844b 100%);
+    }
+
+    #v1 .photo-2 {
+      background-image:
+        linear-gradient(160deg, rgba(255, 246, 226, 0.14), rgba(0, 0, 0, 0.08)),
+        linear-gradient(140deg, #ffd6b6 0%, #d88c5d 50%, #8f5d34 100%);
+    }
+
+    #v1 .photo-3 {
+      background-image:
+        linear-gradient(160deg, rgba(255, 250, 244, 0.2), rgba(0, 0, 0, 0.06)),
+        linear-gradient(135deg, #cfe6d6 0%, #7baa8a 48%, #4a6c57 100%);
+    }
+
+    #v1 .card-copy {
+      padding: 22px;
+    }
+
+    #v1 .tag {
+      display: inline-flex;
+      padding: 6px 10px;
+      margin-bottom: 12px;
+      border-radius: 999px;
+      background: rgba(207, 143, 47, 0.12);
+      color: var(--accent-deep);
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    #v1 .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      color: var(--accent-deep);
+      font-weight: 800;
+    }
+
+    #v1 .card-link:hover {
+      transform: translateX(3px);
+    }
+
+    #v1 .review-card {
+      grid-column: span 4;
+      padding: 24px;
+    }
+
+    #v1 .review-card strong {
+      display: block;
+      margin-top: 16px;
+    }
+
+    #v1 .review-card span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    #v1 .visit-card {
+      grid-column: span 6;
+      padding: 26px;
+    }
+
+    #v1 .visit-card ul {
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      line-height: 1.9;
+    }
+
+    #v1 .visit-card li strong {
+      color: var(--text);
+    }
+
+    #v1 .cta-band {
+      padding: 32px;
+      background:
+        radial-gradient(circle at top right, rgba(207, 143, 47, 0.16), transparent 28%),
+        var(--surface);
+    }
+
+    #v1 .footer-shell {
+      padding: 20px 20px 48px;
+    }
+
+    #v1 footer p {
+      color: var(--muted);
+    }
+
+    #v1 .footer-grid {
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 1080px) {
+      #v1 .hero-panel {
+        grid-template-columns: 1fr;
+      }
+
+      #v1 .feature-card,
+      #v1 .collection-card,
+      #v1 .review-card {
+        grid-column: span 6;
+      }
+    }
+
+    @media (max-width: 720px) {
+      #v1 .hero {
+        padding-top: 144px;
+      }
+
+      #v1 .hero-copy,
+      #v1 .cta-band,
+      #v1 .visit-card {
+        padding: 24px;
+      }
+
+      #v1 .feature-card,
+      #v1 .collection-card,
+      #v1 .review-card,
+      #v1 .visit-card {
+        grid-column: 1 / -1;
+      }
+
+      #v1 h1 {
+        font-size: clamp(2.7rem, 15vw, 4.2rem);
+      }
+    }
+
+    #v2 {
+      --bg: #f3f6ef;
+      --bg-alt: #fbfcf9;
+      --surface: rgba(250, 252, 247, 0.86);
+      --surface-strong: #ffffff;
+      --text: #193126;
+      --muted: #597164;
+      --accent: #2e7d5a;
+      --accent-soft: #d8e8db;
+      --accent-2: #f2b763;
+      --line: rgba(25, 49, 38, 0.12);
+      --shadow: rgba(30, 54, 42, 0.12);
+      background:
+        linear-gradient(180deg, #eef4ea 0%, #f8faf6 100%);
+      color: var(--text);
+      font-family: Sora, sans-serif;
+    }
+
+    #v2.dark {
+      --bg: #0d1814;
+      --bg-alt: #102019;
+      --surface: rgba(18, 33, 26, 0.86);
+      --surface-strong: #13271f;
+      --text: #ecf4ee;
+      --muted: #adc2b5;
+      --accent: #80c39c;
+      --accent-soft: rgba(128, 195, 156, 0.12);
+      --accent-2: #f0bf72;
+      --line: rgba(236, 244, 238, 0.12);
+      --shadow: rgba(0, 0, 0, 0.32);
+      background:
+        linear-gradient(180deg, #0b1511 0%, #11201a 100%);
+    }
+
+    #v2 .progress {
+      background: linear-gradient(90deg, #3f8d68 0%, #f0bf72 100%);
+    }
+
+    #v2 .site-nav {
+      background: rgba(243, 246, 239, 0.72);
+      border-bottom: 1px solid rgba(25, 49, 38, 0.08);
+    }
+
+    #v2.dark .site-nav {
+      background: rgba(13, 24, 20, 0.78);
+      border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #v2 .site-nav.is-scrolled {
+      background: rgba(251, 252, 249, 0.94);
+      border-bottom-color: rgba(25, 49, 38, 0.12);
+    }
+
+    #v2.dark .site-nav.is-scrolled {
+      background: rgba(16, 32, 25, 0.94);
+      border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #v2 .brand,
+    #v2 h1,
+    #v2 h2,
+    #v2 h3,
+    #v2 .section-kicker {
+      font-family: "Cormorant Garamond", serif;
+    }
+
+    #v2 .brand {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    #v2 .nav-links a {
+      padding: 8px 11px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    #v2 .nav-actions button,
+    #v2 .nav-actions .cta,
+    #v2 .hero-actions a,
+    #v2 .program-card,
+    #v2 .season-card,
+    #v2 .testimonial-card,
+    #v2 .faq-card {
+      transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease;
+    }
+
+    #v2 .nav-actions button {
+      padding: 10px 14px;
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    #v2 .nav-actions .cta,
+    #v2 .hero-actions .primary {
+      padding: 11px 16px;
+      background: var(--accent);
+      color: #f9fcf7;
+      border: 1px solid transparent;
+      font-weight: 700;
+    }
+
+    #v2.dark .nav-actions .cta,
+    #v2.dark .hero-actions .primary {
+      color: #0f1813;
+    }
+
+    #v2 .hero-actions .secondary {
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.3);
+      color: var(--text);
+      font-weight: 700;
+    }
+
+    #v2.dark .hero-actions .secondary {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    #v2 .nav-actions .cta:hover,
+    #v2 .hero-actions .primary:hover,
+    #v2 .hero-actions .secondary:hover {
+      transform: translateY(-1px);
+    }
+
+    #v2 .hero {
+      padding: 152px 20px 46px;
+    }
+
+    #v2 .hero-shell,
+    #v2 .section-shell,
+    #v2 .footer-shell {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    #v2 .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    #v2 .hero-copy {
+      padding: 18px 0 0;
+    }
+
+    #v2 .section-kicker {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+    }
+
+    #v2 h1 {
+      margin: 18px 0 0;
+      font-size: clamp(3.3rem, 6vw, 6.2rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+    }
+
+    #v2 .hero-copy p {
+      max-width: 42rem;
+      margin: 18px 0 0;
+      font-size: 1.05rem;
+      line-height: 1.78;
+      color: var(--muted);
+    }
+
+    #v2 .hero-actions {
+      margin-top: 22px;
+    }
+
+    #v2 .story-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    #v2 .story-card,
+    #v2 .program-card,
+    #v2 .season-card,
+    #v2 .testimonial-card,
+    #v2 .faq-card,
+    #v2 .visit-banner {
+      border-radius: 30px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      box-shadow: 0 20px 48px var(--shadow);
+    }
+
+    #v2 .story-card {
+      grid-column: span 7;
+      padding: 26px;
+    }
+
+    #v2 .story-card p {
+      margin: 0;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    #v2 .hours-card {
+      grid-column: span 5;
+      padding: 26px;
+      background:
+        linear-gradient(180deg, rgba(46, 125, 90, 0.12), transparent 50%),
+        var(--surface);
+    }
+
+    #v2 .hours-card ul {
+      margin: 14px 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      line-height: 1.9;
+    }
+
+    #v2 .hero-visual {
+      position: relative;
+      min-height: 640px;
+      overflow: hidden;
+      border-radius: 36px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.2), transparent),
+        linear-gradient(150deg, #d6eadb 0%, #7ab18f 44%, #2f6e52 100%);
+      box-shadow: 0 28px 80px rgba(37, 88, 63, 0.2);
+    }
+
+    #v2.dark .hero-visual {
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent),
+        linear-gradient(150deg, #294738 0%, #224231 36%, #15261f 100%);
+    }
+
+    #v2 .hero-visual::before {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.26);
+      border-radius: 28px;
+    }
+
+    #v2 .sun {
+      position: absolute;
+      top: 56px;
+      right: 64px;
+      width: 112px;
+      height: 112px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255, 244, 213, 0.96), rgba(255, 244, 213, 0.2));
+      box-shadow: 0 0 50px rgba(255, 234, 181, 0.48);
+    }
+
+    #v2 .path {
+      position: absolute;
+      left: 50%;
+      bottom: -60px;
+      width: 90%;
+      height: 250px;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      background: radial-gradient(circle at center, rgba(246, 219, 177, 0.96) 0%, rgba(246, 219, 177, 0.72) 22%, transparent 54%);
+    }
+
+    #v2 .bed {
+      position: absolute;
+      left: 10%;
+      right: 10%;
+      bottom: 118px;
+      height: 170px;
+      border-radius: 50px;
+      background:
+        linear-gradient(180deg, rgba(58, 82, 50, 0.32), rgba(34, 54, 38, 0.88)),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.08), transparent);
+    }
+
+    #v2 .sprout {
+      position: absolute;
+      bottom: 168px;
+      width: 74px;
+      height: 150px;
+    }
+
+    #v2 .sprout::before,
+    #v2 .sprout::after {
+      content: "";
+      position: absolute;
+      bottom: 58px;
+      width: 60px;
+      height: 38px;
+      background: linear-gradient(145deg, #e0f2cf 0%, #7eb56e 46%, #44734c 100%);
+      border-radius: 100% 0 100% 0;
+      box-shadow: inset 0 6px 12px rgba(255, 255, 255, 0.18);
+    }
+
+    #v2 .sprout::before {
+      left: -12px;
+      transform: rotate(-30deg);
+    }
+
+    #v2 .sprout::after {
+      right: -12px;
+      transform: scaleX(-1) rotate(-30deg);
+    }
+
+    #v2 .sprout span {
+      position: absolute;
+      left: 50%;
+      bottom: 28px;
+      width: 12px;
+      height: 92px;
+      transform: translateX(-50%);
+      border-radius: 999px;
+      background: linear-gradient(180deg, #4f7847, #28452c);
+    }
+
+    #v2 .sprout.s1 {
+      left: 18%;
+    }
+
+    #v2 .sprout.s2 {
+      left: 34%;
+      bottom: 186px;
+      transform: scale(1.08);
+    }
+
+    #v2 .sprout.s3 {
+      left: 52%;
+      bottom: 172px;
+    }
+
+    #v2 .sprout.s4 {
+      left: 70%;
+      bottom: 188px;
+      transform: scale(1.14);
+    }
+
+    #v2 .floating-card {
+      position: absolute;
+      right: 26px;
+      bottom: 26px;
+      width: min(78%, 250px);
+      padding: 18px;
+      border-radius: 24px;
+      background: rgba(252, 254, 250, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.34);
+      box-shadow: 0 20px 36px rgba(17, 48, 32, 0.16);
+    }
+
+    #v2.dark .floating-card {
+      background: rgba(16, 31, 24, 0.82);
+      border-color: rgba(255, 255, 255, 0.08);
+    }
+
+    #v2 .floating-card strong {
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    #v2 .floating-card span {
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 0.92rem;
+    }
+
+    #v2 section {
+      padding: 34px 20px;
+    }
+
+    #v2 .section-head {
+      margin-bottom: 22px;
+    }
+
+    #v2 .section-head h2 {
+      margin: 0;
+      font-size: clamp(2.3rem, 4vw, 3.4rem);
+      letter-spacing: -0.04em;
+    }
+
+    #v2 .section-head p {
+      max-width: 40rem;
+      margin: 10px 0 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    #v2 .program-grid,
+    #v2 .season-grid,
+    #v2 .testimonial-grid,
+    #v2 .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    #v2 .program-card {
+      grid-column: span 4;
+      padding: 24px;
+    }
+
+    #v2 .program-card .pill,
+    #v2 .season-card .pill {
+      display: inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    #v2 .program-card h3,
+    #v2 .season-card h3,
+    #v2 .testimonial-card h3,
+    #v2 .faq-card h3 {
+      margin: 14px 0 0;
+      font-size: 1.6rem;
+      letter-spacing: -0.03em;
+    }
+
+    #v2 .program-card p,
+    #v2 .season-card p,
+    #v2 .testimonial-card p,
+    #v2 .faq-card p,
+    #v2 .visit-banner p {
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    #v2 .program-card:hover,
+    #v2 .season-card:hover,
+    #v2 .testimonial-card:hover,
+    #v2 .faq-card:hover {
+      transform: translateY(-4px);
+    }
+
+    #v2 .season-card {
+      grid-column: span 3;
+      overflow: hidden;
+    }
+
+    #v2 .season-image {
+      min-height: 190px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #v2 .season-image.one {
+      background-image:
+        linear-gradient(155deg, rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.06)),
+        linear-gradient(145deg, #dbe4be 0%, #8bae64 48%, #5f7b3a 100%);
+    }
+
+    #v2 .season-image.two {
+      background-image:
+        linear-gradient(155deg, rgba(255, 255, 255, 0.14), rgba(0, 0, 0, 0.08)),
+        linear-gradient(145deg, #f8d7af 0%, #dd9c58 48%, #8f5c32 100%);
+    }
+
+    #v2 .season-image.three {
+      background-image:
+        linear-gradient(155deg, rgba(255, 255, 255, 0.16), rgba(0, 0, 0, 0.08)),
+        linear-gradient(145deg, #c9e6e1 0%, #6ea9a2 52%, #396966 100%);
+    }
+
+    #v2 .season-image.four {
+      background-image:
+        linear-gradient(155deg, rgba(255, 255, 255, 0.12), rgba(0, 0, 0, 0.1)),
+        linear-gradient(145deg, #c9d8b8 0%, #8fa871 46%, #62764d 100%);
+    }
+
+    #v2 .season-copy {
+      padding: 20px;
+    }
+
+    #v2 .testimonial-card {
+      grid-column: span 6;
+      padding: 24px;
+    }
+
+    #v2 .testimonial-card strong {
+      display: block;
+      margin-top: 18px;
+    }
+
+    #v2 .testimonial-card span {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    #v2 .faq-card {
+      grid-column: span 4;
+      padding: 24px;
+    }
+
+    #v2 .visit-banner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+      gap: 18px;
+      align-items: center;
+      padding: 28px;
+      background:
+        radial-gradient(circle at top right, rgba(240, 191, 114, 0.16), transparent 28%),
+        var(--surface);
+    }
+
+    #v2 .visit-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    #v2 .visit-actions a {
+      padding: 11px 16px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    #v2 .visit-actions .primary {
+      background: var(--accent);
+      color: #f8fbf7;
+    }
+
+    #v2.dark .visit-actions .primary {
+      color: #102019;
+    }
+
+    #v2 .visit-actions .secondary {
+      border: 1px solid var(--line);
+    }
+
+    #v2 .footer-shell {
+      padding: 12px 20px 46px;
+    }
+
+    #v2 .footer-grid {
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    #v2 footer p {
+      color: var(--muted);
+    }
+
+    @media (max-width: 1080px) {
+      #v2 .hero-grid,
+      #v2 .visit-banner {
+        grid-template-columns: 1fr;
+      }
+
+      #v2 .story-card,
+      #v2 .hours-card {
+        grid-column: span 6;
+      }
+
+      #v2 .program-card {
+        grid-column: span 6;
+      }
+
+      #v2 .season-card {
+        grid-column: span 6;
+      }
+    }
+
+    @media (max-width: 720px) {
+      #v2 .hero {
+        padding-top: 144px;
+      }
+
+      #v2 h1 {
+        font-size: clamp(2.8rem, 15vw, 4.4rem);
+      }
+
+      #v2 .story-card,
+      #v2 .hours-card,
+      #v2 .program-card,
+      #v2 .season-card,
+      #v2 .testimonial-card,
+      #v2 .faq-card {
+        grid-column: 1 / -1;
+      }
+
+      #v2 .hero-visual {
+        min-height: 520px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="switcher" role="tablist" aria-label="Variation switcher">
+    <span>Variations</span>
+    <button id="switch-v1" class="active" type="button" onclick="show(1)" role="tab" aria-controls="v1" aria-selected="true">Concept One</button>
+    <button id="switch-v2" type="button" onclick="show(2)" role="tab" aria-controls="v2" aria-selected="false">Concept Two</button>
+  </div>
+  <div class="switcher-spacer" aria-hidden="true"></div>
+
+  <div id="v1" class="variation active">
+    <div class="progress" data-progress></div>
+    <nav class="site-nav" data-nav>
+      <div class="nav-inner">
+        <a class="brand" href="#v1-top">Sunroot Nursery</a>
+        <div class="nav-links" aria-label="Primary">
+          <a href="#v1-collections">Plants</a>
+          <a href="#v1-services">Services</a>
+          <a href="#v1-visit">Visit</a>
+          <a href="#v1-reviews">Reviews</a>
+        </div>
+        <div class="nav-actions">
+          <button type="button" data-theme-toggle="v1" aria-label="Toggle dark mode for concept one">Dark Mode</button>
+          <a class="cta" href="#v1-visit">Plan Your Visit</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="v1-top">
+      <section class="hero">
+        <div class="hero-shell">
+          <div class="hero-panel">
+            <div class="hero-copy">
+              <span class="eyebrow">Rooted in seasonal growing</span>
+              <h1>Healthy plants. Honest advice. A nursery that feels local.</h1>
+              <p>
+                Sunroot Nursery helps home gardeners build thriving yards with California-friendly plants,
+                ceramic pots, pollinator favorites, and friendly one-on-one guidance. Stop in for a Saturday stroll,
+                or let us line up a plant list for your next project.
+              </p>
+              <div class="hero-actions">
+                <a class="primary" href="#v1-collections">Browse This Season</a>
+                <a class="secondary" href="#v1-services">See Our Services</a>
+              </div>
+              <div class="stat-row" aria-label="Nursery highlights">
+                <div class="stat">
+                  <strong>400+</strong>
+                  <span>plants in rotation through the year</span>
+                </div>
+                <div class="stat">
+                  <strong>Native-first</strong>
+                  <span>selections for pollinators and dry gardens</span>
+                </div>
+                <div class="stat">
+                  <strong>Local delivery</strong>
+                  <span>available across nearby neighborhoods</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+              <div class="plant-illustration">
+                <div class="plant">
+                  <div class="leaf leaf-1"></div>
+                  <div class="leaf leaf-2"></div>
+                  <div class="leaf leaf-3"></div>
+                  <div class="leaf leaf-4"></div>
+                  <div class="stem"></div>
+                  <div class="pot"></div>
+                </div>
+              </div>
+              <div class="hero-note">
+                <strong>This week in the greenhouse</strong>
+                <span>Fresh herbs, shade ferns, and blooming salvias are arriving daily.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="v1-services">
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Why neighbors keep coming back</h2>
+            <p>We make plant shopping feel calm and useful, whether you are filling a single pot or rethinking an entire yard.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">01</div>
+              <h3>Thoughtful plant matching</h3>
+              <p>Bring photos of your space and we will help you choose for light, water use, pet safety, and long-term growth.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">02</div>
+              <h3>Potting bar on site</h3>
+              <p>Pick your planter, soil mix, and understory accents, then let our team build it while you browse the benches.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">03</div>
+              <h3>Weekend workshops</h3>
+              <p>Seasonal classes cover kitchen herbs, patio containers, native starter gardens, and beginner care routines.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="v1-collections">
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Shop by how you actually garden</h2>
+            <p>Instead of endless rows, we group our inventory around real home projects so you can make confident choices fast.</p>
+          </div>
+          <div class="collection-grid">
+            <article class="collection-card">
+              <div class="card-photo photo-1"></div>
+              <div class="card-copy">
+                <span class="tag">Low Water</span>
+                <h3>Drought-wise front yard plants</h3>
+                <p>Architectural grasses, flowering perennials, and evergreen structure for warm, bright spaces.</p>
+                <a class="card-link" href="#v1-visit">Ask for the front-yard starter list</a>
+              </div>
+            </article>
+            <article class="collection-card">
+              <div class="card-photo photo-2"></div>
+              <div class="card-copy">
+                <span class="tag">Edible</span>
+                <h3>Kitchen garden essentials</h3>
+                <p>Herbs, compact citrus, peppers, tomatoes, and the soil blends that keep raised beds productive.</p>
+                <a class="card-link" href="#v1-visit">Reserve an edible garden consult</a>
+              </div>
+            </article>
+            <article class="collection-card">
+              <div class="card-photo photo-3"></div>
+              <div class="card-copy">
+                <span class="tag">Shade Loving</span>
+                <h3>Cool corners that still feel lush</h3>
+                <p>Layered ferns, textured foliage, and container pairings for porches, patios, and filtered light.</p>
+                <a class="card-link" href="#v1-visit">Get shade picks for your space</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="v1-reviews">
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Gardeners say it best</h2>
+            <p>We are proud to be the place people trust when they want both inspiration and practical help.</p>
+          </div>
+          <div class="review-grid">
+            <article class="review-card">
+              <p>"I came in with a dead planter and left with a combination that still looks good months later. No pressure, just smart guidance."</p>
+              <strong>Emily R.</strong>
+              <span>Patio gardener</span>
+            </article>
+            <article class="review-card">
+              <p>"They actually listened to the conditions in our yard before recommending anything. The pollinator bed has been nonstop color."</p>
+              <strong>Marcus T.</strong>
+              <span>First-time native plant customer</span>
+            </article>
+            <article class="review-card">
+              <p>"The potting bar is such a great service. We picked the planter, they handled the arrangement, and it looked finished immediately."</p>
+              <strong>Ana and Luis G.</strong>
+              <span>Neighborhood regulars</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="v1-visit">
+        <div class="section-shell">
+          <div class="cta-band">
+            <div class="section-head">
+              <h2>Visit the nursery this week</h2>
+              <p>Bring a few yard photos or measurements and we will help you leave with a clear next step, not just a cart full of guesses.</p>
+            </div>
+            <div class="visit-grid">
+              <article class="visit-card">
+                <h3>Come by in person</h3>
+                <ul>
+                  <li><strong>Hours:</strong> Monday to Saturday, 9am to 6pm. Sunday, 10am to 4pm.</li>
+                  <li><strong>Location:</strong> 214 Garden Avenue, just off the town square.</li>
+                  <li><strong>Best for:</strong> Browsing seasonal arrivals and potting bar appointments.</li>
+                </ul>
+              </article>
+              <article class="visit-card">
+                <h3>Need help before you visit?</h3>
+                <ul>
+                  <li><strong>Call:</strong> (555) 013-4720 for current inventory questions.</li>
+                  <li><strong>Email:</strong> hello@sunrootnursery.com for workshop and delivery requests.</li>
+                  <li><strong>Lead time:</strong> Same-week local delivery on many larger purchases.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-shell">
+        <div class="footer-grid">
+          <p>Sunroot Nursery</p>
+          <p>Locally grown plant guidance for patios, porches, and family gardens.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="v2" class="variation">
+    <div class="progress" data-progress></div>
+    <nav class="site-nav" data-nav>
+      <div class="nav-inner">
+        <a class="brand" href="#v2-top">Sunroot Nursery</a>
+        <div class="nav-links" aria-label="Primary">
+          <a href="#v2-story">Our Story</a>
+          <a href="#v2-programs">Programs</a>
+          <a href="#v2-seasonal">Seasonal Picks</a>
+          <a href="#v2-visit">Visit</a>
+        </div>
+        <div class="nav-actions">
+          <button type="button" data-theme-toggle="v2" aria-label="Toggle dark mode for concept two">Dark Mode</button>
+          <a class="cta" href="#v2-visit">Get Directions</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="v2-top">
+      <section class="hero">
+        <div class="hero-shell">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <span class="section-kicker">A neighborhood greenhouse and garden market</span>
+              <h1>Grow a softer, greener home one season at a time.</h1>
+              <p>
+                Sunroot Nursery is built for people who want beauty without overwhelm. We curate the benches, label
+                the conditions clearly, and help you put together combinations that feel alive at the front door,
+                on the patio, or all across the garden path.
+              </p>
+              <div class="hero-actions">
+                <a class="primary" href="#v2-seasonal">See Seasonal Picks</a>
+                <a class="secondary" href="#v2-programs">Explore Workshops</a>
+              </div>
+
+              <div class="story-grid">
+                <article id="v2-story" class="story-card">
+                  <h2>Designed like a walk through the nursery</h2>
+                  <p>
+                    Start with easy wins, move into richer textures, and leave with a cart that feels edited instead of random.
+                    Our staff arranges the grounds by light level, water needs, and garden mood, so even first-time visitors
+                    can move through the space with confidence.
+                  </p>
+                </article>
+                <aside class="hours-card">
+                  <h2>Open this week</h2>
+                  <ul>
+                    <li><strong>Mon-Sat:</strong> 9am to 6pm</li>
+                    <li><strong>Sunday:</strong> 10am to 4pm</li>
+                    <li><strong>Workshop night:</strong> Thursdays at 6:30pm</li>
+                    <li><strong>Delivery window:</strong> Tuesday through Friday</li>
+                  </ul>
+                </aside>
+              </div>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+              <div class="sun"></div>
+              <div class="bed"></div>
+              <div class="sprout s1"><span></span></div>
+              <div class="sprout s2"><span></span></div>
+              <div class="sprout s3"><span></span></div>
+              <div class="sprout s4"><span></span></div>
+              <div class="path"></div>
+              <div class="floating-card">
+                <strong>Plant concierge</strong>
+                <span>Send us a photo before you stop by and we will point you toward the right bench when you arrive.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="v2-programs">
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Helpful programs, not just inventory</h2>
+            <p>We pair plant shopping with services that make it easier to keep momentum once you get home.</p>
+          </div>
+          <div class="program-grid">
+            <article class="program-card">
+              <span class="pill">For Beginners</span>
+              <h3>Plant pairing help</h3>
+              <p>Bring your sun exposure and container size, and we will build a combination that looks balanced from day one.</p>
+            </article>
+            <article class="program-card">
+              <span class="pill">Seasonal</span>
+              <h3>Thursday workshops</h3>
+              <p>Small-group classes on herbs, pollinator borders, houseplant rescue, and easy holiday porch containers.</p>
+            </article>
+            <article class="program-card">
+              <span class="pill">Local</span>
+              <h3>Neighborhood delivery</h3>
+              <p>Large pottery, soil, mulch, and mixed plant orders can be delivered locally with placement help at the curb.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="v2-seasonal">
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Seasonal favorites around the yard</h2>
+            <p>These collections rotate through the year, but each one is curated to solve a specific kind of garden mood.</p>
+          </div>
+          <div class="season-grid">
+            <article class="season-card">
+              <div class="season-image one"></div>
+              <div class="season-copy">
+                <span class="pill">Sunny Spaces</span>
+                <h3>Pollinator color</h3>
+                <p>Salvias, yarrow, penstemon, and bee-friendly blooms with long seasonal interest.</p>
+              </div>
+            </article>
+            <article class="season-card">
+              <div class="season-image two"></div>
+              <div class="season-copy">
+                <span class="pill">Patio Ready</span>
+                <h3>Terracotta herbs</h3>
+                <p>Compact rosemary, basil, thyme, and trailing accents for kitchen-door convenience.</p>
+              </div>
+            </article>
+            <article class="season-card">
+              <div class="season-image three"></div>
+              <div class="season-copy">
+                <span class="pill">Cool Shade</span>
+                <h3>Lush texture</h3>
+                <p>Fern mixes, glossy foliage, and layered greens for porches and filtered-light retreats.</p>
+              </div>
+            </article>
+            <article class="season-card">
+              <div class="season-image four"></div>
+              <div class="season-copy">
+                <span class="pill">Low Water</span>
+                <h3>Clean structure</h3>
+                <p>Grasses, agaves, and sculptural perennials that keep gardens polished with less fuss.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>What visitors notice right away</h2>
+            <p>The experience is just as important as the plants: thoughtful layouts, patient advice, and a calm pace.</p>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>"This place feels edited in the best possible way. I never leave confused, and the staff always helps me narrow the choices."</p>
+              <strong>Rachel P.</strong>
+              <span>Container gardening customer</span>
+            </article>
+            <article class="testimonial-card">
+              <p>"Their advice saved us from buying plants that would have struggled in our yard. Everything they suggested has settled in beautifully."</p>
+              <strong>David and Mina K.</strong>
+              <span>New homeowners</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-shell">
+          <div class="section-head">
+            <h2>Questions we hear every day</h2>
+            <p>If you are not sure where to start, these are the conversations our team has most often at the front counter.</p>
+          </div>
+          <div class="faq-grid">
+            <article class="faq-card">
+              <h3>Can you help me pick for my exact yard?</h3>
+              <p>Yes. Bring photos, measurements, and a note about sun exposure. We will steer you toward practical options.</p>
+            </article>
+            <article class="faq-card">
+              <h3>Do you stock native plants?</h3>
+              <p>We keep a strong native and climate-appropriate selection, especially for pollinator and low-water gardens.</p>
+            </article>
+            <article class="faq-card">
+              <h3>Can I reserve plants before coming in?</h3>
+              <p>For many items, yes. Call ahead or email a short wish list and we will confirm what is available that week.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="v2-visit">
+        <div class="section-shell">
+          <div class="visit-banner">
+            <div>
+              <h2>Stop by and build your plant list in person</h2>
+              <p>
+                Sunroot Nursery is at 214 Garden Avenue, a short walk from the town square. Call
+                <strong>(555) 013-4720</strong> for same-week availability, workshop openings, or local delivery details.
+              </p>
+              <div class="visit-actions">
+                <a class="primary" href="mailto:hello@sunrootnursery.com">Email the team</a>
+                <a class="secondary" href="tel:+15550134720">Call the nursery</a>
+              </div>
+            </div>
+            <div>
+              <p><strong>Best times to browse:</strong> weekday mornings for fresh arrivals, Saturday afternoons for workshop energy, and Sunday for a slower family-friendly pace.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-shell">
+        <div class="footer-grid">
+          <p>Sunroot Nursery</p>
+          <p>Plants, pottery, workshops, and practical local garden guidance.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const themeKeys = {
+      v1: "hermes-theme-v1",
+      v2: "hermes-theme-v2"
+    };
+
+    function getThemeLabel(root) {
+      return root.classList.contains("dark") ? "Light Mode" : "Dark Mode";
+    }
+
+    function setTheme(rootId, theme) {
+      const root = document.getElementById(rootId);
+      if (!root) return;
+      root.classList.toggle("dark", theme === "dark");
+      localStorage.setItem(themeKeys[rootId], theme);
+      const button = root.querySelector("[data-theme-toggle]");
+      if (button) {
+        button.textContent = getThemeLabel(root);
+      }
+    }
+
+    function initTheme(rootId) {
+      const savedTheme = localStorage.getItem(themeKeys[rootId]) || "light";
+      setTheme(rootId, savedTheme);
+    }
+
+    function syncSwitcher(activeId) {
+      const v1Button = document.getElementById("switch-v1");
+      const v2Button = document.getElementById("switch-v2");
+      const isV1 = activeId === "v1";
+      v1Button.classList.toggle("active", isV1);
+      v2Button.classList.toggle("active", !isV1);
+      v1Button.setAttribute("aria-selected", String(isV1));
+      v2Button.setAttribute("aria-selected", String(!isV1));
+    }
+
+    function updateActiveProgress() {
+      const active = document.querySelector(".variation.active");
+      if (!active) return;
+      const progress = active.querySelector("[data-progress]");
+      const scrollTop = window.scrollY || document.documentElement.scrollTop || 0;
+      const height = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = height > 0 ? `${(scrollTop / height) * 100}%` : "0%";
+    }
+
+    function updateNavState() {
+      document.querySelectorAll("[data-nav]").forEach((nav) => {
+        nav.classList.toggle("is-scrolled", window.scrollY >= 60);
+      });
+    }
+
+    function show(n) {
+      const nextId = n === 2 ? "v2" : "v1";
+      document.querySelectorAll(".variation").forEach((variation) => {
+        variation.classList.toggle("active", variation.id === nextId);
+      });
+      syncSwitcher(nextId);
+      updateActiveProgress();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const rootId = button.getAttribute("data-theme-toggle");
+        const root = document.getElementById(rootId);
+        const nextTheme = root.classList.contains("dark") ? "light" : "dark";
+        setTheme(rootId, nextTheme);
+      });
+    });
+
+    initTheme("v1");
+    initTheme("v2");
+    syncSwitcher("v1");
+    updateNavState();
+    updateActiveProgress();
+
+    window.addEventListener("scroll", () => {
+      updateNavState();
+      updateActiveProgress();
+    }, { passive: true });
+
+    window.addEventListener("resize", updateActiveProgress);
+  </script>
+</body>
+</html>
