@@ -4,8 +4,8 @@ Static Amazon affiliate comparison site for [worthadding.com](https://worthaddin
 
 ## Contents
 
-- `index.html` - site entry page
-- `*.html` - individual product comparison pages
+- `index.html` - recent posts front page
+- `vaonis-vespera-pro-vs-unistellar-odyssey-pro/` - first product comparison page
 - `images/` - generated comparison artwork
 - `robots.txt` and `sitemap.xml` - crawler metadata
 
