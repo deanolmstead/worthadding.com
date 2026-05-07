@@ -321,6 +321,13 @@
 
     .quote-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
     .method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .related-link {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+    }
+    .related-link h3 { margin-top: 8px; }
     blockquote { margin: 14px 0 0; color: var(--text); font-size: 1.04rem; }
     .source-note { margin-top: 14px; color: var(--muted); font-size: 0.92rem; }
 
@@ -402,7 +409,7 @@
     @media (max-width: 900px) {
       .hero-grid, .section-head, .verdict, .final-cta { grid-template-columns: 1fr; }
       h1 { max-width: 12ch; }
-      .card-grid, .quote-grid, .method-grid, .source-strip { grid-template-columns: 1fr; }
+      .card-grid, .quote-grid, .method-grid, .related-grid, .source-strip { grid-template-columns: 1fr; }
       .mobile-cta { display: grid; }
     }
 
@@ -459,8 +466,7 @@
         "@id": "https://worthadding.com/vaonis-vespera-pro-vs-unistellar-odyssey-pro/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://worthadding.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Smart Telescopes", "item": "https://worthadding.com/smart-telescopes/" },
-          { "@type": "ListItem", "position": 3, "name": "Vespera Pro vs Odyssey Pro", "item": "https://worthadding.com/vaonis-vespera-pro-vs-unistellar-odyssey-pro/" }
+          { "@type": "ListItem", "position": 2, "name": "Vespera Pro vs Odyssey Pro", "item": "https://worthadding.com/vaonis-vespera-pro-vs-unistellar-odyssey-pro/" }
         ]
       },
       {
@@ -549,7 +555,8 @@
         <span class="brand-mark" aria-hidden="true"></span>
         <span>Worth Adding</span>
       </a>
-      <nav class="nav-links" aria-label="Page sections">
+      <nav class="nav-links" aria-label="Article navigation">
+        <a href="https://worthadding.com/">Home</a>
         <a href="#verdict">Verdict</a>
         <a href="#compare">Compare</a>
         <a href="#method">Method</a>
@@ -836,6 +843,30 @@
         </div>
       </section>
 
+      <section class="section" id="more" aria-labelledby="more-title">
+        <div class="section-head">
+          <div>
+            <div class="kicker">More from Worth Adding</div>
+            <h2 id="more-title">Keep browsing comparisons.</h2>
+          </div>
+          <p class="section-desc">Worth Adding is intentionally starting with a tight library. The homepage stays as the hub for new comparisons, and the standards page explains what belongs in that stream.</p>
+        </div>
+
+        <div class="related-grid">
+          <a class="note-card related-link" href="https://worthadding.com/#recent">
+            <div class="kicker">Recent posts</div>
+            <h3>Browse the Worth Adding front page</h3>
+            <p>Return to the latest comparison stream as new product matchups are added.</p>
+          </a>
+
+          <a class="note-card related-link" href="https://worthadding.com/#standards">
+            <div class="kicker">Editorial standards</div>
+            <h3>How comparisons earn a spot</h3>
+            <p>See the short version of what Worth Adding looks for before a product pair becomes a page.</p>
+          </a>
+        </div>
+      </section>
+
       <section class="section" aria-labelledby="final-cta-title">
         <div class="final-cta">
           <div>
@@ -863,9 +894,11 @@
       <footer class="footer">
         <div>&copy; <span id="copyright-year"></span> Worth Adding. All rights reserved.</div>
         <div>
-          <a href="https://worthadding.com/privacy/">Privacy</a>
+          <a href="https://worthadding.com/">Home</a>
           &nbsp;/&nbsp;
-          <a href="https://worthadding.com/affiliate-disclosure/">Affiliate disclosure</a>
+          <a href="https://worthadding.com/#recent">Latest posts</a>
+          &nbsp;/&nbsp;
+          <a href="https://worthadding.com/#standards">Editorial standards</a>
         </div>
       </footer>
     </div>
