@@ -576,26 +576,18 @@
 
   .signup-banner__inner {
     width: var(--content);
-    min-height: 82px;
+    min-height: 74px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
     align-items: center;
     gap: clamp(18px, 4vw, 38px);
-    padding: 14px 0;
+    padding: 12px 0;
   }
 
   .signup-banner__copy {
     display: grid;
     gap: 2px;
-  }
-
-  .signup-banner__eyebrow {
-    color: var(--accent-strong);
-    font-size: 0.74rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
   }
 
   .signup-banner__text {
@@ -614,7 +606,6 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 8px;
-    margin-top: 24px;
   }
 
   .signup-banner__label {
@@ -647,8 +638,8 @@
   }
 
   .signup-banner__button {
-    border: 1px solid color-mix(in srgb, var(--accent) 78%, black);
-    background: var(--accent);
+    border: 1px solid oklch(36% 0.08 145);
+    background: oklch(46% 0.085 145);
     color: oklch(98% 0.006 82);
     cursor: pointer;
     font-weight: 800;
@@ -658,9 +649,9 @@
 
   .signup-banner__button:hover {
     transform: translateY(-1px);
-    border-color: var(--accent-strong);
-    background: var(--accent-strong);
-    box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 16%, transparent);
+    border-color: oklch(30% 0.075 145);
+    background: oklch(36% 0.08 145);
+    box-shadow: 0 10px 24px oklch(46% 0.085 145 / 0.18);
   }
 
   .signup-banner__button:disabled {
@@ -706,9 +697,6 @@
       display: block;
     }
 
-    .signup-banner__form {
-      margin-top: 0;
-    }
   }
 
   @media (max-width: 520px) {
@@ -769,7 +757,6 @@
 <section class="signup-banner" aria-label="Email signup">
   <div class="signup-banner__inner">
     <div class="signup-banner__copy">
-      <span class="signup-banner__eyebrow">Field notes</span>
       <p class="signup-banner__text"><strong>Get the next shortlist-worthy comparison.</strong> New picks only, no filler.</p>
     </div>
     <div>
