@@ -8,6 +8,7 @@ const pages = [
   { file: 'index.html', header: 'header-home.html' },
   { file: 'comparisons/index.html', header: 'header-utility.html' },
   { file: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel/index.html', header: 'header-article.html' },
+  { file: 'fujifilm-gfx100-ii-vs-gfx100s-ii/index.html', header: 'header-article-guide.html' },
   { file: 'vaonis-vespera-pro-vs-unistellar-odyssey-pro/index.html', header: 'header-article.html' },
   { file: 'about/index.html', header: 'header-utility.html' },
   { file: 'affiliate-disclosure/index.html', header: 'header-utility.html' },
@@ -140,7 +141,7 @@ for (const page of pages) {
     'email-signup-footer',
     'email-signup.html',
     footerSignup,
-    /<!-- site-footer:start [^>]*-->/
+    /<!-- site-footer:start [^>]*-->|<footer class="footer">/
   );
 
   html = replaceManagedBlock(
