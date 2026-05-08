@@ -94,6 +94,7 @@ async function loadPartial(name) {
 const footer = await loadPartial('footer.html');
 const signupStyle = await loadPartial('email-signup-style.html');
 const signup = await loadPartial('email-signup.html');
+const footerSignup = signup.replace('class="signup-banner"', 'class="signup-banner signup-banner--footer"');
 
 for (const page of pages) {
   const fullPath = path.join(root, page.file);
@@ -129,7 +130,7 @@ for (const page of pages) {
     html,
     'email-signup-footer',
     'email-signup.html',
-    signup,
+    footerSignup,
     /<!-- site-footer:start [^>]*-->/
   );
 
