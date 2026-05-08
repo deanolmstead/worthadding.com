@@ -614,6 +614,7 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 8px;
+    margin-top: 24px;
   }
 
   .signup-banner__label {
@@ -669,11 +670,16 @@
   }
 
   .signup-banner__status {
-    min-height: 1.25em;
-    margin: 6px 0 0;
+    min-height: 0;
+    margin: 0;
     color: var(--muted);
     font-size: 0.84rem;
     line-height: 1.35;
+  }
+
+  .signup-banner__status:not(:empty) {
+    min-height: 1.25em;
+    margin-top: 6px;
   }
 
   .signup-banner__status[data-state="success"] {
@@ -698,6 +704,10 @@
 
     .signup-banner__text strong {
       display: block;
+    }
+
+    .signup-banner__form {
+      margin-top: 0;
     }
   }
 
