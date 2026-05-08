@@ -565,6 +565,165 @@
     ]
   }
   </script>
+<!-- email-signup-style:start email-signup-style.html -->
+<style>
+  .signup-banner {
+    border-bottom: 1px solid var(--line);
+    background:
+      linear-gradient(90deg, color-mix(in srgb, var(--accent) 9%, transparent), transparent 42%),
+      color-mix(in srgb, var(--surface) 82%, var(--bg));
+  }
+
+  .signup-banner__inner {
+    width: var(--content);
+    min-height: 82px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+    align-items: center;
+    gap: clamp(18px, 4vw, 38px);
+    padding: 14px 0;
+  }
+
+  .signup-banner__copy {
+    display: grid;
+    gap: 2px;
+  }
+
+  .signup-banner__eyebrow {
+    color: var(--accent-strong);
+    font-size: 0.74rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .signup-banner__text {
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(0.95rem, 1.6vw, 1.05rem);
+    line-height: 1.42;
+  }
+
+  .signup-banner__text strong {
+    color: var(--ink, var(--text));
+    font-weight: 800;
+  }
+
+  .signup-banner__form {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+
+  .signup-banner__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+  .signup-banner__input,
+  .signup-banner__button {
+    min-height: 44px;
+    border-radius: var(--radius);
+    font: inherit;
+  }
+
+  .signup-banner__input {
+    width: 100%;
+    border: 1px solid var(--line);
+    background: color-mix(in srgb, var(--bg) 74%, var(--surface));
+    color: var(--ink, var(--text));
+    padding: 0 13px;
+    box-shadow: inset 0 1px 0 color-mix(in srgb, var(--surface) 72%, transparent);
+  }
+
+  .signup-banner__input::placeholder {
+    color: var(--muted-2);
+  }
+
+  .signup-banner__button {
+    border: 1px solid color-mix(in srgb, var(--accent) 78%, black);
+    background: var(--accent);
+    color: oklch(98% 0.006 82);
+    cursor: pointer;
+    font-weight: 800;
+    padding: 0 15px;
+    transition: background-color 220ms var(--ease-out), border-color 220ms var(--ease-out), transform 220ms var(--ease-out), box-shadow 220ms var(--ease-out);
+  }
+
+  .signup-banner__button:hover {
+    transform: translateY(-1px);
+    border-color: var(--accent-strong);
+    background: var(--accent-strong);
+    box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+
+  .signup-banner__button:disabled {
+    cursor: wait;
+    opacity: 0.72;
+    transform: none;
+  }
+
+  .signup-banner__status {
+    min-height: 1.25em;
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  .signup-banner__status[data-state="success"] {
+    color: var(--sage, var(--accent-strong));
+  }
+
+  .signup-banner__status[data-state="error"] {
+    color: var(--accent-strong);
+  }
+
+  .signup-banner__botcheck {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
+    .signup-banner__inner {
+      grid-template-columns: 1fr;
+      align-items: start;
+      gap: 12px;
+      padding: 16px 0 18px;
+    }
+
+    .signup-banner__text strong {
+      display: block;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .signup-banner__inner {
+      margin-left: 16px;
+      margin-right: 0;
+    }
+
+    .signup-banner__form {
+      grid-template-columns: 1fr;
+    }
+
+    .signup-banner__button {
+      width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .signup-banner__button {
+      transition: none !important;
+      transform: none !important;
+    }
+  }
+</style>
+<!-- email-signup-style:end -->
 </head>
 
 <body>
@@ -596,6 +755,70 @@
   </div>
 </header>
 <!-- site-header:end -->
+<!-- email-signup:start email-signup.html -->
+<section class="signup-banner" aria-label="Email signup">
+  <div class="signup-banner__inner">
+    <div class="signup-banner__copy">
+      <span class="signup-banner__eyebrow">Field notes</span>
+      <p class="signup-banner__text"><strong>Get the next shortlist-worthy comparison.</strong> New picks only, no filler.</p>
+    </div>
+    <div>
+      <form class="signup-banner__form" action="https://api.web3forms.com/submit" method="POST" data-signup-form>
+        <input type="hidden" name="access_key" value="9c66ac91-e04a-46bf-a9b7-39cef266557b">
+        <input type="hidden" name="subject" value="New Worth Adding email signup">
+        <input type="hidden" name="from_name" value="Worth Adding">
+        <input type="hidden" name="Signup Source" value="Global banner">
+        <input class="signup-banner__botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
+        <label class="signup-banner__label" for="global-email-signup">Email address</label>
+        <input class="signup-banner__input" id="global-email-signup" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+        <button class="signup-banner__button" type="submit">Email me</button>
+      </form>
+      <p class="signup-banner__status" aria-live="polite" data-signup-status></p>
+    </div>
+  </div>
+</section>
+<script>
+  (function () {
+    const form = document.querySelector('[data-signup-form]');
+    const status = document.querySelector('[data-signup-status]');
+    if (!form || !status || !window.fetch) return;
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      const button = form.querySelector('button[type="submit"]');
+      const formData = new FormData(form);
+
+      status.dataset.state = '';
+      status.textContent = 'Sending...';
+      if (button) button.disabled = true;
+
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: {
+            Accept: 'application/json'
+          },
+          body: formData
+        });
+        const result = await response.json();
+
+        if (!response.ok || !result.success) {
+          throw new Error(result.message || 'Signup failed.');
+        }
+
+        form.reset();
+        status.dataset.state = 'success';
+        status.textContent = 'You are on the test list. Thank you.';
+      } catch (error) {
+        status.dataset.state = 'error';
+        status.textContent = 'That did not send. Please try once more.';
+      } finally {
+        if (button) button.disabled = false;
+      }
+    });
+  })();
+</script>
+<!-- email-signup:end -->
 
   <main id="main">
     <div class="page-shell">

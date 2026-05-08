@@ -43,16 +43,60 @@ function replaceManagedBlock(html, name, source, content, fallbackPattern) {
   return html.replace(fallbackPattern, replacement);
 }
 
+function replaceOrInsertManagedBlockAfter(html, name, source, content, afterPattern) {
+  const managed = new RegExp(
+    `<!-- ${escapeRegExp(name)}:start [^>]*-->[\\s\\S]*?<!-- ${escapeRegExp(name)}:end -->`
+  );
+  const replacement = wrap(name, source, content);
+
+  if (managed.test(html)) {
+    return html.replace(managed, replacement);
+  }
+
+  if (!afterPattern.test(html)) {
+    throw new Error(`Could not find insertion point for ${name} block.`);
+  }
+
+  return html.replace(afterPattern, (match) => `${match}\n${replacement}`);
+}
+
+function replaceOrInsertManagedBlockBefore(html, name, source, content, beforePattern) {
+  const managed = new RegExp(
+    `<!-- ${escapeRegExp(name)}:start [^>]*-->[\\s\\S]*?<!-- ${escapeRegExp(name)}:end -->`
+  );
+  const replacement = wrap(name, source, content);
+
+  if (managed.test(html)) {
+    return html.replace(managed, replacement);
+  }
+
+  if (!beforePattern.test(html)) {
+    throw new Error(`Could not find insertion point for ${name} block.`);
+  }
+
+  return html.replace(beforePattern, `${replacement}\n$&`);
+}
+
 async function loadPartial(name) {
   return readFile(path.join(partialDir, name), 'utf8');
 }
 
 const footer = await loadPartial('footer.html');
+const signupStyle = await loadPartial('email-signup-style.html');
+const signup = await loadPartial('email-signup.html');
 
 for (const page of pages) {
   const fullPath = path.join(root, page.file);
   const header = await loadPartial(page.header);
   let html = await readFile(fullPath, 'utf8');
+
+  html = replaceOrInsertManagedBlockBefore(
+    html,
+    'email-signup-style',
+    'email-signup-style.html',
+    signupStyle,
+    /<\/head>/
+  );
 
   html = replaceManagedBlock(
     html,
@@ -60,6 +104,14 @@ for (const page of pages) {
     page.header,
     header,
     /<header class="nav">[\s\S]*?<\/header>/
+  );
+
+  html = replaceOrInsertManagedBlockAfter(
+    html,
+    'email-signup',
+    'email-signup.html',
+    signup,
+    /<!-- site-header:start [^>]*-->[\s\S]*?<!-- site-header:end -->/
   );
 
   html = replaceManagedBlock(
