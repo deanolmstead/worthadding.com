@@ -580,6 +580,7 @@
 <!-- email-signup-style:start email-signup-style.html -->
 <style>
   .signup-banner {
+    --signup-inline: max(16px, calc((100vw - var(--content)) / 2));
     border-bottom: 1px solid var(--line);
     background:
       linear-gradient(90deg, color-mix(in srgb, var(--accent) 9%, transparent), transparent 42%),
@@ -604,14 +605,14 @@
   }
 
   .signup-banner__inner {
-    width: var(--content);
+    width: 100%;
     min-height: 74px;
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
     align-items: center;
     gap: clamp(18px, 4vw, 38px);
-    padding: 12px 0;
+    padding: 12px var(--signup-inline);
   }
 
   .signup-banner__copy {
@@ -719,7 +720,7 @@
       grid-template-columns: 1fr;
       align-items: start;
       gap: 12px;
-      padding: 16px 0 18px;
+      padding: 16px var(--signup-inline) 18px;
     }
 
     .signup-banner__text strong {
@@ -730,8 +731,7 @@
 
   @media (max-width: 520px) {
     .signup-banner__inner {
-      margin-left: 16px;
-      margin-right: 0;
+      margin: 0;
     }
 
     .signup-banner__form {
