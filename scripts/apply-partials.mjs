@@ -43,7 +43,7 @@ function replaceManagedBlock(html, name, source, content, fallbackPattern) {
   return html.replace(fallbackPattern, replacement);
 }
 
-function replaceOrInsertManagedBlockAfter(html, name, source, content, afterPattern) {
+function replaceOrInsertManagedBlockAfter(html, name, source, content, afterPattern, legacyNames = []) {
   const managed = new RegExp(
     `<!-- ${escapeRegExp(name)}:start [^>]*-->[\\s\\S]*?<!-- ${escapeRegExp(name)}:end -->`
   );
@@ -51,6 +51,16 @@ function replaceOrInsertManagedBlockAfter(html, name, source, content, afterPatt
 
   if (managed.test(html)) {
     return html.replace(managed, replacement);
+  }
+
+  for (const legacyName of legacyNames) {
+    const legacy = new RegExp(
+      `<!-- ${escapeRegExp(legacyName)}:start [^>]*-->[\\s\\S]*?<!-- ${escapeRegExp(legacyName)}:end -->`
+    );
+
+    if (legacy.test(html)) {
+      return html.replace(legacy, replacement);
+    }
   }
 
   if (!afterPattern.test(html)) {
@@ -108,10 +118,19 @@ for (const page of pages) {
 
   html = replaceOrInsertManagedBlockAfter(
     html,
-    'email-signup',
+    'email-signup-top',
     'email-signup.html',
     signup,
-    /<!-- site-header:start [^>]*-->[\s\S]*?<!-- site-header:end -->/
+    /<!-- site-header:start [^>]*-->[\s\S]*?<!-- site-header:end -->/,
+    ['email-signup']
+  );
+
+  html = replaceOrInsertManagedBlockBefore(
+    html,
+    'email-signup-footer',
+    'email-signup.html',
+    signup,
+    /<!-- site-footer:start [^>]*-->/
   );
 
   html = replaceManagedBlock(

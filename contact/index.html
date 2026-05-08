@@ -221,8 +221,8 @@
   </div>
 </header>
 <!-- site-header:end -->
-<!-- email-signup:start email-signup.html -->
-<section class="signup-banner" aria-label="Email signup">
+<!-- email-signup-top:start email-signup.html -->
+<section class="signup-banner" aria-label="Email signup" data-signup-block>
   <div class="signup-banner__inner">
     <div class="signup-banner__copy">
       <p class="signup-banner__text"><strong>Get the next shortlist-worthy comparison.</strong> New picks only, no filler.</p>
@@ -234,8 +234,7 @@
         <input type="hidden" name="from_name" value="Worth Adding">
         <input type="hidden" name="Signup Source" value="Global banner">
         <input class="signup-banner__botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
-        <label class="signup-banner__label" for="global-email-signup">Email address</label>
-        <input class="signup-banner__input" id="global-email-signup" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+        <input class="signup-banner__input" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" aria-label="Email address" required>
         <button class="signup-banner__button" type="submit">Email me</button>
       </form>
       <p class="signup-banner__status" aria-live="polite" data-signup-status></p>
@@ -244,46 +243,52 @@
 </section>
 <script>
   (function () {
-    const form = document.querySelector('[data-signup-form]');
-    const status = document.querySelector('[data-signup-status]');
-    if (!form || !status || !window.fetch) return;
+    if (!window.fetch) return;
 
-    form.addEventListener('submit', async function (event) {
-      event.preventDefault();
-      const button = form.querySelector('button[type="submit"]');
-      const formData = new FormData(form);
+    document.querySelectorAll('[data-signup-block]').forEach(function (block) {
+      const form = block.querySelector('[data-signup-form]');
+      const status = block.querySelector('[data-signup-status]');
+      if (!form || !status || form.dataset.signupBound) return;
 
-      status.dataset.state = '';
-      status.textContent = 'Sending...';
-      if (button) button.disabled = true;
+      form.dataset.signupBound = 'true';
 
-      try {
-        const response = await fetch(form.action, {
-          method: 'POST',
-          headers: {
-            Accept: 'application/json'
-          },
-          body: formData
-        });
-        const result = await response.json();
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const button = form.querySelector('button[type="submit"]');
+        const formData = new FormData(form);
 
-        if (!response.ok || !result.success) {
-          throw new Error(result.message || 'Signup failed.');
+        status.dataset.state = '';
+        status.textContent = 'Sending...';
+        if (button) button.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json'
+            },
+            body: formData
+          });
+          const result = await response.json();
+
+          if (!response.ok || !result.success) {
+            throw new Error(result.message || 'Signup failed.');
+          }
+
+          form.reset();
+          status.dataset.state = 'success';
+          status.textContent = 'You are on the test list. Thank you.';
+        } catch (error) {
+          status.dataset.state = 'error';
+          status.textContent = 'That did not send. Please try once more.';
+        } finally {
+          if (button) button.disabled = false;
         }
-
-        form.reset();
-        status.dataset.state = 'success';
-        status.textContent = 'You are on the test list. Thank you.';
-      } catch (error) {
-        status.dataset.state = 'error';
-        status.textContent = 'That did not send. Please try once more.';
-      } finally {
-        if (button) button.disabled = false;
-      }
+      });
     });
   })();
 </script>
-<!-- email-signup:end -->
+<!-- email-signup-top:end -->
   <main id="main"><div class="page-shell"><section class="hero" aria-labelledby="page-title"><div class="eyebrow">Contact</div><h1 id="page-title">Send a note</h1><p class="intro">Questions, corrections, source updates, and product-comparison ideas can go here. Short, specific notes are easiest to act on.</p><p class="updated">Last updated: <time datetime="2026-05-07">May 7, 2026</time></p></section>
   <section class="content" aria-label="Contact details">
     <div class="contact-card">
@@ -302,7 +307,75 @@
     <p>Worth Adding cannot provide medical, legal, financial, or individualized professional advice. Product pages are general buying guides, not personal recommendations.</p>
     <div class="note"><strong>Affiliate note:</strong> business or affiliate inquiries do not guarantee coverage, ranking, or a recommendation.</div>
   </section></div></main>
-  <!-- site-footer:start footer.html -->
+  <!-- email-signup-footer:start email-signup.html -->
+<section class="signup-banner" aria-label="Email signup" data-signup-block>
+  <div class="signup-banner__inner">
+    <div class="signup-banner__copy">
+      <p class="signup-banner__text"><strong>Get the next shortlist-worthy comparison.</strong> New picks only, no filler.</p>
+    </div>
+    <div>
+      <form class="signup-banner__form" action="https://api.web3forms.com/submit" method="POST" data-signup-form>
+        <input type="hidden" name="access_key" value="9c66ac91-e04a-46bf-a9b7-39cef266557b">
+        <input type="hidden" name="subject" value="New Worth Adding email signup">
+        <input type="hidden" name="from_name" value="Worth Adding">
+        <input type="hidden" name="Signup Source" value="Global banner">
+        <input class="signup-banner__botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
+        <input class="signup-banner__input" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" aria-label="Email address" required>
+        <button class="signup-banner__button" type="submit">Email me</button>
+      </form>
+      <p class="signup-banner__status" aria-live="polite" data-signup-status></p>
+    </div>
+  </div>
+</section>
+<script>
+  (function () {
+    if (!window.fetch) return;
+
+    document.querySelectorAll('[data-signup-block]').forEach(function (block) {
+      const form = block.querySelector('[data-signup-form]');
+      const status = block.querySelector('[data-signup-status]');
+      if (!form || !status || form.dataset.signupBound) return;
+
+      form.dataset.signupBound = 'true';
+
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const button = form.querySelector('button[type="submit"]');
+        const formData = new FormData(form);
+
+        status.dataset.state = '';
+        status.textContent = 'Sending...';
+        if (button) button.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json'
+            },
+            body: formData
+          });
+          const result = await response.json();
+
+          if (!response.ok || !result.success) {
+            throw new Error(result.message || 'Signup failed.');
+          }
+
+          form.reset();
+          status.dataset.state = 'success';
+          status.textContent = 'You are on the test list. Thank you.';
+        } catch (error) {
+          status.dataset.state = 'error';
+          status.textContent = 'That did not send. Please try once more.';
+        } finally {
+          if (button) button.disabled = false;
+        }
+      });
+    });
+  })();
+</script>
+<!-- email-signup-footer:end -->
+<!-- site-footer:start footer.html -->
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-main">

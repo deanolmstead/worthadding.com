@@ -1,4 +1,4 @@
-<section class="signup-banner" aria-label="Email signup">
+<section class="signup-banner" aria-label="Email signup" data-signup-block>
   <div class="signup-banner__inner">
     <div class="signup-banner__copy">
       <p class="signup-banner__text"><strong>Get the next shortlist-worthy comparison.</strong> New picks only, no filler.</p>
@@ -10,8 +10,7 @@
         <input type="hidden" name="from_name" value="Worth Adding">
         <input type="hidden" name="Signup Source" value="Global banner">
         <input class="signup-banner__botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
-        <label class="signup-banner__label" for="global-email-signup">Email address</label>
-        <input class="signup-banner__input" id="global-email-signup" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+        <input class="signup-banner__input" type="email" name="email" inputmode="email" autocomplete="email" placeholder="you@example.com" aria-label="Email address" required>
         <button class="signup-banner__button" type="submit">Email me</button>
       </form>
       <p class="signup-banner__status" aria-live="polite" data-signup-status></p>
@@ -20,42 +19,48 @@
 </section>
 <script>
   (function () {
-    const form = document.querySelector('[data-signup-form]');
-    const status = document.querySelector('[data-signup-status]');
-    if (!form || !status || !window.fetch) return;
+    if (!window.fetch) return;
 
-    form.addEventListener('submit', async function (event) {
-      event.preventDefault();
-      const button = form.querySelector('button[type="submit"]');
-      const formData = new FormData(form);
+    document.querySelectorAll('[data-signup-block]').forEach(function (block) {
+      const form = block.querySelector('[data-signup-form]');
+      const status = block.querySelector('[data-signup-status]');
+      if (!form || !status || form.dataset.signupBound) return;
 
-      status.dataset.state = '';
-      status.textContent = 'Sending...';
-      if (button) button.disabled = true;
+      form.dataset.signupBound = 'true';
 
-      try {
-        const response = await fetch(form.action, {
-          method: 'POST',
-          headers: {
-            Accept: 'application/json'
-          },
-          body: formData
-        });
-        const result = await response.json();
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+        const button = form.querySelector('button[type="submit"]');
+        const formData = new FormData(form);
 
-        if (!response.ok || !result.success) {
-          throw new Error(result.message || 'Signup failed.');
+        status.dataset.state = '';
+        status.textContent = 'Sending...';
+        if (button) button.disabled = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json'
+            },
+            body: formData
+          });
+          const result = await response.json();
+
+          if (!response.ok || !result.success) {
+            throw new Error(result.message || 'Signup failed.');
+          }
+
+          form.reset();
+          status.dataset.state = 'success';
+          status.textContent = 'You are on the test list. Thank you.';
+        } catch (error) {
+          status.dataset.state = 'error';
+          status.textContent = 'That did not send. Please try once more.';
+        } finally {
+          if (button) button.disabled = false;
         }
-
-        form.reset();
-        status.dataset.state = 'success';
-        status.textContent = 'You are on the test list. Thank you.';
-      } catch (error) {
-        status.dataset.state = 'error';
-        status.textContent = 'That did not send. Please try once more.';
-      } finally {
-        if (button) button.disabled = false;
-      }
+      });
     });
   })();
 </script>
