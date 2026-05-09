@@ -341,8 +341,14 @@
       text-transform: uppercase; letter-spacing: 0.06em;
     }
 
-    .quote-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .quote-grid, .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
     .method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+    .related-link {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+    }
+    .related-link p { margin-bottom: 0; }
     blockquote { margin: 14px 0 0; color: var(--text); font-size: 1.04rem; }
     .source-note { margin-top: 14px; color: var(--muted); font-size: 0.92rem; }
 
@@ -424,7 +430,7 @@
     @media (max-width: 900px) {
       .hero-grid, .section-head, .verdict, .final-cta { grid-template-columns: 1fr; }
       h1 { max-width: 12ch; }
-      .card-grid, .quote-grid, .method-grid, .source-strip { grid-template-columns: 1fr; }
+      .card-grid, .quote-grid, .related-grid, .method-grid, .source-strip { grid-template-columns: 1fr; }
       .mobile-cta { display: grid; }
     }
 
