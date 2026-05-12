@@ -7,6 +7,7 @@ const partialDir = path.join(root, 'partials');
 const pages = [
   { file: 'index.html', header: 'header-home.html' },
   { file: 'comparisons/index.html', header: 'header-utility.html' },
+  { file: 'spalding-momentous-vs-lifetime-90600/index.html', header: 'header-article-guide.html' },
   { file: 'dewalt-dwe7491rs-vs-skil-ts6307-00/index.html', header: 'header-article-guide.html' },
   { file: 'breville-dual-boiler-vs-rancilio-silvia-pro-x/index.html', header: 'header-article-guide.html' },
   { file: 'vitamix-ascent-x5-vs-breville-super-q/index.html', header: 'header-article-guide.html' },
