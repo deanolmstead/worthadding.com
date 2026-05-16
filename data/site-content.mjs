@@ -1,0 +1,160 @@
+export const site = {
+  name: 'Worth Adding',
+  url: 'https://worthadding.com',
+  homepageUpdated: '2026-05-15',
+  utilityPages: [
+    { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
+    { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
+    { path: 'privacy/', lastmod: '2026-05-07', priority: '0.50' },
+    { path: 'contact/', lastmod: '2026-05-07', priority: '0.50' }
+  ]
+};
+
+export const comparisons = [
+  {
+    slug: 'audio-technica-at-lp70xbt-vs-sony-ps-lx3bt',
+    title: 'AT-LP70XBT vs Sony PS-LX3BT',
+    schemaName: 'Audio-Technica AT-LP70XBT vs Sony PS-LX3BT',
+    schemaTitle: 'Audio-Technica AT-LP70XBT vs Sony PS-LX3BT: Which Bluetooth turntable should you buy?',
+    category: 'Turntables',
+    categorySummary: 'Automation, Bluetooth codecs, cartridge path, USB output, shelf fit, and speaker setup.',
+    date: '2026-05-15',
+    summary: 'Which automatic Bluetooth turntable is the better buy for beginners, USB output, stylus upgrades, and compact shelf fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between a compact beginner-friendly automatic deck and Sony's USB-ready Bluetooth turntable.",
+    winnerLabel: 'Better for most beginners',
+    winner: 'Audio-Technica AT-LP70XBT',
+    image: {
+      src: '/images/automatic-bluetooth-turntable-comparison.png',
+      url: 'https://worthadding.com/images/automatic-bluetooth-turntable-comparison.png',
+      alt: 'Two unbranded automatic Bluetooth turntables on a walnut media console with a stack of vinyl records and soft daylight',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'shark-speedstyle-pro-flex-vs-dyson-supersonic-nural',
+    title: 'SpeedStyle Pro FLEX vs Supersonic Nural',
+    schemaName: 'SpeedStyle Pro FLEX vs Supersonic Nural',
+    schemaTitle: 'SpeedStyle Pro FLEX vs Supersonic Nural: Which hair dryer should you buy?',
+    category: 'Hair dryers',
+    categorySummary: 'Drying speed, heat control, attachments, portability, and daily styling fit.',
+    date: '2026-05-14',
+    summary: 'Which premium hair dryer is the better buy for fast drying, scalp protection, attachments, portability, and daily styling?',
+    featuredSummary: "A sourced comparison for shoppers choosing between compact high-velocity drying and Dyson's sensor-heavy scalp-care routine.",
+    winnerLabel: 'Better for most buyers',
+    winner: 'Shark SpeedStyle Pro FLEX',
+    image: {
+      src: '/images/prosumer-hair-dryer-comparison.png',
+      url: 'https://worthadding.com/images/prosumer-hair-dryer-comparison.png',
+      alt: 'Two premium hair dryers on a clean salon vanity with combs, clips, and soft daylight',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'airfree-p3000-vs-airdog-x3',
+    title: 'Airfree P3000 vs Airdog X3',
+    schemaName: 'Airfree P3000 vs Airdog X3',
+    schemaTitle: 'Airfree P3000 vs Airdog X3: Which air purifier should you buy?',
+    category: 'Air purifiers',
+    categorySummary: 'Room fit, airflow, noise, maintenance, filter needs, and ozone caveats.',
+    date: '2026-05-13',
+    summary: 'Which no-disposable-filter air purifier is the better buy for CADR, silence, maintenance, and small-room use?',
+    winnerLabel: 'Better active purifier',
+    winner: 'Airdog X3'
+  },
+  {
+    slug: 'spalding-momentous-vs-lifetime-90600',
+    title: 'Spalding Momentous vs Lifetime 90600',
+    schemaName: 'Spalding Momentous vs Lifetime 90600',
+    schemaTitle: 'Spalding Momentous vs Lifetime 90600: Which portable basketball hoop should you buy?',
+    category: 'Basketball hoops',
+    categorySummary: 'Backboard feel, rim range, base fill, setup effort, and driveway fit.',
+    date: '2026-05-12',
+    summary: 'Which 54-inch outdoor portable basketball hoop is the better buy for setup speed, backboard feel, rim range, and family driveway use?',
+    winnerLabel: 'Better overall hoop',
+    winner: 'Spalding Momentous'
+  },
+  {
+    slug: 'dewalt-dwe7491rs-vs-skil-ts6307-00',
+    title: 'DEWALT DWE7491RS vs SKIL TS6307-00',
+    schemaName: 'DEWALT DWE7491RS vs SKIL TS6307-00',
+    schemaTitle: 'DEWALT DWE7491RS vs SKIL TS6307-00: Which jobsite table saw should you buy?',
+    category: 'Table saws',
+    categorySummary: 'Rip capacity, stands, cut depth, dust control, storage, and setup.',
+    date: '2026-05-11',
+    summary: 'Which 10-inch portable table saw is the better buy for rip capacity, rolling mobility, storage, and garage-shop work?',
+    winnerLabel: 'Better jobsite saw',
+    winner: 'DEWALT DWE7491RS'
+  },
+  {
+    slug: 'breville-dual-boiler-vs-rancilio-silvia-pro-x',
+    title: 'Breville Dual Boiler vs Rancilio Silvia Pro X',
+    schemaName: 'Breville Dual Boiler vs Rancilio Silvia Pro X',
+    schemaTitle: 'Breville Dual Boiler vs Rancilio Silvia Pro X: Which espresso machine should you buy?',
+    category: 'Espresso machines',
+    categorySummary: 'Workflow, temperature control, steam power, footprint, and maintenance.',
+    date: '2026-05-10',
+    summary: 'Which dual-boiler espresso machine is the better buy for serious home baristas, milk-drink workflow, compact counters, and control?',
+    winnerLabel: 'Better for most buyers',
+    winner: 'Breville Dual Boiler'
+  },
+  {
+    slug: 'vitamix-ascent-x5-vs-breville-super-q',
+    title: 'Vitamix Ascent X5 vs Breville Super Q',
+    schemaName: 'Vitamix Ascent X5 vs Breville Super Q',
+    schemaTitle: 'Vitamix Ascent X5 vs Breville Super Q: Which high-end blender should you buy?',
+    category: 'Blenders',
+    categorySummary: 'Power, jar size, presets, accessories, noise, cleanup, and counter fit.',
+    date: '2026-05-09',
+    summary: 'Which high-end blender is the better buy for thick blends, family batches, quieter kitchens, and long-term use?',
+    winnerLabel: 'Better for serious cooks',
+    winner: 'Vitamix Ascent X5'
+  },
+  {
+    slug: 'fujifilm-gfx100-ii-vs-gfx100s-ii',
+    title: 'GFX100 II vs GFX100S II',
+    schemaName: 'GFX100 II vs GFX100S II',
+    schemaTitle: 'Fujifilm GFX100 II vs GFX100S II: Which medium format camera should you buy?',
+    category: 'Cameras',
+    categorySummary: 'Image quality, speed, media, video tools, file workflow, and carry weight.',
+    date: '2026-05-08',
+    summary: 'Which Fujifilm medium format camera is the better buy for pro hybrid work, lighter stills kits, and 102MP files?',
+    winnerLabel: 'Better for working pros',
+    winner: 'Fujifilm GFX100 II'
+  },
+  {
+    slug: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel',
+    title: 'Hooga HG300 vs BestQool BQ60',
+    schemaName: 'Hooga HG300 vs BestQool BQ60',
+    schemaTitle: 'Hooga HG300 vs BestQool BQ60: Which red light therapy panel should you buy?',
+    category: 'Light therapy',
+    categorySummary: 'Panel size, controls, mounting, accessories, and setup trade-offs.',
+    date: '2026-05-07',
+    summary: 'Which compact red light therapy panel is the better buy for targeted at-home sessions, setup simplicity, and repeatable use?',
+    winnerLabel: 'Better for most shoppers',
+    winner: 'Hooga HG300',
+    header: 'header-article.html'
+  },
+  {
+    slug: 'vaonis-vespera-pro-vs-unistellar-odyssey-pro',
+    title: 'Vespera Pro vs Odyssey Pro',
+    schemaName: 'Vespera Pro vs Odyssey Pro',
+    schemaTitle: 'Vaonis Vespera Pro vs Unistellar Odyssey Pro: Which smart telescope should you buy?',
+    category: 'Telescopes',
+    categorySummary: 'Image capture, guided observing, app dependency, portability, and storage.',
+    date: '2026-05-07',
+    summary: 'Which smart telescope is the better buy for image-first astronomy, guided observing, and long backyard sessions?',
+    winnerLabel: 'Better for image-first buyers',
+    winner: 'Vaonis Vespera Pro',
+    header: 'header-article.html'
+  }
+];
+
+export function comparisonUrl(comparison) {
+  return `${site.url}/${comparison.slug}/`;
+}
+
+export function pageFileForComparison(comparison) {
+  return `${comparison.slug}/index.html`;
+}

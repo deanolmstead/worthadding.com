@@ -1,5 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { comparisons, pageFileForComparison } from '../data/site-content.mjs';
 
 const root = process.cwd();
 const partialDir = path.join(root, 'partials');
@@ -7,16 +8,10 @@ const partialDir = path.join(root, 'partials');
 const pages = [
   { file: 'index.html', header: 'header-home.html' },
   { file: 'comparisons/index.html', header: 'header-utility.html' },
-  { file: 'audio-technica-at-lp70xbt-vs-sony-ps-lx3bt/index.html', header: 'header-article-guide.html' },
-  { file: 'airfree-p3000-vs-airdog-x3/index.html', header: 'header-article-guide.html' },
-  { file: 'shark-speedstyle-pro-flex-vs-dyson-supersonic-nural/index.html', header: 'header-article-guide.html' },
-  { file: 'spalding-momentous-vs-lifetime-90600/index.html', header: 'header-article-guide.html' },
-  { file: 'dewalt-dwe7491rs-vs-skil-ts6307-00/index.html', header: 'header-article-guide.html' },
-  { file: 'breville-dual-boiler-vs-rancilio-silvia-pro-x/index.html', header: 'header-article-guide.html' },
-  { file: 'vitamix-ascent-x5-vs-breville-super-q/index.html', header: 'header-article-guide.html' },
-  { file: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel/index.html', header: 'header-article.html' },
-  { file: 'fujifilm-gfx100-ii-vs-gfx100s-ii/index.html', header: 'header-article-guide.html' },
-  { file: 'vaonis-vespera-pro-vs-unistellar-odyssey-pro/index.html', header: 'header-article.html' },
+  ...comparisons.map((comparison) => ({
+    file: pageFileForComparison(comparison),
+    header: comparison.header || 'header-article-guide.html'
+  })),
   { file: 'about/index.html', header: 'header-utility.html' },
   { file: 'affiliate-disclosure/index.html', header: 'header-utility.html' },
   { file: 'privacy/index.html', header: 'header-utility.html' },
