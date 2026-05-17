@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-15',
+  homepageUpdated: '2026-05-17',
   utilityPages: [
     { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
     { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
@@ -11,6 +11,46 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'dewalt-dcd805b-vs-milwaukee-2904-20',
+    title: 'DEWALT DCD805B vs Milwaukee 2904-20',
+    schemaName: 'DEWALT DCD805B vs Milwaukee 2904-20',
+    schemaTitle: 'DEWALT DCD805B vs Milwaukee 2904-20: Which cordless hammer drill should you buy?',
+    category: 'Cordless drills',
+    categorySummary: 'Battery platform, power, speed range, hammer mode, bind-up control, and bare-tool fit.',
+    date: '2026-05-17',
+    summary: 'Which pro cordless hammer drill is the better buy for power, control, battery-platform fit, and mixed jobsite drilling?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Milwaukee's high-output M18 FUEL hammer drill and DEWALT's compact 20V MAX XR alternative.",
+    winnerLabel: 'Better heavy-duty pick',
+    winner: 'Milwaukee 2904-20',
+    image: {
+      src: '/images/cordless-hammer-drill-comparison.png',
+      url: 'https://worthadding.com/images/cordless-hammer-drill-comparison.png',
+      alt: 'Two cordless hammer drills on a clean workbench with drill bits, screws, battery packs, and soft daylight',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'anker-solix-c1000-gen-2-vs-ecoflow-delta-3-plus',
+    title: 'C1000 Gen 2 vs DELTA 3 Plus',
+    schemaName: 'Anker SOLIX C1000 Gen 2 vs EcoFlow DELTA 3 Plus',
+    schemaTitle: 'Anker SOLIX C1000 Gen 2 vs EcoFlow DELTA 3 Plus: Which portable power station should you buy?',
+    category: 'Portable power stations',
+    categorySummary: 'Capacity, rated output, recharge speed, solar input, UPS behavior, expansion, and carry weight.',
+    date: '2026-05-16',
+    summary: 'Which 1kWh portable power station is the better buy for output, recharge speed, solar input, UPS use, and expansion?',
+    featuredSummary: 'A sourced comparison for shoppers choosing a 1kWh portable power station for outages, camping, UPS use, solar input, and expansion.',
+    winnerLabel: 'Better self-contained 1kWh pick',
+    winner: 'Anker SOLIX C1000 Gen 2',
+    image: {
+      src: '/images/portable-power-station-comparison.png',
+      url: 'https://worthadding.com/images/portable-power-station-comparison.png',
+      alt: 'Two compact portable power stations on a workbench with charging cables, a laptop, and camping gear in natural light',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'audio-technica-at-lp70xbt-vs-sony-ps-lx3bt',
     title: 'AT-LP70XBT vs Sony PS-LX3BT',
