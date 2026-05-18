@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-17',
+  homepageUpdated: '2026-05-18',
   utilityPages: [
     { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
     { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
@@ -11,6 +11,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'cuisinart-custom-14-vs-kitchenaid-13-cup-food-processor',
+    title: 'Cuisinart Custom 14 vs KitchenAid 13-Cup',
+    schemaName: 'Cuisinart Custom 14 vs KitchenAid 13-Cup Food Processor',
+    schemaTitle: 'Cuisinart Custom 14 vs KitchenAid 13-Cup: Which food processor should you buy?',
+    category: 'Food processors',
+    categorySummary: 'Bowl capacity, motor rating, slicing control, feed tubes, accessory storage, weight, cleanup, and warranty fit.',
+    date: '2026-05-18',
+    summary: 'Which full-size food processor is the better buy for big batch prep, dough, slicing control, storage, cleanup, and warranty confidence?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Cuisinart’s classic big-prep workhorse and KitchenAid’s easier-storage adjustable-slicing alternative.',
+    winnerLabel: 'Better big-prep pick',
+    winner: 'Cuisinart Custom 14',
+    image: {
+      src: '/images/full-size-food-processor-comparison.png',
+      url: 'https://worthadding.com/images/full-size-food-processor-comparison.png',
+      alt: 'Two unbranded full-size food processors on a bright kitchen counter with chopped vegetables, herbs, onion, and prep bowls',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'dewalt-dcd805b-vs-milwaukee-2904-20',
     title: 'DEWALT DCD805B vs Milwaukee 2904-20',
