@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-18',
+  homepageUpdated: '2026-05-19',
   utilityPages: [
     { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
     { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
@@ -11,6 +11,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'hamilton-beach-smooth-touch-vs-cuisinart-deluxe-can-opener',
+    title: 'Hamilton Beach Smooth Touch vs Cuisinart Deluxe',
+    schemaName: 'Hamilton Beach Smooth Touch vs Cuisinart Deluxe Electric Can Opener',
+    schemaTitle: 'Hamilton Beach Smooth Touch vs Cuisinart Deluxe: Which electric can opener should you buy?',
+    category: 'Can openers',
+    categorySummary: 'Smooth-edge cutting, pop-top support, cleanup, footprint, published size, warranty, and daily handling fit.',
+    date: '2026-05-19',
+    summary: 'Which countertop electric can opener is the better buy for smooth-edge lids, pop-top cans, cleanup, counter fit, and simple daily use?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Hamilton Beach’s smooth-edge, pop-top-friendly opener and Cuisinart’s compact classic alternative.',
+    winnerLabel: 'Better smooth-edge pick',
+    winner: 'Hamilton Beach Smooth Touch',
+    image: {
+      src: '/images/electric-can-opener-comparison.png',
+      url: 'https://worthadding.com/images/electric-can-opener-comparison.png',
+      alt: 'Two black countertop electric can openers on a bright kitchen counter with unopened cans and a cutting board',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'cuisinart-custom-14-vs-kitchenaid-13-cup-food-processor',
     title: 'Cuisinart Custom 14 vs KitchenAid 13-Cup',
