@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'brother-pt-p710bt-vs-pt-p300bt-label-maker',
+    title: 'P-touch CUBE Plus vs P-touch CUBE',
+    schemaName: 'Brother P-touch CUBE Plus vs P-touch CUBE',
+    schemaTitle: 'Brother P-touch CUBE Plus vs P-touch CUBE: Which label maker should you buy?',
+    category: 'Label makers',
+    categorySummary: 'Tape width, app and desktop workflows, cutter type, power, size, speed, starter supplies, and household fit.',
+    date: '2026-05-20',
+    summary: 'Which app-connected Brother label maker is the better buy for wider labels, desktop software, automatic cutting, portability, and home organization?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Brother’s wider desktop-friendly CUBE Plus and the smaller mobile-first P-touch CUBE.',
+    winnerLabel: 'Better all-around pick',
+    winner: 'Brother P-touch CUBE Plus',
+    image: {
+      src: '/images/app-connected-label-maker-comparison.webp',
+      url: 'https://worthadding.com/images/app-connected-label-maker-comparison.webp',
+      alt: 'Two compact app-connected label makers on a bright home office desk with organized bins, notebooks, labels, a phone, and a USB cable for the Brother P-touch CUBE Plus vs P-touch CUBE comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'xgimi-mogo-3-pro-vs-nebula-capsule-3-laser',
     title: 'MoGo 3 Pro vs Capsule 3 Laser',
     schemaName: 'XGIMI MoGo 3 Pro vs Nebula Capsule 3 Laser',
