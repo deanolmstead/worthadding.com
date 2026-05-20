@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'xgimi-mogo-3-pro-vs-nebula-capsule-3-laser',
+    title: 'MoGo 3 Pro vs Capsule 3 Laser',
+    schemaName: 'XGIMI MoGo 3 Pro vs Nebula Capsule 3 Laser',
+    schemaTitle: 'XGIMI MoGo 3 Pro vs Nebula Capsule 3 Laser: Which portable projector should you buy?',
+    category: 'Portable projectors',
+    categorySummary: 'Brightness, battery use, setup automation, streaming platform, ports, speaker setup, and travel fit.',
+    date: '2026-05-20',
+    summary: 'Which compact portable projector is the better buy for brightness, battery use, setup automation, streaming, audio, and travel?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between XGIMI’s brighter room-to-room projector and Nebula’s more packable battery-powered laser projector.',
+    winnerLabel: 'Best indoor portable pick',
+    winner: 'XGIMI MoGo 3 Pro',
+    image: {
+      src: '/images/portable-projector-comparison.webp',
+      url: 'https://worthadding.com/images/portable-projector-comparison.webp',
+      alt: 'Two compact portable projectors on a living room table with a soft wall projection, media console, and travel bag for the XGIMI MoGo 3 Pro vs Nebula Capsule 3 Laser comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'samsung-t9-vs-crucial-x10-pro-portable-ssd',
     title: 'Samsung T9 vs Crucial X10 Pro',
     schemaName: 'Samsung T9 vs Crucial X10 Pro Portable SSD',
