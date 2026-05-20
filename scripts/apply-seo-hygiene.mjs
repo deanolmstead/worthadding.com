@@ -15,6 +15,26 @@ function dateTimeFor(date) {
   return `${date}T00:00:00-07:00`;
 }
 
+function articleTitle(comparison) {
+  return `${comparison.title}: Which Wins?`;
+}
+
+function articleDescription(comparison) {
+  return comparison.summary.replace(/\?$/, '.');
+}
+
+function pngPathFor(src) {
+  return src.replace(/\.webp$/, '.png');
+}
+
+function webpPathFor(src) {
+  return src.replace(/\.png$/, '.webp');
+}
+
+function absoluteUrlFor(src) {
+  return `${site.url}${src}`;
+}
+
 function relatedFor(comparison) {
   const sameHome = new Set([
     'Can openers',
@@ -71,12 +91,34 @@ async function updatePage(comparison) {
   let html = await readFile(filePath, 'utf8');
   const dt = dateTimeFor(comparison.date);
   const fallbackAlt = comparison.image?.alt ? strengthenAlt(comparison.image.alt, comparison) : null;
+  const title = articleTitle(comparison);
+  const description = articleDescription(comparison);
+  const imageSrc = comparison.image?.src ? webpPathFor(comparison.image.src) : null;
+  const imageUrl = imageSrc ? absoluteUrlFor(imageSrc) : null;
+  const imagePng = imageSrc ? pngPathFor(imageSrc) : null;
 
   html = html
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${htmlEscape(title)}</title>`)
+    .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${htmlEscape(description)}">`)
+    .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${htmlEscape(title)}">`)
+    .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${htmlEscape(description)}">`)
+    .replace(/<meta property="og:image:type" content="[^"]*">\n?/, '')
     .replace(/<meta property="article:published_time" content="[^"]*">/, `<meta property="article:published_time" content="${dt}">`)
     .replace(/<meta property="article:modified_time" content="[^"]*">/, `<meta property="article:modified_time" content="${dt}">`)
     .replaceAll(`"datePublished": "${comparison.date}"`, `"datePublished": "${dt}"`)
-    .replaceAll(`"dateModified": "${comparison.date}"`, `"dateModified": "${dt}"`);
+    .replaceAll(`"dateModified": "${comparison.date}"`, `"dateModified": "${dt}"`)
+    .replaceAll(`"description": "${comparison.schemaTitle.replace(/"/g, '\\"')}"`, `"description": "${description.replace(/"/g, '\\"')}"`)
+    .replaceAll(`"description": "${description.replace(/"/g, '\\"').replace(/\.$/, '?')}"`, `"description": "${description.replace(/"/g, '\\"')}"`);
+
+  if (comparison.image && imageSrc && imageUrl && imagePng) {
+    html = html
+      .replace(/<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="${imageUrl}">`)
+      .replace(/<meta property="og:image:width" content="[^"]*">/, `<meta property="og:image:width" content="${comparison.image.width}">`)
+      .replace(/<meta property="og:image:height" content="[^"]*">/, `<meta property="og:image:height" content="${comparison.image.height}">`)
+      .replaceAll(`"image": "${absoluteUrlFor(imagePng)}"`, `"image": "${imageUrl}"`)
+      .replaceAll(`"url": "${absoluteUrlFor(imagePng)}"`, `"url": "${imageUrl}"`)
+      .replaceAll(`src="${imagePng}"`, `src="${imageSrc}"`);
+  }
 
   if (fallbackAlt && comparison.image?.src) {
     const imagePattern = new RegExp(`(<img src="${comparison.image.src.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" alt=")[^"]*(")`);
@@ -86,6 +128,9 @@ async function updatePage(comparison) {
       return `${start}${htmlEscape(strengthenAlt(currentAlt, comparison))}${end}`;
     });
   }
+
+  html = html
+    .replaceAll(`rel="sponsored noopener noreferrer"`, `rel="sponsored nofollow noopener noreferrer"`);
 
   const related = relatedSection(comparison);
   const existingRelatedPattern = /\n\s*<section class="section related-comparisons"[\s\S]*?<\/section>\n\s*<section class="section" aria-labelledby="final-cta-title">/;
@@ -98,8 +143,66 @@ async function updatePage(comparison) {
   await writeFile(filePath, html);
 }
 
+function setMeta(html, tagPattern, tag) {
+  const headEnd = html.indexOf('</head>');
+
+  if (headEnd !== -1) {
+    const head = html.slice(0, headEnd);
+    const rest = html.slice(headEnd);
+    if (tagPattern.test(head)) {
+      return `${head.replace(tagPattern, tag).replace(/\s*$/, '\n')}${rest}`;
+    }
+    return `${head}\n  ${tag}\n${rest.replace(tagPattern, '')}`;
+  }
+
+  if (tagPattern.test(html)) {
+    return html.replace(tagPattern, tag);
+  }
+
+  return html;
+}
+
+function setStaticSocial(html, pageType = 'website') {
+  const title = html.match(/<title>([\s\S]*?)<\/title>/)?.[1]?.trim();
+  const description = html.match(/<meta name="description" content="([^"]*)">/)?.[1];
+  const canonical = html.match(/<link rel="canonical" href="([^"]*)">/)?.[1];
+  const image = site.socialImage ?? comparisons.find((comparison) => comparison.image)?.image;
+
+  if (!title || !description || !canonical || !image) return html;
+
+  html = setMeta(html, /<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${htmlEscape(title)}">`);
+  html = setMeta(html, /<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${htmlEscape(description)}">`);
+  html = setMeta(html, /<meta property="og:type" content="[^"]*">/, `<meta property="og:type" content="${pageType}">`);
+  html = setMeta(html, /<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${canonical}">`);
+  html = setMeta(html, /<meta property="og:site_name" content="[^"]*">/, `<meta property="og:site_name" content="${site.name}">`);
+  html = setMeta(html, /<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="${image.url}">`);
+  html = setMeta(html, /<meta property="og:image:width" content="[^"]*">/, `<meta property="og:image:width" content="${image.width}">`);
+  html = setMeta(html, /<meta property="og:image:height" content="[^"]*">/, `<meta property="og:image:height" content="${image.height}">`);
+  html = setMeta(html, /<meta name="twitter:card" content="[^"]*">/, '<meta name="twitter:card" content="summary_large_image">');
+
+  return html;
+}
+
+async function updateStaticPages() {
+  const pages = [
+    ['index.html', 'website'],
+    ['comparisons/index.html', 'website'],
+    ['about/index.html', 'website'],
+    ['affiliate-disclosure/index.html', 'website'],
+    ['privacy/index.html', 'website'],
+    ['contact/index.html', 'website']
+  ];
+
+  for (const [file, type] of pages) {
+    const filePath = `${root}/${file}`;
+    const html = await readFile(filePath, 'utf8');
+    await writeFile(filePath, setStaticSocial(html, type));
+  }
+}
+
 for (const comparison of comparisons) {
   await updatePage(comparison);
 }
+await updateStaticPages();
 
 console.log(`Applied SEO hygiene to ${comparisons.length} comparison pages.`);

@@ -2,6 +2,12 @@ export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
   homepageUpdated: '2026-05-20',
+  socialImage: {
+    src: '/images/worth-adding-social-card.webp',
+    url: 'https://worthadding.com/images/worth-adding-social-card.webp',
+    width: 1200,
+    height: 630
+  },
   utilityPages: [
     { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
     { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
@@ -24,8 +30,8 @@ export const comparisons = [
     winnerLabel: 'Better compact rugged pick',
     winner: 'Crucial X10 Pro',
     image: {
-      src: '/images/portable-ssd-comparison.png',
-      url: 'https://worthadding.com/images/portable-ssd-comparison.png',
+      src: '/images/portable-ssd-comparison.webp',
+      url: 'https://worthadding.com/images/portable-ssd-comparison.webp',
       alt: 'Two compact black portable SSD drives on a bright desk with a laptop, USB-C cable, memory cards, and camera gear for the Samsung T9 vs Crucial X10 Pro comparison',
       width: 1448,
       height: 1086
@@ -44,8 +50,8 @@ export const comparisons = [
     winnerLabel: 'Better smooth-edge pick',
     winner: 'Hamilton Beach Smooth Touch',
     image: {
-      src: '/images/electric-can-opener-comparison.png',
-      url: 'https://worthadding.com/images/electric-can-opener-comparison.png',
+      src: '/images/electric-can-opener-comparison.webp',
+      url: 'https://worthadding.com/images/electric-can-opener-comparison.webp',
       alt: 'Two black countertop electric can openers on a bright kitchen counter with unopened cans and a cutting board for the Hamilton Beach Smooth Touch vs Cuisinart Deluxe comparison',
       width: 1448,
       height: 1086
@@ -64,8 +70,8 @@ export const comparisons = [
     winnerLabel: 'Better big-prep pick',
     winner: 'Cuisinart Custom 14',
     image: {
-      src: '/images/full-size-food-processor-comparison.png',
-      url: 'https://worthadding.com/images/full-size-food-processor-comparison.png',
+      src: '/images/full-size-food-processor-comparison.webp',
+      url: 'https://worthadding.com/images/full-size-food-processor-comparison.webp',
       alt: 'Two unbranded full-size food processors on a bright kitchen counter with chopped vegetables, herbs, onion, and prep bowls for the Cuisinart Custom 14 vs KitchenAid 13-Cup comparison',
       width: 1448,
       height: 1086
@@ -84,8 +90,8 @@ export const comparisons = [
     winnerLabel: 'Better heavy-duty pick',
     winner: 'Milwaukee 2904-20',
     image: {
-      src: '/images/cordless-hammer-drill-comparison.png',
-      url: 'https://worthadding.com/images/cordless-hammer-drill-comparison.png',
+      src: '/images/cordless-hammer-drill-comparison.webp',
+      url: 'https://worthadding.com/images/cordless-hammer-drill-comparison.webp',
       alt: 'Two cordless hammer drills on a clean workbench with drill bits, screws, battery packs, and soft daylight for the DEWALT DCD805B vs Milwaukee 2904-20 comparison',
       width: 1448,
       height: 1086
@@ -104,8 +110,8 @@ export const comparisons = [
     winnerLabel: 'Better self-contained 1kWh pick',
     winner: 'Anker SOLIX C1000 Gen 2',
     image: {
-      src: '/images/portable-power-station-comparison.png',
-      url: 'https://worthadding.com/images/portable-power-station-comparison.png',
+      src: '/images/portable-power-station-comparison.webp',
+      url: 'https://worthadding.com/images/portable-power-station-comparison.webp',
       alt: 'Two compact portable power stations on a workbench with charging cables, a laptop, and camping gear in natural light for the C1000 Gen 2 vs DELTA 3 Plus comparison',
       width: 1448,
       height: 1086
@@ -124,8 +130,8 @@ export const comparisons = [
     winnerLabel: 'Better for most beginners',
     winner: 'Audio-Technica AT-LP70XBT',
     image: {
-      src: '/images/automatic-bluetooth-turntable-comparison.png',
-      url: 'https://worthadding.com/images/automatic-bluetooth-turntable-comparison.png',
+      src: '/images/automatic-bluetooth-turntable-comparison.webp',
+      url: 'https://worthadding.com/images/automatic-bluetooth-turntable-comparison.webp',
       alt: 'Two unbranded automatic Bluetooth turntables on a walnut media console with a stack of vinyl records and soft daylight for the AT-LP70XBT vs Sony PS-LX3BT comparison',
       width: 1448,
       height: 1086
@@ -144,8 +150,8 @@ export const comparisons = [
     winnerLabel: 'Better for most buyers',
     winner: 'Shark SpeedStyle Pro FLEX',
     image: {
-      src: '/images/prosumer-hair-dryer-comparison.png',
-      url: 'https://worthadding.com/images/prosumer-hair-dryer-comparison.png',
+      src: '/images/prosumer-hair-dryer-comparison.webp',
+      url: 'https://worthadding.com/images/prosumer-hair-dryer-comparison.webp',
       alt: 'Two premium hair dryers on a clean salon vanity with combs, clips, and soft daylight for the SpeedStyle Pro FLEX vs Supersonic Nural comparison',
       width: 1448,
       height: 1086
@@ -161,7 +167,14 @@ export const comparisons = [
     date: '2026-05-13',
     summary: 'Which no-disposable-filter air purifier is the better buy for CADR, silence, maintenance, and small-room use?',
     winnerLabel: 'Better active purifier',
-    winner: 'Airdog X3'
+    winner: 'Airdog X3',
+    image: {
+      src: '/images/filterless-air-purifier-comparison.webp',
+      url: 'https://worthadding.com/images/filterless-air-purifier-comparison.webp',
+      alt: 'Two quiet air purifier appliances in a sunlit bedroom beside a bed and window for the Airfree P3000 vs Airdog X3 comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'spalding-momentous-vs-lifetime-90600',
@@ -173,7 +186,14 @@ export const comparisons = [
     date: '2026-05-12',
     summary: 'Which 54-inch outdoor portable basketball hoop is the better buy for setup speed, backboard feel, rim range, and family driveway use?',
     winnerLabel: 'Better overall hoop',
-    winner: 'Spalding Momentous'
+    winner: 'Spalding Momentous',
+    image: {
+      src: '/images/outdoor-portable-basketball-hoop-comparison.webp',
+      url: 'https://worthadding.com/images/outdoor-portable-basketball-hoop-comparison.webp',
+      alt: 'Two portable driveway basketball hoops beside an orange basketball on a clean outdoor court for the Spalding Momentous vs Lifetime 90600 comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'dewalt-dwe7491rs-vs-skil-ts6307-00',
@@ -185,7 +205,14 @@ export const comparisons = [
     date: '2026-05-11',
     summary: 'Which 10-inch portable table saw is the better buy for rip capacity, rolling mobility, storage, and garage-shop work?',
     winnerLabel: 'Better jobsite saw',
-    winner: 'DEWALT DWE7491RS'
+    winner: 'DEWALT DWE7491RS',
+    image: {
+      src: '/images/jobsite-table-saw-comparison.webp',
+      url: 'https://worthadding.com/images/jobsite-table-saw-comparison.webp',
+      alt: 'Two portable table saw setups in a tidy woodworking shop with plywood, measuring tools, and warm bench lighting for the DEWALT DWE7491RS vs SKIL TS6307-00 comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'breville-dual-boiler-vs-rancilio-silvia-pro-x',
@@ -197,7 +224,14 @@ export const comparisons = [
     date: '2026-05-10',
     summary: 'Which dual-boiler espresso machine is the better buy for serious home baristas, milk-drink workflow, compact counters, and control?',
     winnerLabel: 'Better for most buyers',
-    winner: 'Breville Dual Boiler'
+    winner: 'Breville Dual Boiler',
+    image: {
+      src: '/images/prosumer-espresso-machine-comparison.webp',
+      url: 'https://worthadding.com/images/prosumer-espresso-machine-comparison.webp',
+      alt: 'Two stainless steel espresso machines on a home coffee bar with cups, scales, and coffee tools for the Breville Dual Boiler vs Rancilio Silvia Pro X comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'vitamix-ascent-x5-vs-breville-super-q',
@@ -209,7 +243,14 @@ export const comparisons = [
     date: '2026-05-09',
     summary: 'Which high-end blender is the better buy for thick blends, family batches, quieter kitchens, and long-term use?',
     winnerLabel: 'Better for serious cooks',
-    winner: 'Vitamix Ascent X5'
+    winner: 'Vitamix Ascent X5',
+    image: {
+      src: '/images/high-end-blender-comparison.webp',
+      url: 'https://worthadding.com/images/high-end-blender-comparison.webp',
+      alt: 'Two premium unbranded countertop blenders on a bright kitchen counter with green smoothie ingredients, frozen fruit, nut butter, and crushed ice for the Vitamix Ascent X5 vs Breville Super Q comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'fujifilm-gfx100-ii-vs-gfx100s-ii',
@@ -221,7 +262,14 @@ export const comparisons = [
     date: '2026-05-08',
     summary: 'Which Fujifilm medium format camera is the better buy for pro hybrid work, lighter stills kits, and 102MP files?',
     winnerLabel: 'Better for working pros',
-    winner: 'Fujifilm GFX100 II'
+    winner: 'Fujifilm GFX100 II',
+    image: {
+      src: '/images/medium-format-camera-comparison.webp',
+      url: 'https://worthadding.com/images/medium-format-camera-comparison.webp',
+      alt: 'Two unbranded medium format mirrorless camera bodies on a studio table under soft photography lighting for the GFX100 II vs GFX100S II comparison',
+      width: 1448,
+      height: 1086
+    }
   },
   {
     slug: 'hooga-hg300-vs-bestqool-bq60-red-light-therapy-panel',
@@ -234,6 +282,13 @@ export const comparisons = [
     summary: 'Which compact red light therapy panel is the better buy for targeted at-home sessions, setup simplicity, and repeatable use?',
     winnerLabel: 'Better for most shoppers',
     winner: 'Hooga HG300',
+    image: {
+      src: '/images/red-light-therapy-panel-comparison.webp',
+      url: 'https://worthadding.com/images/red-light-therapy-panel-comparison.webp',
+      alt: 'Compact red light therapy panel glowing on a home tabletop beside protective glasses for the Hooga HG300 vs BestQool BQ60 comparison',
+      width: 1448,
+      height: 1086
+    },
     header: 'header-article.html'
   },
   {
@@ -247,6 +302,13 @@ export const comparisons = [
     summary: 'Which smart telescope is the better buy for image-first astronomy, guided observing, and long backyard sessions?',
     winnerLabel: 'Better for image-first buyers',
     winner: 'Vaonis Vespera Pro',
+    image: {
+      src: '/images/prosumer-smart-telescope-comparison.webp',
+      url: 'https://worthadding.com/images/prosumer-smart-telescope-comparison.webp',
+      alt: 'Two compact smart telescopes on tripods under a clear evening sky beside a tablet showing a star map for the Vespera Pro vs Odyssey Pro comparison',
+      width: 1448,
+      height: 1086
+    },
     header: 'header-article.html'
   }
 ];
