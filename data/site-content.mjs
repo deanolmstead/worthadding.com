@@ -26,7 +26,7 @@ export const comparisons = [
     image: {
       src: '/images/electric-can-opener-comparison.png',
       url: 'https://worthadding.com/images/electric-can-opener-comparison.png',
-      alt: 'Two black countertop electric can openers on a bright kitchen counter with unopened cans and a cutting board',
+      alt: 'Two black countertop electric can openers on a bright kitchen counter with unopened cans and a cutting board for the Hamilton Beach Smooth Touch vs Cuisinart Deluxe comparison',
       width: 1448,
       height: 1086
     }
@@ -46,7 +46,7 @@ export const comparisons = [
     image: {
       src: '/images/full-size-food-processor-comparison.png',
       url: 'https://worthadding.com/images/full-size-food-processor-comparison.png',
-      alt: 'Two unbranded full-size food processors on a bright kitchen counter with chopped vegetables, herbs, onion, and prep bowls',
+      alt: 'Two unbranded full-size food processors on a bright kitchen counter with chopped vegetables, herbs, onion, and prep bowls for the Cuisinart Custom 14 vs KitchenAid 13-Cup comparison',
       width: 1448,
       height: 1086
     }
@@ -66,7 +66,7 @@ export const comparisons = [
     image: {
       src: '/images/cordless-hammer-drill-comparison.png',
       url: 'https://worthadding.com/images/cordless-hammer-drill-comparison.png',
-      alt: 'Two cordless hammer drills on a clean workbench with drill bits, screws, battery packs, and soft daylight',
+      alt: 'Two cordless hammer drills on a clean workbench with drill bits, screws, battery packs, and soft daylight for the DEWALT DCD805B vs Milwaukee 2904-20 comparison',
       width: 1448,
       height: 1086
     }
@@ -86,7 +86,7 @@ export const comparisons = [
     image: {
       src: '/images/portable-power-station-comparison.png',
       url: 'https://worthadding.com/images/portable-power-station-comparison.png',
-      alt: 'Two compact portable power stations on a workbench with charging cables, a laptop, and camping gear in natural light',
+      alt: 'Two compact portable power stations on a workbench with charging cables, a laptop, and camping gear in natural light for the C1000 Gen 2 vs DELTA 3 Plus comparison',
       width: 1448,
       height: 1086
     }
@@ -106,7 +106,7 @@ export const comparisons = [
     image: {
       src: '/images/automatic-bluetooth-turntable-comparison.png',
       url: 'https://worthadding.com/images/automatic-bluetooth-turntable-comparison.png',
-      alt: 'Two unbranded automatic Bluetooth turntables on a walnut media console with a stack of vinyl records and soft daylight',
+      alt: 'Two unbranded automatic Bluetooth turntables on a walnut media console with a stack of vinyl records and soft daylight for the AT-LP70XBT vs Sony PS-LX3BT comparison',
       width: 1448,
       height: 1086
     }
@@ -126,7 +126,7 @@ export const comparisons = [
     image: {
       src: '/images/prosumer-hair-dryer-comparison.png',
       url: 'https://worthadding.com/images/prosumer-hair-dryer-comparison.png',
-      alt: 'Two premium hair dryers on a clean salon vanity with combs, clips, and soft daylight',
+      alt: 'Two premium hair dryers on a clean salon vanity with combs, clips, and soft daylight for the SpeedStyle Pro FLEX vs Supersonic Nural comparison',
       width: 1448,
       height: 1086
     }
