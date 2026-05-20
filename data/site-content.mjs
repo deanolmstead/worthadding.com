@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-19',
+  homepageUpdated: '2026-05-20',
   utilityPages: [
     { path: 'about/', lastmod: '2026-05-07', priority: '0.50' },
     { path: 'affiliate-disclosure/', lastmod: '2026-05-07', priority: '0.50' },
@@ -11,6 +11,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'samsung-t9-vs-crucial-x10-pro-portable-ssd',
+    title: 'Samsung T9 vs Crucial X10 Pro',
+    schemaName: 'Samsung T9 vs Crucial X10 Pro Portable SSD',
+    schemaTitle: 'Samsung T9 vs Crucial X10 Pro: Which portable SSD should you buy?',
+    category: 'Portable SSDs',
+    categorySummary: 'USB 3.2 Gen 2x2 speed, host compatibility, size, ruggedness, cable setup, encryption, and warranty fit.',
+    date: '2026-05-20',
+    summary: 'Which USB 3.2 Gen 2x2 portable SSD is the better buy for creators, travel, ruggedness, cable setup, and mixed-device work?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Samsung’s larger software-and-cable-friendly T9 and Crucial’s smaller rugged X10 Pro.',
+    winnerLabel: 'Better compact rugged pick',
+    winner: 'Crucial X10 Pro',
+    image: {
+      src: '/images/portable-ssd-comparison.png',
+      url: 'https://worthadding.com/images/portable-ssd-comparison.png',
+      alt: 'Two compact black portable SSD drives on a bright desk with a laptop, USB-C cable, memory cards, and camera gear for the Samsung T9 vs Crucial X10 Pro comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'hamilton-beach-smooth-touch-vs-cuisinart-deluxe-can-opener',
     title: 'Hamilton Beach Smooth Touch vs Cuisinart Deluxe',
