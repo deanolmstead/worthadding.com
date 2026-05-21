@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-20',
+  homepageUpdated: '2026-05-21',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'sony-wh-1000xm6-vs-bose-quietcomfort-ultra-2nd-gen',
+    title: 'Sony WH-1000XM6 vs Bose QC Ultra 2nd Gen',
+    schemaName: 'Sony WH-1000XM6 vs Bose QuietComfort Ultra Headphones (2nd Gen)',
+    schemaTitle: 'Sony WH-1000XM6 vs Bose QuietComfort Ultra Headphones (2nd Gen): Which noise-cancelling headphones should you buy?',
+    category: 'Noise-cancelling headphones',
+    categorySummary: 'Battery, codecs, wired audio, app controls, travel fit, listening modes, weight, and source-device fit.',
+    date: '2026-05-21',
+    summary: 'Which flagship noise-cancelling headphones are the better buy for battery life, codecs, USB-C audio, app controls, travel, and daily listening?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Sony’s broader travel-and-codec flagship and Bose’s USB-C audio and immersive-mode alternative.',
+    winnerLabel: 'Best all-around pick',
+    winner: 'Sony WH-1000XM6',
+    image: {
+      src: '/images/noise-cancelling-headphones-comparison.webp',
+      url: 'https://worthadding.com/images/noise-cancelling-headphones-comparison.webp',
+      alt: 'Two premium wireless over-ear headphones on a clean modern desk with a phone, laptop corner, USB-C cable, and travel case for the Sony WH-1000XM6 vs Bose QuietComfort Ultra Headphones 2nd Gen comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'brother-pt-p710bt-vs-pt-p300bt-label-maker',
     title: 'P-touch CUBE Plus vs P-touch CUBE',
