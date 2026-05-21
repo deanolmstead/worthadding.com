@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'epson-es-c320w-vs-es-c220-document-scanner',
+    title: 'Epson ES-C320W vs ES-C220',
+    schemaName: 'Epson WorkForce ES-C320W vs ES-C220',
+    schemaTitle: 'Epson WorkForce ES-C320W vs ES-C220: Which compact document scanner should you buy?',
+    category: 'Document scanners',
+    categorySummary: 'Wireless scanning, USB setup, ADF capacity, scan speed, document handling, software workflow, and small-desk fit.',
+    date: '2026-05-21',
+    summary: 'Which compact Epson document scanner is the better buy for wireless scanning, USB setup, receipts, batch paperwork, and small desks?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Epson’s wireless compact scanner and the simpler USB-only ES-C220.',
+    winnerLabel: 'Best wireless compact pick',
+    winner: 'Epson WorkForce ES-C320W',
+    image: {
+      src: '/images/compact-document-scanner-comparison.webp',
+      url: 'https://worthadding.com/images/compact-document-scanner-comparison.webp',
+      alt: 'Two compact desktop document scanners on a bright home office desk with stacked receipts, paperwork, a laptop, and a phone for the Epson WorkForce ES-C320W vs ES-C220 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'sony-wh-1000xm6-vs-bose-quietcomfort-ultra-2nd-gen',
     title: 'Sony WH-1000XM6 vs Bose QC Ultra 2nd Gen',
     schemaName: 'Sony WH-1000XM6 vs Bose QuietComfort Ultra Headphones (2nd Gen)',
