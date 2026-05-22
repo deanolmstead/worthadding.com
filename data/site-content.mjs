@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'focusrite-scarlett-2i2-4th-gen-vs-universal-audio-volt-2',
+    title: 'Scarlett 2i2 4th Gen vs Volt 2',
+    schemaName: 'Focusrite Scarlett 2i2 4th Gen vs Universal Audio Volt 2',
+    schemaTitle: 'Focusrite Scarlett 2i2 4th Gen vs Universal Audio Volt 2: Which USB audio interface should you buy?',
+    category: 'Audio interfaces',
+    categorySummary: 'Inputs, outputs, gain help, loopback, MIDI, direct monitoring, mobile use, software control, size, and home-studio fit.',
+    date: '2026-05-22',
+    summary: 'Which two-input USB audio interface is the better buy for home recording, streaming, MIDI gear, gain setup, and mobile recording?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Focusrite’s assistive two-input interface and Universal Audio’s MIDI-and-vintage-mode alternative.',
+    winnerLabel: 'Best overall USB interface pick',
+    winner: 'Focusrite Scarlett 2i2 4th Gen',
+    image: {
+      src: '/images/usb-audio-interface-comparison.webp',
+      url: 'https://worthadding.com/images/usb-audio-interface-comparison.webp',
+      alt: 'Two compact desktop USB audio interfaces on a bright home recording desk with studio headphones, microphone cable, laptop, and MIDI keyboard for the Focusrite Scarlett 2i2 4th Gen vs Universal Audio Volt 2 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'asus-zenscreen-mb16acv-vs-viewsonic-vg1655-portable-monitor',
     title: 'ASUS ZenScreen MB16ACV vs ViewSonic VG1655',
     schemaName: 'ASUS ZenScreen MB16ACV vs ViewSonic VG1655',
