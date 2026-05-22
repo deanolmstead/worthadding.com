@@ -44,7 +44,7 @@ function relatedFor(comparison) {
   ]);
   const powerTools = new Set(['Cordless drills', 'Table saws']);
   const homeComfort = new Set(['Air purifiers', 'Light therapy', 'Hair dryers']);
-  const electronics = new Set(['Portable power stations', 'Turntables', 'Cameras', 'Telescopes', 'Portable SSDs', 'Noise-cancelling headphones']);
+  const electronics = new Set(['Portable power stations', 'Turntables', 'Cameras', 'Telescopes', 'Portable SSDs', 'Noise-cancelling headphones', 'Portable monitors']);
   const sports = new Set(['Basketball hoops']);
 
   const cluster = [sameHome, powerTools, homeComfort, electronics, sports]

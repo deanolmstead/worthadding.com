@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-21',
+  homepageUpdated: '2026-05-22',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'asus-zenscreen-mb16acv-vs-viewsonic-vg1655-portable-monitor',
+    title: 'ASUS ZenScreen MB16ACV vs ViewSonic VG1655',
+    schemaName: 'ASUS ZenScreen MB16ACV vs ViewSonic VG1655',
+    schemaTitle: 'ASUS ZenScreen MB16ACV vs ViewSonic VG1655: Which portable USB-C monitor should you buy?',
+    category: 'Portable monitors',
+    categorySummary: 'USB-C video, HDMI fallback, pass-through power, stand design, speakers, travel fit, driver setup, and laptop compatibility.',
+    date: '2026-05-22',
+    summary: 'Which 15.6-inch portable USB-C monitor is the better buy for travel desks, laptop second screens, HDMI devices, USB-C power, and setup flexibility?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between ViewSonic’s more flexible USB-C/HDMI portable monitor and ASUS’s slimmer USB-first ZenScreen.',
+    winnerLabel: 'Best portable monitor pick',
+    winner: 'ViewSonic VG1655',
+    image: {
+      src: '/images/portable-usb-c-monitor-comparison.webp',
+      url: 'https://worthadding.com/images/portable-usb-c-monitor-comparison.webp',
+      alt: 'Two slim portable monitors on a bright desk with a laptop, USB-C cable, phone, notebook, and travel pouch for the ASUS ZenScreen MB16ACV vs ViewSonic VG1655 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'epson-es-c320w-vs-es-c220-document-scanner',
     title: 'Epson ES-C320W vs ES-C220',
