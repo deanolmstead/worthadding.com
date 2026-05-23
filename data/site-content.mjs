@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-22',
+  homepageUpdated: '2026-05-23',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'osprey-daylite-26-plus-6-vs-cotopaxi-allpa-28l-travel-pack',
+    title: 'Osprey Daylite 26+6 vs Cotopaxi Allpa 28L',
+    schemaName: 'Osprey Daylite Expandable Travel Pack 26+6 vs Cotopaxi Allpa 28L Travel Pack',
+    schemaTitle: 'Osprey Daylite 26+6 vs Cotopaxi Allpa 28L: Which travel backpack should you buy?',
+    category: 'Travel backpacks',
+    categorySummary: 'Capacity, personal-item fit, clamshell packing, laptop sleeves, carry weight, travel hardware, bottle storage, and short-trip fit.',
+    date: '2026-05-23',
+    summary: 'Which compact travel backpack is the better buy for personal-item flights, clamshell packing, laptop carry, and short trips?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Osprey’s lighter expandable personal-item pack and Cotopaxi’s structured clamshell Allpa.',
+    winnerLabel: 'Best personal-item travel pick',
+    winner: 'Osprey Daylite Expandable Travel Pack 26+6',
+    image: {
+      src: '/images/compact-travel-backpack-comparison.webp',
+      url: 'https://worthadding.com/images/compact-travel-backpack-comparison.webp',
+      alt: 'Two compact carry-on travel backpacks on a bright packing table with packing cubes, passport, phone, water bottle, and suitcase handle for the Osprey Daylite 26+6 vs Cotopaxi Allpa 28L comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'focusrite-scarlett-2i2-4th-gen-vs-universal-audio-volt-2',
     title: 'Scarlett 2i2 4th Gen vs Volt 2',
