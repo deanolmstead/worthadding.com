@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-23',
+  homepageUpdated: '2026-05-24',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'anker-prime-200w-vs-ugreen-nexode-200w-charging-station',
+    title: 'Anker Prime 200W vs UGREEN Nexode 200W',
+    schemaName: 'Anker Prime Charger 200W vs UGREEN Nexode 200W 6-Port Charger',
+    schemaTitle: 'Anker Prime 200W vs UGREEN Nexode 200W: Which desktop USB-C charger should you buy?',
+    category: 'Desktop charging stations',
+    categorySummary: 'Total output, USB-C and USB-A port layout, power sharing, cable requirements, desk footprint, laptop charging, and multi-device fit.',
+    date: '2026-05-24',
+    summary: 'Which 200W six-port desktop USB-C charging station is the better buy for laptops, tablets, phones, USB-A accessories, cable setup, and shared desks?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Anker’s clearer power-sharing six-port charger and UGREEN’s cable-included 200W alternative.',
+    winnerLabel: 'Best desktop charger pick',
+    winner: 'Anker Prime Charger 200W',
+    image: {
+      src: '/images/desktop-usb-c-charging-station-comparison.webp',
+      url: 'https://worthadding.com/images/desktop-usb-c-charging-station-comparison.webp',
+      alt: 'Two compact desktop USB-C charging stations on a bright desk with a laptop, tablet, phone, earbuds case, handheld game console, and neatly routed charging cables for the Anker Prime 200W vs UGREEN Nexode 200W comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'osprey-daylite-26-plus-6-vs-cotopaxi-allpa-28l-travel-pack',
     title: 'Osprey Daylite 26+6 vs Cotopaxi Allpa 28L',
