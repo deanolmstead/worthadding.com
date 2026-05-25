@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-24',
+  homepageUpdated: '2026-05-25',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'brother-hl-l2460dw-vs-canon-imageclass-lbp122dw-laser-printer',
+    title: 'Brother HL-L2460DW vs Canon LBP122dw',
+    schemaName: 'Brother HL-L2460DW vs Canon imageCLASS LBP122dw',
+    schemaTitle: 'Brother HL-L2460DW vs Canon imageCLASS LBP122dw: Which monochrome laser printer should you buy?',
+    category: 'Monochrome laser printers',
+    categorySummary: 'Print speed, tray capacity, duplex output, wired and wireless setup, mobile printing, toner families, desk footprint, and home-office fit.',
+    date: '2026-05-25',
+    summary: 'Which compact monochrome laser printer is the better buy for home-office documents, paper capacity, connectivity, desk fit, and shorter print jobs?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Brother's faster, larger-tray HL-L2460DW and Canon's shallower imageCLASS LBP122dw.",
+    winnerLabel: 'Best home-office printer pick',
+    winner: 'Brother HL-L2460DW',
+    image: {
+      src: '/images/compact-monochrome-laser-printer-comparison.webp',
+      url: 'https://worthadding.com/images/compact-monochrome-laser-printer-comparison.webp',
+      alt: 'Two compact monochrome laser printers on a bright home office desk with printed documents, a laptop, a USB cable, and a small wireless setup note for the Brother HL-L2460DW vs Canon LBP122dw comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'anker-prime-200w-vs-ugreen-nexode-200w-charging-station',
     title: 'Anker Prime 200W vs UGREEN Nexode 200W',
