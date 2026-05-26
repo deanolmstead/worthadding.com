@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-25',
+  homepageUpdated: '2026-05-26',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'conair-gs108-vs-rowenta-pure-force-dr8822-steamer-iron',
+    title: 'Conair GS108 vs Rowenta Pure Force DR8822',
+    schemaName: 'Conair Turbo ExtremeSteam GS108 vs Rowenta Pure Force DR8822',
+    schemaTitle: 'Conair GS108 vs Rowenta Pure Force DR8822: Which 2-in-1 garment steamer iron should you buy?',
+    category: 'Garment steamer irons',
+    categorySummary: 'Steam settings, heat time, tank capacity, listed steam time, soleplate design, accessories, cord setup, handling weight, and wardrobe fit.',
+    date: '2026-05-26',
+    summary: 'Which 2-in-1 handheld garment steamer iron is the better buy for steam settings, tank time, pressing, fabric control, and quick wardrobe touch-ups?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Conair’s accessory-rich GS108 and Rowenta’s lighter, longer-running Pure Force DR8822.',
+    winnerLabel: 'Best steamer iron pick',
+    winner: 'Rowenta Pure Force DR8822',
+    image: {
+      src: '/images/handheld-steamer-iron-comparison.webp',
+      url: 'https://worthadding.com/images/handheld-steamer-iron-comparison.webp',
+      alt: 'Two handheld garment steamer irons on a bright laundry counter with folded shirts, a hanging linen shirt, water cup, and fabric swatches for the Conair GS108 vs Rowenta Pure Force DR8822 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'brother-hl-l2460dw-vs-canon-imageclass-lbp122dw-laser-printer',
     title: 'Brother HL-L2460DW vs Canon LBP122dw',
