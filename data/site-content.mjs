@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-26',
+  homepageUpdated: '2026-05-27',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'baratza-encore-vs-oxo-brew-conical-burr-grinder',
+    title: 'Baratza Encore vs OXO Brew Conical Burr',
+    schemaName: 'Baratza Encore vs OXO Brew Conical Burr Coffee Grinder',
+    schemaTitle: 'Baratza Encore vs OXO Brew Conical Burr: Which coffee grinder should you buy?',
+    category: 'Coffee grinders',
+    categorySummary: 'Grind settings, burr setup, hopper capacity, grounds bin, footprint, timer controls, cleaning workflow, and brew-method fit.',
+    date: '2026-05-27',
+    summary: 'Which entry-level conical burr coffee grinder is the better buy for pour-over, drip, French press, cold brew, counter fit, and simple daily grinding?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Baratza's serviceable 40-setting Encore and OXO's timer-friendly Brew Conical Burr grinder.",
+    winnerLabel: 'Best coffee grinder pick',
+    winner: 'Baratza Encore',
+    image: {
+      src: '/images/conical-burr-coffee-grinder-comparison.webp',
+      url: 'https://worthadding.com/images/conical-burr-coffee-grinder-comparison.webp',
+      alt: 'Two countertop conical burr coffee grinders on a bright kitchen coffee bar with whole beans, a scale, pour-over dripper, glass carafe, and mugs for the Baratza Encore vs OXO Brew Conical Burr comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'conair-gs108-vs-rowenta-pure-force-dr8822-steamer-iron',
     title: 'Conair GS108 vs Rowenta Pure Force DR8822',
