@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'arturia-keylab-essential-49-mk3-vs-novation-launchkey-49-mk4',
+    title: 'KeyLab Essential 49 mk3 vs Launchkey 49 MK4',
+    schemaName: 'Arturia KeyLab Essential 49 mk3 vs Novation Launchkey 49 MK4',
+    schemaTitle: 'Arturia KeyLab Essential 49 mk3 vs Novation Launchkey 49 MK4: Which MIDI controller should you buy?',
+    category: 'MIDI controller keyboards',
+    categorySummary: 'Key feel, pad count, faders, encoders, DAW scripts, creative tools, MIDI out, desk fit, included software, and carry weight.',
+    date: '2026-05-28',
+    summary: 'Which 49-key USB MIDI controller is the better buy for DAW control, pads, creative tools, external MIDI, desk fit, and included software?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Arturia's Analog Lab-friendly 49-key controller and Novation's deeper DAW-and-pad-focused Launchkey.",
+    winnerLabel: 'Best MIDI controller pick',
+    winner: 'Novation Launchkey 49 MK4',
+    image: {
+      src: '/images/midi-controller-keyboard-comparison.webp',
+      url: 'https://worthadding.com/images/midi-controller-keyboard-comparison.webp',
+      alt: 'Two unbranded 49-key MIDI controller keyboards on a bright home production desk with studio headphones, laptop, USB cable, and audio interface for the Arturia KeyLab Essential 49 mk3 vs Novation Launchkey 49 MK4 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'baratza-encore-vs-oxo-brew-conical-burr-grinder',
     title: 'Baratza Encore vs OXO Brew Conical Burr',
     schemaName: 'Baratza Encore vs OXO Brew Conical Burr Coffee Grinder',
