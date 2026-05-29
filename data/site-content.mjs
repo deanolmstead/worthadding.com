@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-27',
+  homepageUpdated: '2026-05-29',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'brother-cs7000x-vs-singer-heavy-duty-4452-sewing-machine',
+    title: 'Brother CS7000X vs SINGER Heavy Duty 4452',
+    schemaName: 'Brother CS7000X vs SINGER Heavy Duty 4452',
+    schemaTitle: 'Brother CS7000X vs SINGER Heavy Duty 4452: Which sewing machine should you buy?',
+    category: 'Sewing machines',
+    categorySummary: 'Control style, stitch range, buttonholes, sewing speed, presser-foot pressure, included feet, wide table, weight, and project fit.',
+    date: '2026-05-29',
+    summary: 'Which full-size sewing machine is the better buy for beginners, quilting, denim, speed control, stitch range, included feet, and craft-table fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Brother's computerized beginner-and-quilting CS7000X and SINGER's faster mechanical Heavy Duty 4452.",
+    winnerLabel: 'Best sewing machine pick',
+    winner: 'Brother CS7000X',
+    image: {
+      src: '/images/home-sewing-machine-comparison.webp',
+      url: 'https://worthadding.com/images/home-sewing-machine-comparison.webp',
+      alt: 'Two unbranded full-size sewing machines on a bright craft table with folded denim, cotton fabric swatches, thread spools, bobbins, presser feet, and measuring tape for the Brother CS7000X vs SINGER Heavy Duty 4452 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'arturia-keylab-essential-49-mk3-vs-novation-launchkey-49-mk4',
     title: 'KeyLab Essential 49 mk3 vs Launchkey 49 MK4',
