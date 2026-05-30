@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-29',
+  homepageUpdated: '2026-05-30',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'jbl-flip-7-vs-bose-soundlink-flex-2nd-gen',
+    title: 'JBL Flip 7 vs Bose SoundLink Flex 2nd Gen',
+    schemaName: 'JBL Flip 7 vs Bose SoundLink Flex 2nd Gen',
+    schemaTitle: 'JBL Flip 7 vs Bose SoundLink Flex 2nd Gen: Which portable Bluetooth speaker should you buy?',
+    category: 'Portable Bluetooth speakers',
+    categorySummary: 'Battery life, IP rating, speaker pairing, app controls, USB-C audio, microphone support, carry loop, weight, and pack fit.',
+    date: '2026-05-30',
+    summary: 'Which rugged portable Bluetooth speaker is the better buy for patios, beach bags, travel, battery life, app controls, speaker pairing, and wet-weather use?',
+    featuredSummary: "A sourced comparison for shoppers choosing between JBL's longer-running, IP68 Flip 7 and Bose's flatter, mic-equipped SoundLink Flex 2nd Gen.",
+    winnerLabel: 'Best rugged speaker pick',
+    winner: 'JBL Flip 7',
+    image: {
+      src: '/images/rugged-portable-bluetooth-speaker-comparison.webp',
+      url: 'https://worthadding.com/images/rugged-portable-bluetooth-speaker-comparison.webp',
+      alt: 'Two compact rugged portable Bluetooth speakers on a bright patio table with a phone, USB-C cable, sunglasses, backpack, and water view for the JBL Flip 7 vs Bose SoundLink Flex 2nd Gen comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'brother-cs7000x-vs-singer-heavy-duty-4452-sewing-machine',
     title: 'Brother CS7000X vs SINGER Heavy Duty 4452',
