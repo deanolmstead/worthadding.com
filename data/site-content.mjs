@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'scotch-tl901x-vs-fellowes-saturn-125-laminator',
+    title: 'Scotch TL901X vs Fellowes Saturn 125',
+    schemaName: 'Scotch Thermal Laminator TL901X vs Fellowes Saturn 125 Laminator',
+    schemaTitle: 'Scotch TL901X vs Fellowes Saturn 125: Which thermal laminator should you buy?',
+    category: 'Thermal laminators',
+    categorySummary: 'Entry width, pouch thickness, warm-up, cold lamination, roller setup, release handling, power guidance, workspace fit, and home or classroom workload.',
+    date: '2026-05-31',
+    summary: 'Which thermal laminator is the better buy for home, classroom, and small-office documents: compact 9-inch simplicity or wider, faster 12.5-inch handling?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Scotch's compact letter-size TL901X and Fellowes' wider Saturn 125 small-office laminator.",
+    winnerLabel: 'Best thermal laminator pick',
+    winner: 'Scotch Thermal Laminator TL901X',
+    image: {
+      src: '/images/thermal-laminator-comparison.webp',
+      url: 'https://worthadding.com/images/thermal-laminator-comparison.webp',
+      alt: 'Two unbranded desktop thermal laminators on a bright classroom and home-office table with laminated worksheets, ID cards, letter-size pouches, scissors, and storage bins for the Scotch TL901X vs Fellowes Saturn 125 laminator comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'fellow-stagg-ekg-pro-vs-oxo-brew-gooseneck-kettle',
     title: 'Stagg EKG Pro vs OXO Brew Gooseneck',
     schemaName: 'Fellow Stagg EKG Pro vs OXO Brew Adjustable Temperature Pour-Over Kettle',
