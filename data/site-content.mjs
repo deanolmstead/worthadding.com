@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-30',
+  homepageUpdated: '2026-05-31',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'fellow-stagg-ekg-pro-vs-oxo-brew-gooseneck-kettle',
+    title: 'Stagg EKG Pro vs OXO Brew Gooseneck',
+    schemaName: 'Fellow Stagg EKG Pro vs OXO Brew Adjustable Temperature Pour-Over Kettle',
+    schemaTitle: 'Fellow Stagg EKG Pro vs OXO Brew Gooseneck Kettle: Which variable-temperature kettle should you buy?',
+    category: 'Gooseneck kettles',
+    categorySummary: 'Temperature range, hold mode, brew timer, scheduling, presets, app updates, capacity, control style, and pour-over workflow.',
+    date: '2026-05-31',
+    summary: 'Which variable-temperature gooseneck kettle is the better buy for pour-over coffee, timer workflow, hold settings, scheduling, and counter fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Fellow's configurable Stagg EKG Pro and OXO's simpler daily pour-over kettle.",
+    winnerLabel: 'Best gooseneck kettle pick',
+    winner: 'OXO Brew Adjustable Temperature Pour-Over Kettle',
+    image: {
+      src: '/images/variable-temperature-gooseneck-kettle-comparison.webp',
+      url: 'https://worthadding.com/images/variable-temperature-gooseneck-kettle-comparison.webp',
+      alt: 'Two unbranded variable-temperature electric gooseneck kettles on a bright kitchen coffee bar with a dripper, glass carafe, scale, mugs, and coffee beans for the Fellow Stagg EKG Pro vs OXO Brew gooseneck kettle comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'jbl-flip-7-vs-bose-soundlink-flex-2nd-gen',
     title: 'JBL Flip 7 vs Bose SoundLink Flex 2nd Gen',
