@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-05-31',
+  homepageUpdated: '2026-06-01',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'kindle-16gb-vs-kindle-paperwhite-16gb',
+    title: 'Kindle 16 GB vs Kindle Paperwhite 16 GB',
+    schemaName: 'Amazon Kindle 16 GB vs Kindle Paperwhite 16 GB',
+    schemaTitle: 'Kindle 16 GB vs Kindle Paperwhite 16 GB: Which e-reader should you buy?',
+    category: 'E-readers',
+    categorySummary: 'Display size, pixel density, warm light, waterproofing, storage, battery estimate, dimensions, weight, charging, and carry fit.',
+    date: '2026-06-01',
+    summary: 'Which Amazon e-reader is the better buy for daily reading: the lighter 6-inch Kindle or the waterproof 7-inch Kindle Paperwhite?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Amazon's lightest current Kindle and the larger, waterproof Kindle Paperwhite.",
+    winnerLabel: 'Best e-reader pick',
+    winner: 'Kindle Paperwhite 16 GB',
+    image: {
+      src: '/images/compact-e-reader-comparison.webp',
+      url: 'https://worthadding.com/images/compact-e-reader-comparison.webp',
+      alt: 'Two unbranded compact black e-readers on a bright reading table with a USB-C cable, reading glasses, notebook, library card, and mug for the Kindle 16 GB vs Kindle Paperwhite 16 GB comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'scotch-tl901x-vs-fellowes-saturn-125-laminator',
     title: 'Scotch TL901X vs Fellowes Saturn 125',
