@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-01',
+  homepageUpdated: '2026-06-02',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'foodsaver-fm2100-vs-nesco-vs-12-vacuum-sealer',
+    title: 'FoodSaver FM2100 vs NESCO VS-12',
+    schemaName: 'FoodSaver FM2100 vs NESCO VS-12 Vacuum Sealer',
+    schemaTitle: 'FoodSaver FM2100 vs NESCO VS-12: Which vacuum sealer should you buy?',
+    category: 'Vacuum sealers',
+    categorySummary: 'Seal settings, vacuum pressure control, bag width, roll storage, accessory hose, included rolls, wattage, footprint, warranty, and batch-prep fit.',
+    date: '2026-06-02',
+    summary: 'Which countertop vacuum sealer is the better buy for freezer prep, sous vide bags, batch cooking, roll storage, and gentler sealing control?',
+    featuredSummary: "A sourced comparison for shoppers choosing between FoodSaver's simpler FM2100 and NESCO's more adjustable VS-12 vacuum sealer.",
+    winnerLabel: 'Best vacuum sealer pick',
+    winner: 'NESCO VS-12',
+    image: {
+      src: '/images/countertop-vacuum-sealer-comparison.webp',
+      url: 'https://worthadding.com/images/countertop-vacuum-sealer-comparison.webp',
+      alt: 'Two unbranded countertop vacuum sealers on a bright kitchen counter with bag rolls, sealed vegetables, pantry goods, a cutting board, and freezer-prep supplies for the FoodSaver FM2100 vs NESCO VS-12 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'kindle-16gb-vs-kindle-paperwhite-16gb',
     title: 'Kindle 16 GB vs Kindle Paperwhite 16 GB',
