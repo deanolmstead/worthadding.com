@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-02',
+  homepageUpdated: '2026-06-03',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'shure-mv7-plus-vs-rode-podmic-usb-podcast-microphone',
+    title: 'Shure MV7+ vs RODE PodMic USB',
+    schemaName: 'Shure MV7+ vs RODE PodMic USB',
+    schemaTitle: 'Shure MV7+ vs RODE PodMic USB: Which hybrid podcast microphone should you buy?',
+    category: 'Hybrid podcast microphones',
+    categorySummary: 'USB-C and XLR workflow, onboard processing, headphone monitoring, boom-arm load, included pop filters, app dependency, and voice-recording fit.',
+    date: '2026-06-03',
+    summary: 'Which hybrid USB/XLR podcast microphone is the better buy for desk recording, app processing, monitoring, boom-arm setup, and future XLR upgrades.',
+    featuredSummary: "A sourced comparison for shoppers choosing between Shure's lighter auto-processing MV7+ and RODE's heavier broadcast-style PodMic USB.",
+    winnerLabel: 'Best podcast microphone pick',
+    winner: 'Shure MV7+',
+    image: {
+      src: '/images/hybrid-usb-xlr-podcast-microphone-comparison.webp',
+      url: 'https://worthadding.com/images/hybrid-usb-xlr-podcast-microphone-comparison.webp',
+      alt: 'Two unbranded black broadcast-style podcast microphones on a bright home recording desk with a laptop, audio interface, headphones, USB-C cable, XLR cable, boom arm, acoustic panels, and notebook for the Shure MV7+ vs RODE PodMic USB comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'foodsaver-fm2100-vs-nesco-vs-12-vacuum-sealer',
     title: 'FoodSaver FM2100 vs NESCO VS-12',
