@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-03',
+  homepageUpdated: '2026-06-04',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'bosch-glm-50-c-vs-leica-disto-d2-laser-measure',
+    title: 'Bosch GLM 50 C vs Leica DISTO D2',
+    schemaName: 'Bosch GLM 50 C vs Leica DISTO D2',
+    schemaTitle: 'Bosch GLM 50 C vs Leica DISTO D2: Which Bluetooth laser measure should you buy?',
+    category: 'Laser distance measurers',
+    categorySummary: 'Range, accuracy, Bluetooth transfer, display, inclinometer, end-piece handling, memory, IP rating, battery setup, and remodel-project fit.',
+    date: '2026-06-04',
+    summary: 'Which compact Bluetooth laser distance measurer is the better buy for room layouts, remodel notes, app transfer, corner measuring, range, and pocket carry?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Bosch's color-display GLM 50 C and Leica's longer-range DISTO D2 laser measure.",
+    winnerLabel: 'Best laser measure pick',
+    winner: 'Bosch GLM 50 C',
+    image: {
+      src: '/images/bluetooth-laser-distance-measurer-comparison.webp',
+      url: 'https://worthadding.com/images/bluetooth-laser-distance-measurer-comparison.webp',
+      alt: 'Two unbranded compact laser distance measurers on a bright workshop desk with a notebook of room dimensions, tape measure, pencil, phone, floor plan, and trim sample for the Bosch GLM 50 C vs Leica DISTO D2 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'shure-mv7-plus-vs-rode-podmic-usb-podcast-microphone',
     title: 'Shure MV7+ vs RODE PodMic USB',
