@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-04',
+  homepageUpdated: '2026-06-05',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'sandisk-extreme-vs-samsung-t7-shield-portable-ssd',
+    title: 'SanDisk Extreme vs Samsung T7 Shield',
+    schemaName: 'SanDisk Extreme Portable SSD vs Samsung T7 Shield',
+    schemaTitle: 'SanDisk Extreme Portable SSD vs Samsung T7 Shield: Which rugged portable SSD should you buy?',
+    category: 'Portable SSDs',
+    categorySummary: 'USB 3.2 Gen 2 speed, IP65 resistance, drop protection, software support, encryption, cable and adapter setup, warranty, and travel-backup fit.',
+    date: '2026-06-05',
+    summary: 'Which rugged USB 3.2 Gen 2 portable SSD is the better buy for backups, travel, creator files, dust and water resistance, and mixed-device use?',
+    featuredSummary: "A sourced comparison for shoppers choosing between SanDisk's loop-and-adapter Extreme Portable SSD and Samsung's software-friendly T7 Shield.",
+    winnerLabel: 'Best rugged SSD pick',
+    winner: 'Samsung T7 Shield',
+    image: {
+      src: '/images/portable-ssd-comparison.webp',
+      url: 'https://worthadding.com/images/portable-ssd-comparison.webp',
+      alt: 'Two compact black portable SSD drives on a bright desk with a laptop, USB-C cable, memory cards, and camera gear for the SanDisk Extreme vs Samsung T7 Shield comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'bosch-glm-50-c-vs-leica-disto-d2-laser-measure',
     title: 'Bosch GLM 50 C vs Leica DISTO D2',
