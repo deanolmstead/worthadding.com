@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-05',
+  homepageUpdated: '2026-06-06',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'bose-tv-speaker-vs-sonos-ray-soundbar',
+    title: 'Bose TV Speaker vs Sonos Ray',
+    schemaName: 'Bose TV Speaker vs Sonos Ray',
+    schemaTitle: 'Bose TV Speaker vs Sonos Ray: Which compact soundbar should you buy?',
+    category: 'Compact TV soundbars',
+    categorySummary: 'HDMI ARC and optical setup, Bluetooth or WiFi streaming, dialogue tools, app controls, room tuning, expansion path, dimensions, weight, and small media-console fit.',
+    date: '2026-06-06',
+    summary: 'Which compact TV soundbar is the better buy for simple HDMI ARC setup, optical-only TVs, dialogue modes, app features, streaming, and small media consoles?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Bose\'s HDMI-and-Bluetooth TV Speaker and Sonos Ray\'s optical, app-led Sonos-system soundbar.',
+    winnerLabel: 'Best compact soundbar pick',
+    winner: 'Bose TV Speaker',
+    image: {
+      src: '/images/compact-tv-soundbar-comparison.webp',
+      url: 'https://worthadding.com/images/compact-tv-soundbar-comparison.webp',
+      alt: 'Two compact black TV soundbars on a bright media console with a remote, HDMI cable, optical cable, streaming remote, and living room details for the Bose TV Speaker vs Sonos Ray comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'sandisk-extreme-vs-samsung-t7-shield-portable-ssd',
     title: 'SanDisk Extreme vs Samsung T7 Shield',
