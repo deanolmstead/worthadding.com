@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-06',
+  homepageUpdated: '2026-06-07',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'yamaha-p-143-vs-roland-fp-10-digital-piano',
+    title: 'Yamaha P-143 vs Roland FP-10',
+    schemaName: 'Yamaha P-143 vs Roland FP-10',
+    schemaTitle: 'Yamaha P-143 vs Roland FP-10: Which beginner digital piano should you buy?',
+    category: 'Beginner digital pianos',
+    categorySummary: 'Weighted 88-key action, piano sound engine, polyphony, voices, speakers, headphone practice, USB and Bluetooth workflows, stand/pedal path, weight, and apartment-practice fit.',
+    date: '2026-06-07',
+    summary: 'Which beginner 88-key digital piano is the better buy for key feel, speakers, practice apps, USB audio, portability, headphones, and apartment practice?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Yamaha's lighter USB-audio P-143 and Roland's PHA-4, Bluetooth MIDI FP-10.",
+    winnerLabel: 'Best beginner piano pick',
+    winner: 'Roland FP-10',
+    image: {
+      src: '/images/beginner-digital-piano-comparison.webp',
+      url: 'https://worthadding.com/images/beginner-digital-piano-comparison.webp',
+      alt: 'Two slim unbranded black 88-key digital pianos in a bright apartment music corner with headphones, a sustain pedal, a bench, a tablet, and sheet music for the Yamaha P-143 vs Roland FP-10 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'bose-tv-speaker-vs-sonos-ray-soundbar',
     title: 'Bose TV Speaker vs Sonos Ray',
