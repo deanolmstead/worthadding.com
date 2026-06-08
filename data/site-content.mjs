@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-07',
+  homepageUpdated: '2026-06-08',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'biolite-alpenglow-500-vs-goal-zero-lighthouse-600-lantern',
+    title: 'BioLite AlpenGlow 500 vs Goal Zero Lighthouse 600',
+    schemaName: 'BioLite AlpenGlow 500 vs Goal Zero Lighthouse 600',
+    schemaTitle: 'BioLite AlpenGlow 500 vs Goal Zero Lighthouse 600: Which rechargeable camping lantern should you buy?',
+    category: 'Rechargeable camping lanterns',
+    categorySummary: 'Lumens, runtime modes, battery capacity, USB input and output, solar or crank recharge paths, lighting modes, water resistance, placement, weight, and camp or outage fit.',
+    date: '2026-06-08',
+    summary: 'Which rechargeable camping lantern is the better buy for campsite light, emergency backup, runtime, charging options, phone top-ups, and pack weight?',
+    featuredSummary: "A sourced comparison for shoppers choosing between BioLite's lighter color-capable AlpenGlow 500 and Goal Zero's more utility-focused Lighthouse 600.",
+    winnerLabel: 'Best camp lantern pick',
+    winner: 'Goal Zero Lighthouse 600',
+    image: {
+      src: '/images/rechargeable-camping-lantern-comparison.webp',
+      url: 'https://worthadding.com/images/rechargeable-camping-lantern-comparison.webp',
+      alt: 'Two unbranded rechargeable camping lanterns glowing on a wooden picnic table at dusk with a USB cable, camp map, enamel mugs, and soft campsite lights for the BioLite AlpenGlow 500 vs Goal Zero Lighthouse 600 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'yamaha-p-143-vs-roland-fp-10-digital-piano',
     title: 'Yamaha P-143 vs Roland FP-10',
