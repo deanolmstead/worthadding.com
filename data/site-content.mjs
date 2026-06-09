@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-08',
+  homepageUpdated: '2026-06-09',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'travelpro-maxlite-5-vs-samsonite-freeform-carry-on-spinner',
+    title: 'Travelpro Maxlite 5 vs Samsonite Freeform',
+    schemaName: 'Travelpro Maxlite 5 Carry-On Spinner vs Samsonite Freeform Carry-On Spinner',
+    schemaTitle: 'Travelpro Maxlite 5 vs Samsonite Freeform: Which carry-on spinner should you buy?',
+    category: 'Carry-on spinner luggage',
+    categorySummary: 'Overall and case dimensions, empty weight, packing volume, expansion, shell material, exterior access, lock setup, interior organization, warranty, and domestic flight fit.',
+    date: '2026-06-09',
+    summary: 'Which carry-on spinner is the better buy for domestic flights, lighter lifting, hardside protection, organization, expansion, and overhead-bin fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Travelpro's lighter softside Maxlite 5 and Samsonite's hardside Freeform carry-on spinner.",
+    winnerLabel: 'Best carry-on spinner pick',
+    winner: 'Travelpro Maxlite 5 Carry-On Spinner',
+    image: {
+      src: '/images/softside-carry-on-spinner-luggage-comparison.webp',
+      url: 'https://worthadding.com/images/softside-carry-on-spinner-luggage-comparison.webp',
+      alt: 'Two unbranded carry-on spinner suitcases on a bright packing table with packing cubes, folded clothes, toiletry pouch, passport wallet, luggage tag, and a small luggage scale for the Travelpro Maxlite 5 vs Samsonite Freeform comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'biolite-alpenglow-500-vs-goal-zero-lighthouse-600-lantern',
     title: 'BioLite AlpenGlow 500 vs Goal Zero Lighthouse 600',
