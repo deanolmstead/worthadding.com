@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-09',
+  homepageUpdated: '2026-06-10',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'samsung-t7-shield-vs-samsung-t9-portable-ssd',
+    title: 'Samsung T7 Shield vs Samsung T9',
+    schemaName: 'Samsung T7 Shield vs Samsung T9',
+    schemaTitle: 'Samsung T7 Shield vs Samsung T9: Which portable SSD should you buy?',
+    category: 'Portable SSDs',
+    categorySummary: 'USB interface, transfer-speed ceiling, host compatibility, IP and drop resistance, dimensions, weight, software, encryption, cable contents, warranty, and travel-backup fit.',
+    date: '2026-06-10',
+    summary: 'Which Samsung portable SSD is the better buy for rugged travel, fast transfers, IP protection, cables, encryption, and mixed-device backups?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Samsung's IP65-rated T7 Shield and faster Gen 2x2 T9 portable SSD.",
+    winnerLabel: 'Best Samsung SSD pick',
+    winner: 'Samsung T7 Shield',
+    image: {
+      src: '/images/portable-ssd-comparison.webp',
+      url: 'https://worthadding.com/images/portable-ssd-comparison.webp',
+      alt: 'Two compact black portable SSD drives on a bright desk with a laptop, USB-C cable, memory cards, and camera gear for the Samsung T7 Shield vs Samsung T9 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'travelpro-maxlite-5-vs-samsonite-freeform-carry-on-spinner',
     title: 'Travelpro Maxlite 5 vs Samsonite Freeform',
