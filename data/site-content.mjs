@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-10',
+  homepageUpdated: '2026-06-11',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'ninja-creami-nc301-vs-creami-deluxe-nc501',
+    title: 'Ninja CREAMi NC301 vs Deluxe NC501',
+    schemaName: 'Ninja CREAMi NC301 vs Ninja CREAMi Deluxe NC501',
+    schemaTitle: 'Ninja CREAMi NC301 vs Deluxe NC501: Which frozen treat maker should you buy?',
+    category: 'Frozen treat makers',
+    categorySummary: 'Pint and tub capacity, one-touch programs, dimensions, weight, wattage, freezer planning, included containers, dishwasher-safe parts, countdown display, and family-size dessert fit.',
+    date: '2026-06-11',
+    summary: 'Which Ninja CREAMi is the better buy for pint size, family batches, freezer space, one-touch programs, counter fit, mix-ins, and frozen treat variety?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Ninja's compact NC301 pint machine and the larger CREAMi Deluxe NC501.",
+    winnerLabel: 'Best frozen treat maker pick',
+    winner: 'Ninja CREAMi Deluxe NC501',
+    image: {
+      src: '/images/countertop-frozen-treat-maker-comparison.webp',
+      url: 'https://worthadding.com/images/countertop-frozen-treat-maker-comparison.webp',
+      alt: 'Two unbranded countertop frozen treat makers on a bright kitchen counter with pint cups, berries, vanilla, chocolate pieces, and spoons for the Ninja CREAMi comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'samsung-t7-shield-vs-samsung-t9-portable-ssd',
     title: 'Samsung T7 Shield vs Samsung T9',
