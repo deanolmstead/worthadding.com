@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-11',
+  homepageUpdated: '2026-06-12',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'cricut-maker-4-vs-cricut-explore-5-craft-cutter',
+    title: 'Cricut Maker 4 vs Cricut Explore 5',
+    schemaName: 'Cricut Maker 4 vs Cricut Explore 5',
+    schemaTitle: 'Cricut Maker 4 vs Cricut Explore 5: Which craft cutter should you buy?',
+    category: 'Desktop craft cutters',
+    categorySummary: 'Material range, tool compatibility, Cricut Design Space workflow, sticker and vinyl fit, fabric and wood headroom, starter bundles, feed-through clearance, and craft-room setup.',
+    date: '2026-06-12',
+    summary: 'Which Cricut smart cutting machine is the better buy for vinyl decals, stickers, T-shirts, cards, fabric, wood, specialty tools, and workspace fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Cricut's advanced-material Maker 4 and everyday-project Explore 5.",
+    winnerLabel: 'Best craft cutter pick',
+    winner: 'Cricut Explore 5',
+    image: {
+      src: '/images/desktop-craft-cutter-comparison.webp',
+      url: 'https://worthadding.com/images/desktop-craft-cutter-comparison.webp',
+      alt: 'Two desktop craft cutting machines on a bright craft table with vinyl sheets, cardstock, sticker paper, transfer tape, cutting mats, fabric swatches, and finished decals for the Cricut Maker 4 vs Explore 5 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'ninja-creami-nc301-vs-creami-deluxe-nc501',
     title: 'Ninja CREAMi NC301 vs Deluxe NC501',
