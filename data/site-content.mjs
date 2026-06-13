@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-12',
+  homepageUpdated: '2026-06-13',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'roku-streaming-stick-4k-vs-fire-tv-stick-4k-max',
+    title: 'Roku Streaming Stick 4K vs Fire TV Stick 4K Max',
+    schemaName: 'Roku Streaming Stick 4K vs Amazon Fire TV Stick 4K Max',
+    schemaTitle: 'Roku Streaming Stick 4K vs Fire TV Stick 4K Max: Which streaming stick should you buy?',
+    category: 'Compact 4K streaming sticks',
+    categorySummary: '4K HDR formats, Dolby Vision, HDR10+, AV1 playback, Wi-Fi standard, long-range receiver setup, app storage, voice remote controls, AirPlay, HomeKit, Alexa, and behind-TV fit.',
+    date: '2026-06-13',
+    summary: 'Which compact 4K streaming stick is the better buy for Dolby Vision, Wi-Fi, app storage, voice remotes, AirPlay, Alexa, and simple TV upgrades?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Roku's simpler 4K stick and Amazon's higher-performance Fire TV Stick 4K Max.",
+    winnerLabel: 'Best streaming stick pick',
+    winner: 'Fire TV Stick 4K Max',
+    image: {
+      src: '/images/compact-4k-streaming-stick-comparison.webp',
+      url: 'https://worthadding.com/images/compact-4k-streaming-stick-comparison.webp',
+      alt: 'Two compact streaming sticks on a bright media console with voice remotes, HDMI cable, USB power cable, a TV edge, and a Wi-Fi router for the Roku Streaming Stick 4K vs Fire TV Stick 4K Max comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'cricut-maker-4-vs-cricut-explore-5-craft-cutter',
     title: 'Cricut Maker 4 vs Cricut Explore 5',
