@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'logitech-mx-master-3s-vs-mx-vertical-wireless-mouse',
+    title: 'Logitech MX Master 3S vs MX Vertical',
+    schemaName: 'Logitech MX Master 3S vs Logitech MX Vertical',
+    schemaTitle: 'Logitech MX Master 3S vs MX Vertical: Which wireless productivity mouse should you buy?',
+    category: 'Wireless productivity mice',
+    categorySummary: 'Mouse shape, scroll behavior, sensor ceiling, glass tracking, click feel, software customization, hand-position preference, desk fit, charging workflow, and productivity setup.',
+    date: '2026-06-14',
+    summary: 'Which Logitech wireless productivity mouse is the better buy for desk work: the feature-rich MX Master 3S or the upright MX Vertical?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Logitech's scroll-heavy MX Master 3S and vertical-grip MX Vertical.",
+    winnerLabel: 'Best productivity mouse pick',
+    winner: 'Logitech MX Master 3S',
+    image: {
+      src: '/images/wireless-productivity-mouse-comparison.webp',
+      url: 'https://worthadding.com/images/wireless-productivity-mouse-comparison.webp',
+      alt: 'Two unbranded wireless productivity mice on a bright desk with a laptop, keyboard, USB-C cable, notebook, pen, and plant for the Logitech MX Master 3S vs MX Vertical comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'roku-streaming-stick-4k-vs-fire-tv-stick-4k-max',
     title: 'Roku Streaming Stick 4K vs Fire TV Stick 4K Max',
     schemaName: 'Roku Streaming Stick 4K vs Amazon Fire TV Stick 4K Max',
