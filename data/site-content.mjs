@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-13',
+  homepageUpdated: '2026-06-15',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'shark-wandvac-wv201-vs-black-decker-chv1410l-handheld-vacuum',
+    title: 'Shark WANDVAC WV201 vs BLACK+DECKER CHV1410L',
+    schemaName: 'Shark WANDVAC WV201 vs BLACK+DECKER CHV1410L',
+    schemaTitle: 'Shark WANDVAC WV201 vs BLACK+DECKER CHV1410L: Which handheld vacuum should you buy?',
+    category: 'Cordless handheld vacuums',
+    categorySummary: 'Dustbin capacity, listed runtime, charging storage, crevice reach, brush tools, washable filters, hand weight, car cleanup, pet touchups, and quick dry-mess fit.',
+    date: '2026-06-15',
+    summary: 'Which cordless handheld vacuum is the better buy for crumbs, car seats, upholstery, stairs, pet hair, docked storage, and quick dry messes?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Shark's slim docked WANDVAC and BLACK+DECKER's bigger-bin CHV1410L handheld vacuum.",
+    winnerLabel: 'Best handheld vacuum pick',
+    winner: 'BLACK+DECKER CHV1410L',
+    image: {
+      src: '/images/cordless-handheld-vacuum-comparison.webp',
+      url: 'https://worthadding.com/images/cordless-handheld-vacuum-comparison.webp',
+      alt: 'Two unbranded cordless handheld vacuums on a bright utility-room counter with a charging dock, crevice tool, pet brush, car mat, crumbs, and fabric swatch for the Shark WANDVAC WV201 vs BLACK+DECKER CHV1410L comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'logitech-mx-master-3s-vs-mx-vertical-wireless-mouse',
     title: 'Logitech MX Master 3S vs MX Vertical',
