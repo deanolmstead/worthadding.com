@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-15',
+  homepageUpdated: '2026-06-16',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'tp-link-tl-wr902ac-vs-gl-inet-opal-gl-sft1200-travel-router',
+    title: 'TP-Link TL-WR902AC vs GL.iNet Opal GL-SFT1200',
+    schemaName: 'TP-Link TL-WR902AC vs GL.iNet Opal GL-SFT1200',
+    schemaTitle: 'TP-Link TL-WR902AC vs GL.iNet Opal GL-SFT1200: Which travel router should you buy?',
+    category: 'Travel Wi-Fi routers',
+    categorySummary: 'AC Wi-Fi speed class, Ethernet port count and speed, travel modes, USB and power setup, OpenWrt/VPN features, antenna design, pack size, and hotel-network fit.',
+    date: '2026-06-16',
+    summary: 'Which travel Wi-Fi router is the better buy for hotel Ethernet, public Wi-Fi sharing, wired devices, USB power, VPN setup, and pack space?',
+    featuredSummary: "A sourced comparison for shoppers choosing between TP-Link's tiny AC750 travel router and GL.iNet's more capable Opal GL-SFT1200.",
+    winnerLabel: 'Best travel router pick',
+    winner: 'GL.iNet Opal GL-SFT1200',
+    image: {
+      src: '/images/travel-wifi-router-comparison.webp',
+      url: 'https://worthadding.com/images/travel-wifi-router-comparison.webp',
+      alt: 'Two unbranded compact travel Wi-Fi routers on a bright hotel-room desk with a laptop, phone, Ethernet cable, USB-C cable, passport wallet, and notebook for the TP-Link TL-WR902AC vs GL.iNet Opal GL-SFT1200 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'shark-wandvac-wv201-vs-black-decker-chv1410l-handheld-vacuum',
     title: 'Shark WANDVAC WV201 vs BLACK+DECKER CHV1410L',
