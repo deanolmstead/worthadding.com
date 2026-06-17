@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-16',
+  homepageUpdated: '2026-06-17',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'panasonic-nn-sn686s-vs-toshiba-em131a5c-bs-microwave',
+    title: 'Panasonic NN-SN686S vs Toshiba EM131A5C-BS',
+    schemaName: 'Panasonic NN-SN686S vs Toshiba EM131A5C-BS',
+    schemaTitle: 'Panasonic NN-SN686S vs Toshiba EM131A5C-BS: Which countertop microwave should you buy?',
+    category: 'Countertop microwaves',
+    categorySummary: 'Cooking wattage, inverter heating, sensor menus, turntable diameter, door style, mute and ECO modes, counter fit, defrost behavior, and everyday reheating.',
+    date: '2026-06-17',
+    summary: 'Which 1.2-cubic-foot countertop microwave is the better buy for reheating, defrosting, sensor cooking, turntable fit, controls, and counter space?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Panasonic's inverter-focused NN-SN686S and Toshiba's handle-door EM131A5C-BS microwave.",
+    winnerLabel: 'Best countertop microwave pick',
+    winner: 'Panasonic NN-SN686S',
+    image: {
+      src: '/images/countertop-microwave-comparison.webp',
+      url: 'https://worthadding.com/images/countertop-microwave-comparison.webp',
+      alt: 'Two unbranded countertop microwave ovens on a bright kitchen counter with a dinner plate, mug, bowl, measuring tape, and folded towel for the Panasonic NN-SN686S vs Toshiba EM131A5C-BS comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'tp-link-tl-wr902ac-vs-gl-inet-opal-gl-sft1200-travel-router',
     title: 'TP-Link TL-WR902AC vs GL.iNet Opal GL-SFT1200',
