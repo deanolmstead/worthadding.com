@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-17',
+  homepageUpdated: '2026-06-21',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,86 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'oxo-good-grips-vs-escali-primo-digital-kitchen-scale',
+    title: 'OXO Good Grips vs Escali Primo',
+    schemaName: 'OXO Good Grips vs Escali Primo',
+    schemaTitle: 'OXO Good Grips vs Escali Primo: Which digital kitchen scale should you buy?',
+    category: 'Digital kitchen scales',
+    categorySummary: 'Pull-out display visibility, gram weighing, tare workflow, removable platform cleanup, sealed controls, compact storage, unit conversion, bowl fit, and everyday baking or meal-prep use.',
+    date: '2026-06-21',
+    summary: 'Which digital kitchen scale is the better buy for baking, meal prep, bowl visibility, cleaning, storage, and simple everyday weighing?',
+    featuredSummary: "A sourced comparison for shoppers choosing between OXO's pull-out-display kitchen scale and Escali's compact two-button Primo scale.",
+    winnerLabel: 'Best digital kitchen scale pick',
+    winner: 'OXO Good Grips 11-Pound Stainless Steel Kitchen Scale',
+    image: {
+      src: '/images/digital-kitchen-scale-comparison.webp',
+      url: 'https://worthadding.com/images/digital-kitchen-scale-comparison.webp',
+      alt: 'Two compact digital kitchen scales on a bright counter with flour, strawberries, measuring spoons, a mixing bowl, a towel, and a recipe notebook for the OXO Good Grips vs Escali Primo comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'insinkerator-badger-5-vs-waste-king-l-2600-garbage-disposal',
+    title: 'InSinkErator Badger 5 vs Waste King L-2600',
+    schemaName: 'InSinkErator Badger 5 vs Waste King L-2600',
+    schemaTitle: 'InSinkErator Badger 5 vs Waste King L-2600: Which garbage disposal should you buy?',
+    category: 'Garbage disposals',
+    categorySummary: '1/2 HP motor type, continuous-feed setup, grind component material, mount style, included power cord, warranty language, under-sink fit, replacement path, and everyday kitchen cleanup.',
+    date: '2026-06-20',
+    summary: 'Which 1/2 HP continuous-feed garbage disposal is the better buy for under-sink fit, grind components, cord setup, warranty, and replacement path?',
+    featuredSummary: "A sourced comparison for shoppers choosing between InSinkErator's familiar Badger 5 and Waste King's fresh-install-friendly L-2600 disposal.",
+    winnerLabel: 'Best garbage disposal pick',
+    winner: 'Waste King L-2600',
+    image: {
+      src: '/images/entry-level-garbage-disposal-comparison.webp',
+      url: 'https://worthadding.com/images/entry-level-garbage-disposal-comparison.webp',
+      alt: 'Two compact garbage disposal units on a clean kitchen workbench with a sink flange, drain elbow, power cord, mounting ring, measuring tape, and installation hardware for the InSinkErator Badger 5 vs Waste King L-2600 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'baratza-encore-esp-vs-fellow-opus-coffee-grinder',
+    title: 'Baratza Encore ESP vs Fellow Opus',
+    schemaName: 'Baratza Encore ESP vs Fellow Opus',
+    schemaTitle: 'Baratza Encore ESP vs Fellow Opus: Which coffee grinder should you buy?',
+    category: 'Coffee grinders',
+    categorySummary: 'Espresso-friendly adjustment, brew-method range, dosing workflow, grind retention, anti-static cleanup, burr setup, counter height, maintenance, and home coffee-bar fit.',
+    date: '2026-06-19',
+    summary: 'Which all-purpose conical burr grinder is the better buy for espresso-curious homes, pour-over, drip coffee, single dosing, cleanup, and counter fit?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Baratza's espresso-friendly Encore ESP and Fellow's cleaner single-dose Opus grinder.",
+    winnerLabel: 'Best all-purpose grinder pick',
+    winner: 'Baratza Encore ESP',
+    image: {
+      src: '/images/conical-burr-coffee-grinder-comparison.webp',
+      url: 'https://worthadding.com/images/conical-burr-coffee-grinder-comparison.webp',
+      alt: 'Two countertop conical burr coffee grinders on a bright kitchen coffee bar with whole beans, a scale, pour-over dripper, glass carafe, and mugs for the Baratza Encore ESP vs Fellow Opus comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
+    slug: 'cuisinart-ice-21p1-vs-whynter-icm-201sb-ice-cream-maker',
+    title: 'Cuisinart ICE-21P1 vs Whynter ICM-201SB',
+    schemaName: 'Cuisinart ICE-21P1 vs Whynter ICM-201SB',
+    schemaTitle: 'Cuisinart ICE-21P1 vs Whynter ICM-201SB: Which countertop ice cream maker should you buy?',
+    category: 'Countertop ice cream makers',
+    categorySummary: 'Freezer-bowl planning, compressor convenience, batch capacity, counter storage, removable bowls, timers and controls, frozen dessert types, cleanup, and repeat-batch fit.',
+    date: '2026-06-18',
+    summary: 'Which countertop ice cream maker is the better buy for homemade frozen desserts: the simpler freezer-bowl Cuisinart or the compressor-equipped Whynter?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Cuisinart's compact freezer-bowl ICE-21P1 and Whynter's self-cooling ICM-201SB compressor machine.",
+    winnerLabel: 'Best ice cream maker pick',
+    winner: 'Cuisinart ICE-21P1',
+    image: {
+      src: '/images/countertop-frozen-treat-maker-comparison.webp',
+      url: 'https://worthadding.com/images/countertop-frozen-treat-maker-comparison.webp',
+      alt: 'Two countertop frozen dessert makers on a bright kitchen counter with frozen treat bowls, berries, chocolate, vanilla pods, spoons, and storage containers for the Cuisinart ICE-21P1 vs Whynter ICM-201SB comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'panasonic-nn-sn686s-vs-toshiba-em131a5c-bs-microwave',
     title: 'Panasonic NN-SN686S vs Toshiba EM131A5C-BS',

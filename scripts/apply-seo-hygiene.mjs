@@ -40,7 +40,8 @@ function relatedFor(comparison) {
     'Can openers',
     'Food processors',
     'Blenders',
-    'Espresso machines'
+    'Espresso machines',
+    'Digital kitchen scales'
   ]);
   const powerTools = new Set(['Cordless drills', 'Table saws']);
   const homeComfort = new Set(['Air purifiers', 'Light therapy', 'Hair dryers']);
