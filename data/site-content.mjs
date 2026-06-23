@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-22',
+  homepageUpdated: '2026-06-23',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'lego-wildflower-bouquet-vs-flower-bouquet',
+    title: 'LEGO Wildflower Bouquet vs Flower Bouquet',
+    schemaName: 'LEGO Botanicals Wildflower Bouquet vs Flower Bouquet',
+    schemaTitle: 'LEGO Botanicals Wildflower Bouquet vs Flower Bouquet: Which adult bouquet set should you buy?',
+    category: 'Adult LEGO botanical bouquets',
+    categorySummary: 'Piece count, adjustable stems, flower variety, display height, vase fit, arrangement style, build-session feel, gift readiness, and whether one box or a combined bouquet makes more sense.',
+    date: '2026-06-23',
+    summary: 'Which adult LEGO botanical bouquet is the better buy for display height, stem variety, build feel, vase styling, and gift-ready decor?',
+    featuredSummary: "A sourced comparison for shoppers choosing between LEGO's taller Wildflower Bouquet and the original mixed Flower Bouquet.",
+    winnerLabel: 'Best botanical bouquet pick',
+    winner: 'LEGO Botanicals Wildflower Bouquet 10313',
+    image: {
+      src: '/images/adult-brick-bouquet-comparison.webp',
+      url: 'https://worthadding.com/images/adult-brick-bouquet-comparison.webp',
+      alt: 'Two colorful brick-built flower bouquets in glass vases on a bright craft table with loose plastic bricks and a small instruction booklet for the LEGO Wildflower Bouquet vs Flower Bouquet comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'sony-wf-1000xm6-vs-bose-quietcomfort-ultra-earbuds-2',
     title: 'Sony WF-1000XM6 vs Bose QC Ultra Earbuds 2',
