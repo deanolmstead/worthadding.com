@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-21',
+  homepageUpdated: '2026-06-22',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'sony-wf-1000xm6-vs-bose-quietcomfort-ultra-earbuds-2',
+    title: 'Sony WF-1000XM6 vs Bose QC Ultra Earbuds 2',
+    schemaName: 'Sony WF-1000XM6 vs Bose QuietComfort Ultra Earbuds 2',
+    schemaTitle: 'Sony WF-1000XM6 vs Bose QuietComfort Ultra Earbuds 2: Which noise-cancelling earbuds should you buy?',
+    category: 'Noise-cancelling earbuds',
+    categorySummary: 'ANC strength, battery life, codec and device fit, multipoint, app controls, wireless charging, IPX4 resistance, call quality, case habits, and travel or workday listening.',
+    date: '2026-06-22',
+    summary: 'Which premium noise-cancelling earbuds are the better buy for ANC, sound, battery, calls, app controls, wireless charging, and daily travel?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Sony's all-around WF-1000XM6 and Bose's ANC-first QuietComfort Ultra Earbuds 2.",
+    winnerLabel: 'Best premium earbud pick',
+    winner: 'Sony WF-1000XM6',
+    image: {
+      src: '/images/noise-cancelling-earbuds-comparison.webp',
+      url: 'https://worthadding.com/images/noise-cancelling-earbuds-comparison.webp',
+      alt: 'Two premium wireless earbud sets with charging cases on a bright travel desk with a phone, laptop, notebook, and soft pouch for the Sony WF-1000XM6 vs Bose QuietComfort Ultra Earbuds 2 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'oxo-good-grips-vs-escali-primo-digital-kitchen-scale',
     title: 'OXO Good Grips vs Escali Primo',

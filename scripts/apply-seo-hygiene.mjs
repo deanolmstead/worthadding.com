@@ -45,7 +45,7 @@ function relatedFor(comparison) {
   ]);
   const powerTools = new Set(['Cordless drills', 'Table saws']);
   const homeComfort = new Set(['Air purifiers', 'Light therapy', 'Hair dryers']);
-  const electronics = new Set(['Portable power stations', 'Turntables', 'Cameras', 'Telescopes', 'Portable SSDs', 'Noise-cancelling headphones', 'Audio interfaces', 'Portable monitors']);
+  const electronics = new Set(['Portable power stations', 'Turntables', 'Cameras', 'Telescopes', 'Portable SSDs', 'Noise-cancelling headphones', 'Noise-cancelling earbuds', 'Audio interfaces', 'Portable monitors']);
   const sports = new Set(['Basketball hoops']);
   const outdoorGear = new Set(['Rechargeable camping lanterns', 'Portable power stations', 'Portable Bluetooth speakers', 'Travel backpacks']);
 
