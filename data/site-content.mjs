@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-23',
+  homepageUpdated: '2026-06-24',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'logitech-yeti-vs-hyperx-quadcast-usb-microphone',
+    title: 'Logitech Yeti vs HyperX QuadCast',
+    schemaName: 'Logitech Yeti vs HyperX QuadCast',
+    schemaTitle: 'Logitech Yeti vs HyperX QuadCast: Which USB streaming microphone should you buy?',
+    category: 'Desktop USB streaming microphones',
+    categorySummary: 'Pickup patterns, mute feedback, shock and pop handling, headphone monitoring, software controls, USB connector fit, desk stand or boom-arm setup, and solo creator workflow.',
+    date: '2026-06-24',
+    summary: 'Which desktop USB streaming microphone is the better buy for solo voice, mute controls, pickup patterns, desk setup, app processing, and creator workflows?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Logitech's software-friendly Yeti and HyperX's streamer-ready QuadCast.",
+    winnerLabel: 'Best USB streaming mic pick',
+    winner: 'HyperX QuadCast',
+    image: {
+      src: '/images/desktop-usb-streaming-microphone-comparison.webp',
+      url: 'https://worthadding.com/images/desktop-usb-streaming-microphone-comparison.webp',
+      alt: 'Two unbranded desktop USB microphones on a bright creator desk with headphones, a laptop, a notebook, USB cable, and acoustic panels for the Logitech Yeti vs HyperX QuadCast comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'lego-wildflower-bouquet-vs-flower-bouquet',
     title: 'LEGO Wildflower Bouquet vs Flower Bouquet',
