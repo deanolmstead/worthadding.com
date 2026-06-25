@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-24',
+  homepageUpdated: '2026-06-25',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'canon-selphy-cp1500-vs-epson-picturemate-pm-400-photo-printer',
+    title: 'Canon SELPHY CP1500 vs Epson PictureMate PM-400',
+    schemaName: 'Canon SELPHY CP1500 vs Epson PictureMate PM-400',
+    schemaTitle: 'Canon SELPHY CP1500 vs Epson PictureMate PM-400: Which compact photo printer should you buy?',
+    category: 'Compact photo printers',
+    categorySummary: '4x6 and 5x7 print sizes, dye-sub versus inkjet workflow, phone and memory-card printing, screen size, footprint, portability, consumable packs, and home-event photo sharing.',
+    date: '2026-06-25',
+    summary: 'Which compact photo printer is the better buy for 4x6 snapshots, 5x7 gifts, phone printing, memory cards, portability, and refill planning?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Canon's portable SELPHY CP1500 and Epson's home-photo-station PictureMate PM-400.",
+    winnerLabel: 'Best compact photo printer pick',
+    winner: 'Epson PictureMate PM-400',
+    image: {
+      src: '/images/compact-photo-printer-comparison.webp',
+      url: 'https://worthadding.com/images/compact-photo-printer-comparison.webp',
+      alt: 'Two unbranded compact photo printers on a bright desk with glossy photo prints, a smartphone, memory card, USB-C cable, and stacked photo paper for the Canon SELPHY CP1500 vs Epson PictureMate PM-400 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'logitech-yeti-vs-hyperx-quadcast-usb-microphone',
     title: 'Logitech Yeti vs HyperX QuadCast',
