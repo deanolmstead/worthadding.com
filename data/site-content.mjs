@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-25',
+  homepageUpdated: '2026-06-28',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'o-cedar-promist-max-vs-oxo-good-grips-spray-mop',
+    title: 'O-Cedar ProMist MAX vs OXO Good Grips Spray Mop',
+    schemaName: 'O-Cedar ProMist MAX vs OXO Good Grips Microfiber Spray Mop',
+    schemaTitle: 'O-Cedar ProMist MAX vs OXO Good Grips Spray Mop: Which microfiber spray mop should you buy?',
+    category: 'Microfiber spray mops',
+    categorySummary: 'Reusable microfiber pads, refillable bottles, spray triggers, double-sided pad workflow, slide-out scrubbers, hard-floor fit, refill planning, and storage habits.',
+    date: '2026-06-28',
+    summary: 'Which microfiber spray mop is the better buy for refillable cleaning, reusable pads, hard floors, spot scrubbing, storage, and everyday kitchen cleanup?',
+    featuredSummary: "A sourced comparison for shoppers choosing between O-Cedar's double-sided ProMist MAX and OXO's scrubber-focused Good Grips spray mop.",
+    winnerLabel: 'Best microfiber spray mop pick',
+    winner: 'O-Cedar ProMist MAX',
+    image: {
+      src: '/images/microfiber-spray-mop-comparison.webp',
+      url: 'https://worthadding.com/images/microfiber-spray-mop-comparison.webp',
+      alt: 'Two unbranded microfiber spray mops on a bright kitchen floor with washable pads, a refillable bottle, cleaning solution, a tile sample, and a small spill for the O-Cedar ProMist MAX vs OXO Good Grips spray mop comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'canon-selphy-cp1500-vs-epson-picturemate-pm-400-photo-printer',
     title: 'Canon SELPHY CP1500 vs Epson PictureMate PM-400',
