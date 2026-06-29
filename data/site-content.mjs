@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-28',
+  homepageUpdated: '2026-06-29',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'zojirushi-ns-zcc10-vs-ns-tsc10-rice-cooker',
+    title: 'Zojirushi NS-ZCC10 vs NS-TSC10',
+    schemaName: 'Zojirushi NS-ZCC10 vs NS-TSC10',
+    schemaTitle: 'Zojirushi NS-ZCC10 vs NS-TSC10: Which rice cooker should you buy?',
+    category: 'Compact rice cookers',
+    categorySummary: '5.5-cup capacity, micom controls, rice-menu range, steaming and cake modes, keep-warm behavior, counter footprint, electrical rating, cleanup pieces, and weeknight rice routines.',
+    date: '2026-06-29',
+    summary: 'Which Zojirushi 5.5-cup rice cooker is the better buy for rice texture, steaming, cake mode, counter fit, keep-warm cycles, and everyday family meals?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Zojirushi's rice-focused Neuro Fuzzy NS-ZCC10 and the more flexible Micom NS-TSC10.",
+    winnerLabel: 'Best rice cooker pick',
+    winner: 'Zojirushi Neuro Fuzzy NS-ZCC10',
+    image: {
+      src: '/images/compact-rice-cooker-comparison.webp',
+      url: 'https://worthadding.com/images/compact-rice-cooker-comparison.webp',
+      alt: 'Two compact rice cookers on a bright kitchen counter with bowls of cooked rice, a measuring cup, rice paddle, rinsed rice, and soft steam for the Zojirushi NS-ZCC10 vs NS-TSC10 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'o-cedar-promist-max-vs-oxo-good-grips-spray-mop',
     title: 'O-Cedar ProMist MAX vs OXO Good Grips Spray Mop',
