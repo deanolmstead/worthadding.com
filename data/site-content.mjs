@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-29',
+  homepageUpdated: '2026-06-30',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'edifier-r1700bts-vs-r1280dbs-bookshelf-speaker',
+    title: 'Edifier R1700BTs vs R1280DBs',
+    schemaName: 'Edifier R1700BTs vs R1280DBs',
+    schemaTitle: 'Edifier R1700BTs vs R1280DBs: Which powered bookshelf speaker should you buy?',
+    category: 'Powered bookshelf speakers',
+    categorySummary: 'RMS output, Bluetooth and codec support, RCA versus optical and coaxial inputs, sub-out upgrade paths, cabinet dimensions, remote controls, and desktop or TV source fit.',
+    date: '2026-06-30',
+    summary: 'Which Edifier powered bookshelf speaker is the better buy for desktop audio, TV inputs, Bluetooth, subwoofer plans, cabinet size, and everyday listening?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Edifier's higher-output R1700BTs and the more digital-input-friendly R1280DBs.",
+    winnerLabel: 'Best powered bookshelf speaker pick',
+    winner: 'Edifier R1700BTs',
+    image: {
+      src: '/images/powered-bookshelf-speaker-comparison.webp',
+      url: 'https://worthadding.com/images/powered-bookshelf-speaker-comparison.webp',
+      alt: 'Two pairs of powered bookshelf speakers on a bright desk with a laptop, turntable, RCA cables, digital audio cable, Bluetooth phone, and small subwoofer for the Edifier R1700BTs vs R1280DBs comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'zojirushi-ns-zcc10-vs-ns-tsc10-rice-cooker',
     title: 'Zojirushi NS-ZCC10 vs NS-TSC10',
