@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'shark-hp201-vs-levoit-core-400s-air-purifier',
+    title: 'Shark HP201 vs Levoit Core 400S',
+    schemaName: 'Shark HP201 vs Levoit Core 400S',
+    schemaTitle: 'Shark HP201 vs Levoit Core 400S: Which air purifier should you buy?',
+    category: 'Air purifiers',
+    categorySummary: 'CADR verification, stated square-footage coverage, filtration type, noise level, smart controls, and physical footprint.',
+    date: '2026-07-21',
+    summary: 'Which large-room air purifier is the better buy for CADR-backed coverage, noise level, smart controls, and everyday air quality?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Shark's bigger-stated-coverage HP201 and Levoit's AHAM-verified Core 400S.",
+    winnerLabel: 'Best air purifier pick',
+    winner: 'Levoit Core 400S',
+    image: {
+      src: '/images/large-room-air-purifier-comparison.webp',
+      url: 'https://worthadding.com/images/large-room-air-purifier-comparison.webp',
+      alt: 'Two tower-style air purifiers in a bright living room near a sofa and a potted plant for the Shark HP201 vs Levoit Core 400S comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'garmin-vivosmart-5-vs-fitbit-charge-6-fitness-tracker',
     title: 'Garmin Vivosmart 5 vs Fitbit Charge 6',
     schemaName: 'Garmin Vivosmart 5 vs Fitbit Charge 6',
