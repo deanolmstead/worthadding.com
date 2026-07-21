@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'garmin-vivosmart-5-vs-fitbit-charge-6-fitness-tracker',
+    title: 'Garmin Vivosmart 5 vs Fitbit Charge 6',
+    schemaName: 'Garmin Vivosmart 5 vs Fitbit Charge 6',
+    schemaTitle: 'Garmin Vivosmart 5 vs Fitbit Charge 6: Which fitness tracker should you buy?',
+    category: 'Fitness trackers',
+    categorySummary: 'Built-in GPS, display type and brightness, health sensor package, battery life, subscription requirements, and band ecosystem.',
+    date: '2026-07-20',
+    summary: 'Which slim fitness tracker is the better buy for built-in GPS, display type, battery life, health sensors, and everyday wear?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Garmin's subscription-free Vivosmart 5 and Fitbit's GPS-equipped Charge 6.",
+    winnerLabel: 'Best fitness tracker pick',
+    winner: 'Fitbit Charge 6',
+    image: {
+      src: '/images/fitness-tracker-band-comparison.webp',
+      url: 'https://worthadding.com/images/fitness-tracker-band-comparison.webp',
+      alt: 'Two slim fitness tracker wristbands on a desk with a smartphone showing a fitness app, a charging cable, and a water bottle for the Garmin Vivosmart 5 vs Fitbit Charge 6 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'edifier-r1700bts-vs-r1280dbs-bookshelf-speaker',
     title: 'Edifier R1700BTs vs R1280DBs',
     schemaName: 'Edifier R1700BTs vs R1280DBs',
