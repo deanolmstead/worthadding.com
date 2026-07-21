@@ -99,6 +99,7 @@ const siteIcons = await loadPartial('site-icons.html');
 const signupStyle = await loadPartial('email-signup-style.html');
 const signup = await loadPartial('email-signup.html');
 const footerSignup = signup.replace('class="signup-banner"', 'class="signup-banner signup-banner--footer"');
+const analytics = await loadPartial('analytics.html');
 
 for (const page of pages) {
   const fullPath = path.join(root, page.file);
@@ -152,6 +153,14 @@ for (const page of pages) {
     'footer.html',
     footer,
     /<footer class="footer">[\s\S]*?<\/footer>/
+  );
+
+  html = replaceOrInsertManagedBlockBefore(
+    html,
+    'analytics',
+    'analytics.html',
+    analytics,
+    /<\/body>/
   );
 
   await writeFile(fullPath, html);
