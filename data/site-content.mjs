@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'apple-airtag-vs-tile-mate-2022-bluetooth-item-tracker',
+    title: 'Apple AirTag vs Tile Mate (2022)',
+    schemaName: 'Apple AirTag vs Tile Mate (2022)',
+    schemaTitle: 'Apple AirTag vs Tile Mate (2022): Which Bluetooth item tracker should you buy?',
+    category: 'Bluetooth item trackers',
+    categorySummary: 'Finding-network size, platform compatibility, precision-finding technology, battery design, and water resistance.',
+    date: '2026-07-22',
+    summary: 'Which Bluetooth item tracker is the better buy for finding-network size, precision finding, battery life, and cross-platform support?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Apple's network-leading AirTag and Tile's cross-platform Mate (2022).",
+    winnerLabel: 'Best Bluetooth item tracker pick',
+    winner: 'Apple AirTag',
+    image: {
+      src: '/images/item-tracker-comparison.webp',
+      url: 'https://worthadding.com/images/item-tracker-comparison.webp',
+      alt: 'Two small circular Bluetooth item trackers on a desk next to a set of keys, a wallet, and a smartphone showing a finder app for the Apple AirTag vs Tile Mate comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'shark-hp201-vs-levoit-core-400s-air-purifier',
     title: 'Shark HP201 vs Levoit Core 400S',
     schemaName: 'Shark HP201 vs Levoit Core 400S',
