@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'traeger-pro-575-vs-pit-boss-850fb2-wood-pellet-grill',
+    title: 'Traeger Pro 575 vs Pit Boss 850FB2',
+    schemaName: 'Traeger Pro 575 vs Pit Boss 850FB2',
+    schemaTitle: 'Traeger Pro 575 vs Pit Boss 850FB2: Which wood pellet grill should you buy?',
+    category: 'Wood pellet grills',
+    categorySummary: 'Cooking-area capacity, hopper size, temperature range and direct-flame searing, WiFi app and Alexa control, and physical footprint.',
+    date: '2026-07-23',
+    summary: 'Which wood pellet grill is the better buy for cooking-area capacity, hopper size, searing power, WiFi app control, and everyday backyard cooking?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Traeger's app-controlled Pro 575 and Pit Boss's bigger, searing-capable 850FB2.",
+    winnerLabel: 'Best wood pellet grill pick',
+    winner: 'Traeger Pro 575',
+    image: {
+      src: '/images/wood-pellet-grill-comparison.webp',
+      url: 'https://worthadding.com/images/wood-pellet-grill-comparison.webp',
+      alt: 'Two black wood pellet barbecue grills side by side on a backyard deck with a stack of firewood, a bag of wood pellets, and grilling tongs for the Traeger Pro 575 vs Pit Boss 850FB2 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'apple-airtag-vs-tile-mate-2022-bluetooth-item-tracker',
     title: 'Apple AirTag vs Tile Mate (2022)',
     schemaName: 'Apple AirTag vs Tile Mate (2022)',
