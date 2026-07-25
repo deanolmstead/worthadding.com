@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'yeti-tundra-45-vs-rtic-45-hard-cooler',
+    title: 'YETI Tundra 45 vs RTIC 45',
+    schemaName: 'YETI Tundra 45 vs RTIC 45',
+    schemaTitle: 'YETI Tundra 45 vs RTIC 45: Which hard-sided cooler should you buy?',
+    category: 'Hard-sided rotomolded coolers',
+    categorySummary: 'Can and ice capacity, exterior and interior dimensions, empty weight, latch and drain-system design, bear-resistant certification, and everyday camping, tailgating, and fishing use.',
+    date: '2026-07-25',
+    summary: 'Which hard-sided rotomolded cooler is the better buy for can and ice capacity, interior volume, empty weight, drain design, and everyday camping, tailgating, and fishing trips?',
+    featuredSummary: "A sourced comparison for shoppers choosing between YETI's compact, bear-resistant-certified Tundra 45 and RTIC's higher-capacity 45 QT Ultra-Tough cooler.",
+    winnerLabel: 'Best hard-sided cooler pick',
+    winner: 'YETI Tundra 45',
+    image: {
+      src: '/images/hard-sided-rotomolded-cooler-comparison.webp',
+      url: 'https://worthadding.com/images/hard-sided-rotomolded-cooler-comparison.webp',
+      alt: 'A tan hard-sided rotomolded cooler and a grey hard-sided rotomolded cooler side by side on a wooden dock with a bag of ice, canned drinks, sunglasses, and a rope handle for the YETI Tundra 45 vs RTIC 45 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'traeger-pro-575-vs-pit-boss-850fb2-wood-pellet-grill',
     title: 'Traeger Pro 575 vs Pit Boss 850FB2',
     schemaName: 'Traeger Pro 575 vs Pit Boss 850FB2',

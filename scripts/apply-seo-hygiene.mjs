@@ -47,7 +47,7 @@ function relatedFor(comparison) {
   const homeComfort = new Set(['Air purifiers', 'Light therapy', 'Hair dryers']);
   const electronics = new Set(['Portable power stations', 'Turntables', 'Cameras', 'Telescopes', 'Portable SSDs', 'Noise-cancelling headphones', 'Noise-cancelling earbuds', 'Audio interfaces', 'Portable monitors']);
   const sports = new Set(['Basketball hoops']);
-  const outdoorGear = new Set(['Rechargeable camping lanterns', 'Portable power stations', 'Portable Bluetooth speakers', 'Travel backpacks']);
+  const outdoorGear = new Set(['Rechargeable camping lanterns', 'Portable power stations', 'Portable Bluetooth speakers', 'Travel backpacks', 'Hard-sided rotomolded coolers']);
 
   const cluster = [sameHome, powerTools, homeComfort, electronics, sports, outdoorGear]
     .find((group) => group.has(comparison.category));
