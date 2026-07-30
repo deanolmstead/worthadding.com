@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'ego-power-lb6504-vs-ryobi-40v-hp-brushless-whisper-series-leaf-blower',
+    title: 'EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series',
+    schemaName: 'EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series',
+    schemaTitle: 'EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series: Which cordless leaf blower should you buy?',
+    category: 'Cordless leaf blowers',
+    categorySummary: 'Airflow (CFM) and air speed (MPH), noise level, battery count and voltage system, bare-tool and ready-to-use weight, included accessories, and everyday yard-cleanup fit.',
+    date: '2026-07-30',
+    summary: 'Which cordless leaf blower is the better buy for airflow, air speed, noise level, battery life, weight, and everyday yard cleanup?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Ryobi's higher-output, two-battery Whisper Series blower and EGO's lighter, more compact 650 CFM Power+ blower.",
+    winnerLabel: 'Best cordless leaf blower pick',
+    winner: 'Ryobi 40V HP Brushless Whisper Series',
+    image: {
+      src: '/images/cordless-leaf-blower-comparison.webp',
+      url: 'https://worthadding.com/images/cordless-leaf-blower-comparison.webp',
+      alt: 'A dark green cordless leaf blower and an orange cordless leaf blower side by side on a driveway with a pile of autumn leaves, a rake, and work gloves for the EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'yeti-tundra-45-vs-rtic-45-hard-cooler',
     title: 'YETI Tundra 45 vs RTIC 45',
     schemaName: 'YETI Tundra 45 vs RTIC 45',
