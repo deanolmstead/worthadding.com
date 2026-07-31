@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'fiskars-powergear2-vs-corona-classiccut-bypass-lopper',
+    title: 'Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper',
+    schemaName: 'Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper',
+    schemaTitle: 'Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper: Which bypass lopper should you buy?',
+    category: 'Bypass loppers',
+    categorySummary: 'Cut capacity, cutting mechanism (gear-assisted vs straight leverage), overall length and reach, handle material, weight, and blade upkeep.',
+    date: '2026-07-31',
+    summary: 'Which bypass lopper is the better buy for cut capacity, reach, cutting effort, blade durability, weight, and everyday pruning?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Fiskars's gear-assisted, lower-effort PowerGear2 lopper and Corona's longer-reach, bigger-capacity ClassicCUT forged lopper.",
+    winnerLabel: 'Best bypass lopper pick',
+    winner: 'Fiskars PowerGear2 Bypass Lopper',
+    image: {
+      src: '/images/bypass-lopper-comparison.webp',
+      url: 'https://worthadding.com/images/bypass-lopper-comparison.webp',
+      alt: 'A gray-and-black gear-head bypass lopper and a red-and-hickory forged bypass lopper leaning against a wooden garden fence beside a pile of trimmed branches and leather gardening gloves for the Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'ego-power-lb6504-vs-ryobi-40v-hp-brushless-whisper-series-leaf-blower',
     title: 'EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series',
     schemaName: 'EGO Power+ LB6504 vs Ryobi 40V HP Brushless Whisper Series',
