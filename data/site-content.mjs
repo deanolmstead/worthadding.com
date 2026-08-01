@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'meguiars-gold-class-vs-chemical-guys-mr-pink-car-wash-soap',
+    title: "Meguiar's Gold Class vs Chemical Guys Mr. Pink",
+    schemaName: "Meguiar's Gold Class vs Chemical Guys Mr. Pink",
+    schemaTitle: "Meguiar's Gold Class vs Chemical Guys Mr. Pink: Which car wash soap should you buy?",
+    category: 'Car wash soaps',
+    categorySummary: 'Bottle capacity, bucket-wash routine, foam-cannon positioning, stated dilution guidance, named applicable finishes, and the level of setup each regular wash requires.',
+    date: '2026-08-01',
+    summary: 'Which car wash soap is the better buy for bucket washing, foam cannon use, dilution guidance, finish compatibility, bottle size, and a regular wash routine?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Meguiar's simple wash-and-condition Gold Class formula and Chemical Guys' foam-focused Mr. Pink concentrate.",
+    winnerLabel: 'Best car wash soap pick',
+    winner: "Meguiar's Gold Class Car Wash Shampoo & Conditioner",
+    image: {
+      src: '/images/car-wash-soap-comparison.webp',
+      url: 'https://worthadding.com/images/car-wash-soap-comparison.webp',
+      alt: "A gold liquid car-wash soap bottle and a pink liquid car-wash soap bottle beside a sudsy bucket, wash mitt, microfiber towels, and a silver car for the Meguiar's Gold Class vs Chemical Guys Mr. Pink comparison",
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'fiskars-powergear2-vs-corona-classiccut-bypass-lopper',
     title: 'Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper',
     schemaName: 'Fiskars PowerGear2 vs Corona ClassicCUT Bypass Lopper',
