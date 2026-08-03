@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-06-30',
+  homepageUpdated: '2026-08-02',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'bissell-little-green-1400b-vs-hoover-cleanslate-plus-fh14050',
+    title: 'BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050',
+    schemaName: 'BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050',
+    schemaTitle: 'BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050: Which portable carpet cleaner should you buy?',
+    category: 'Portable carpet spot cleaners',
+    categorySummary: 'Clean- and dirty-water capacity, weight, cord and hose reach, cleaning-path width, included tools, model confidence, and fit for pet messes, upholstery, stairs, rugs, and car interiors.',
+    date: '2026-08-02',
+    summary: 'Which portable carpet spot cleaner is the better buy for pet messes, spill cleanup, tank capacity, included tools, hose reach, and car or upholstery use?',
+    featuredSummary: "A sourced comparison for shoppers choosing between BISSELL's straightforward Little Green 1400B and Hoover's wider-tool, pet-mess-focused CleanSlate Plus FH14050.",
+    winnerLabel: 'Best portable spot cleaner pick',
+    winner: 'BISSELL Little Green Portable Carpet & Upholstery Cleaner 1400B',
+    image: {
+      src: '/images/portable-carpet-spot-cleaner-comparison.webp',
+      url: 'https://worthadding.com/images/portable-carpet-spot-cleaner-comparison.webp',
+      alt: 'Two unbranded portable carpet spot cleaners beside a coffee spill, rug, upholstery, cleaning cloths, and pet toy for the BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'meguiars-gold-class-vs-chemical-guys-mr-pink-car-wash-soap',
     title: "Meguiar's Gold Class vs Chemical Guys Mr. Pink",
