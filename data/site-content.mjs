@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'lodge-classic-12-inch-vs-chef-collection-12-inch-cast-iron-skillet',
+    title: 'Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet',
+    schemaName: 'Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet',
+    schemaTitle: 'Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet: Which cast iron skillet should you buy?',
+    category: 'Cast iron skillets',
+    categorySummary: 'Cooking-surface shape, depth, flat-bottom size, overall footprint, handle design, stovetop and oven fit, retailer model clarity, and the everyday routine each skillet supports.',
+    date: '2026-08-03',
+    summary: 'Which Lodge 12-inch cast iron skillet is the better buy for cooking-surface shape, depth, weight, handle design, everyday stovetop use, and long-term kitchen routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Lodge's deeper Classic skillet and its lower, spatula-friendly Chef Collection profile.",
+    winnerLabel: 'Best cast iron skillet pick',
+    winner: 'Lodge Classic 12-Inch Cast Iron Skillet L10SK3',
+    image: {
+      src: '/images/cast-iron-skillet-comparison.webp',
+      url: 'https://worthadding.com/images/cast-iron-skillet-comparison.webp',
+      alt: 'Two unbranded cast iron skillets with a wooden spatula, eggs, herbs, vegetables, and linen towel for the Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'bissell-little-green-1400b-vs-hoover-cleanslate-plus-fh14050',
     title: 'BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050',
     schemaName: 'BISSELL Little Green 1400B vs Hoover CleanSlate Plus FH14050',
