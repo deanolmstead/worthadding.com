@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-original-kettle-22-vs-master-touch-22-charcoal-grill',
+    title: 'Weber Original Kettle 22 vs Master-Touch 22',
+    schemaName: 'Weber Original Kettle 22 vs Master-Touch 22',
+    schemaTitle: 'Weber Original Kettle 22 vs Master-Touch 22: Which charcoal grill should you buy?',
+    category: 'Charcoal kettle grills',
+    categorySummary: 'Primary and total cooking area, closed-lid footprint, grate access, warming-rack use, charcoal organization, lid handling, cleanup hardware, storage, and the everyday cookout routine each 22-inch kettle supports.',
+    date: '2026-08-04',
+    summary: 'Which 22-inch Weber charcoal grill is the better buy for cooking area, footprint, cleanup, lid handling, warming-rack use, charcoal setup, and everyday backyard grilling?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Weber's compact Original Kettle routine and the Master-Touch's added grate, rack, and lid-handling convenience.",
+    winnerLabel: 'Best charcoal grill pick',
+    winner: 'Weber Original Kettle Charcoal Grill 22-inch, 741001',
+    image: {
+      src: '/images/charcoal-kettle-grill-comparison.webp',
+      url: 'https://worthadding.com/images/charcoal-kettle-grill-comparison.webp',
+      alt: 'Two unbranded charcoal kettle grills with grilling tools, vegetables, chimney starter, herbs, and patio setting for the Weber Original Kettle 22 vs Master-Touch 22 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'lodge-classic-12-inch-vs-chef-collection-12-inch-cast-iron-skillet',
     title: 'Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet',
     schemaName: 'Lodge Classic 12-Inch vs Chef Collection 12-Inch Skillet',
