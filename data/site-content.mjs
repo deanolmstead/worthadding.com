@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'oxo-good-grips-vs-cuisinart-salad-spinner',
+    title: 'OXO Good Grips vs Cuisinart Salad Spinner',
+    schemaName: 'OXO Good Grips vs Cuisinart Salad Spinner',
+    schemaTitle: 'OXO Good Grips vs Cuisinart Salad Spinner: Which salad spinner should you buy?',
+    category: 'Salad spinners',
+    categorySummary: 'Published bowl and basket capacity, countertop and cabinet footprint, pump versus hand-crank control, brake operation, rinse-and-drain workflow, serving-bowl use, lid cleanup, and the everyday produce-prep routine each manual spinner supports.',
+    date: '2026-08-05',
+    summary: 'Which salad spinner is the better buy for greens capacity, countertop footprint, spinning control, draining, cleanup, serving-bowl use, and everyday meal prep?',
+    featuredSummary: "A sourced comparison for shoppers choosing between OXO's larger pump-and-brake workflow and Cuisinart's compact hand-crank, lid-on drain routine.",
+    winnerLabel: 'Best salad spinner pick',
+    winner: 'OXO Good Grips Salad Spinner, 32480',
+    image: {
+      src: '/images/salad-spinner-comparison.webp',
+      url: 'https://worthadding.com/images/salad-spinner-comparison.webp',
+      alt: 'An unbranded white pump salad spinner and a clear green hand-crank salad spinner with romaine, herbs, tomatoes, linen towel, and a kitchen counter for the OXO Good Grips vs Cuisinart Salad Spinner comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-original-kettle-22-vs-master-touch-22-charcoal-grill',
     title: 'Weber Original Kettle 22 vs Master-Touch 22',
     schemaName: 'Weber Original Kettle 22 vs Master-Touch 22',
