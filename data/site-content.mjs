@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'stanley-powerlock-33-425-vs-fatmax-33-725-tape-measure',
+    title: 'STANLEY PowerLock 33-425 vs FATMAX 33-725',
+    schemaName: 'STANLEY PowerLock 33-425 vs FATMAX 33-725',
+    schemaTitle: 'STANLEY PowerLock 33-425 vs FATMAX 33-725: Which tape measure should you buy?',
+    category: 'Tape measures',
+    categorySummary: 'Tape length, blade width, unsupported reach, blade protection, case construction, lock and hook design, framing marks, belt-carry bulk, and the measuring routine each 25-foot tape supports.',
+    date: '2026-08-06',
+    summary: 'Which 25-foot STANLEY tape measure is the better buy for blade reach, readability, case size, blade protection, framing marks, belt carry, and everyday measuring?',
+    featuredSummary: "A sourced comparison for shoppers choosing between STANLEY's compact chrome PowerLock and the wider, longer-reaching FATMAX Classic.",
+    winnerLabel: 'Best tape measure pick',
+    winner: 'STANLEY PowerLock 25 ft. Tape Measure, 33-425',
+    image: {
+      src: '/images/tape-measure-comparison.webp',
+      url: 'https://worthadding.com/images/tape-measure-comparison.webp',
+      alt: 'An unbranded compact chrome tape measure and a larger yellow-and-black tape measure with extended blades, lumber, square, pencil, and tool apron for the STANLEY PowerLock 33-425 vs FATMAX 33-725 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'oxo-good-grips-vs-cuisinart-salad-spinner',
     title: 'OXO Good Grips vs Cuisinart Salad Spinner',
     schemaName: 'OXO Good Grips vs Cuisinart Salad Spinner',
