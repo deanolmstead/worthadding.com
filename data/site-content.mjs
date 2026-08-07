@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-02',
+  homepageUpdated: '2026-08-07',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,12 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'philips-sonicare-4100-hx3681-23-vs-oral-b-io-series-2-electric-toothbrush', title: 'Philips Sonicare 4100 vs Oral-B iO Series 2', schemaName: 'Philips Sonicare 4100 vs Oral-B iO Series 2', schemaTitle: 'Philips Sonicare 4100 vs Oral-B iO Series 2: Which electric toothbrush should you buy?', category: 'Electric toothbrushes',
+    categorySummary: 'Pressure feedback, timer guidance, selectable cleaning settings, brush-head format, published battery wording, replacement-head ecosystem, starter-kit contents, and the daily routine each rechargeable toothbrush supports.', date: '2026-08-07', summary: 'Which starter electric toothbrush is the better buy for pressure feedback, cleaning modes, timer guidance, brush-head format, battery clarity, and a straightforward daily routine?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Sonicare's simple elongated-head routine and Oral-B iO's round-head, three-mode starter setup.", winnerLabel: 'Best electric toothbrush pick', winner: 'Philips Sonicare 4100 Series Sonic Electric Toothbrush, HX3681/23',
+    image: { src: '/images/electric-toothbrush-comparison.webp', url: 'https://worthadding.com/images/electric-toothbrush-comparison.webp', alt: 'An unbranded white sonic electric toothbrush and charcoal round-head electric toothbrush upright on charging bases beside a towel, tumbler, and greenery in a bright bathroom', width: 1448, height: 1086 }
+  },
   {
     slug: 'stanley-powerlock-33-425-vs-fatmax-33-725-tape-measure',
     title: 'STANLEY PowerLock 33-425 vs FATMAX 33-725',
