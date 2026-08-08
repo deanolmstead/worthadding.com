@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-07',
+  homepageUpdated: '2026-08-08',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'oxo-pop-8-piece-baking-set-vs-rubbermaid-brilliance-pantry-8-piece-set',
+    title: 'OXO POP 8-Piece Baking Set vs Rubbermaid Brilliance Pantry 8-Piece Set',
+    schemaName: 'OXO POP 8-Piece Baking Set vs Rubbermaid Brilliance Pantry 8-Piece Set',
+    schemaTitle: 'OXO POP 8-Piece Baking Set vs Rubbermaid Brilliance Pantry 8-Piece Set: Which pantry storage container set should you buy?',
+    category: 'Pantry storage container sets',
+    categorySummary: 'Container count versus accessories, capacity mix, lid operation, dry-goods fit, stackability, shelf footprint, dishwasher and freezer guidance, cleaning, refill workflow, and the pantry routine each set supports.',
+    date: '2026-08-08',
+    summary: 'Which pantry storage container set is the better buy for baking staples, container mix, lid operation, shelf organization, cleaning, freezer storage, and everyday dry-goods routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between OXO's baking-focused push-button POP set and Rubbermaid's broad-capacity latch-lid pantry set.",
+    winnerLabel: 'Best pantry storage container set pick',
+    winner: 'OXO Good Grips 8-Piece POP Container Baking Set',
+    image: {
+      src: '/images/pantry-storage-container-set-comparison.webp',
+      url: 'https://worthadding.com/images/pantry-storage-container-set-comparison.webp',
+      alt: 'An unbranded group of white push-button pantry containers and a group of clear latch-lid pantry containers filled with flour, sugar, oats, pasta, and rice on a warm pantry counter for the OXO POP 8-Piece Baking Set vs Rubbermaid Brilliance Pantry 8-Piece Set comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'philips-sonicare-4100-hx3681-23-vs-oral-b-io-series-2-electric-toothbrush', title: 'Philips Sonicare 4100 vs Oral-B iO Series 2', schemaName: 'Philips Sonicare 4100 vs Oral-B iO Series 2', schemaTitle: 'Philips Sonicare 4100 vs Oral-B iO Series 2: Which electric toothbrush should you buy?', category: 'Electric toothbrushes',
     categorySummary: 'Pressure feedback, timer guidance, selectable cleaning settings, brush-head format, published battery wording, replacement-head ecosystem, starter-kit contents, and the daily routine each rechargeable toothbrush supports.', date: '2026-08-07', summary: 'Which starter electric toothbrush is the better buy for pressure feedback, cleaning modes, timer guidance, brush-head format, battery clarity, and a straightforward daily routine?',
