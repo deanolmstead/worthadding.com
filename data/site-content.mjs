@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-08',
+  homepageUpdated: '2026-08-09',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'owala-freesip-24-oz-vs-stanley-iceflow-flip-straw-tumbler-20-oz',
+    title: 'Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz',
+    schemaName: 'Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz',
+    schemaTitle: 'Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz: Which insulated water bottle should you buy?',
+    category: 'Insulated water bottles',
+    categorySummary: 'Capacity, published dimensions, drinking style, covered-lid or flip-straw routine, carry design, maker-stated cold retention, cleanup guidance, refilling habits, and the daily hydration routine each insulated vessel supports.',
+    date: '2026-08-09',
+    summary: 'Which insulated water bottle is the better buy for capacity, drinking style, cold retention, carry design, cleanup, desk use, and everyday hydration?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Owala's covered, sip-or-swig FreeSip bottle and Stanley's handled flip-straw IceFlow tumbler.",
+    winnerLabel: 'Best insulated water bottle pick',
+    winner: 'Owala FreeSip 24 oz Stainless Steel Water Bottle',
+    image: {
+      src: '/images/insulated-water-bottle-comparison.webp',
+      url: 'https://worthadding.com/images/insulated-water-bottle-comparison.webp',
+      alt: 'An unbranded upright slim insulated water bottle with covered sip lid beside an unbranded handled flip-straw insulated tumbler, gym bag, towel, ice, lemon, and notebook for the Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'oxo-pop-8-piece-baking-set-vs-rubbermaid-brilliance-pantry-8-piece-set',
     title: 'OXO POP 8-Piece Baking Set vs Rubbermaid Brilliance Pantry 8-Piece Set',
