@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'victorinox-fibrox-8-inch-vs-mercer-millennia-8-inch-chefs-knife',
+    title: 'Victorinox Fibrox 8 in vs Mercer Millennia 8 in',
+    schemaName: 'Victorinox Fibrox 8 in vs Mercer Millennia 8 in',
+    schemaTitle: 'Victorinox Fibrox 8 in vs Mercer Millennia 8 in: Which chef’s knife should you buy?',
+    category: 'Chef’s knives',
+    categorySummary: 'Blade length, overall footprint, blade profile, handle materials, published edge details, care guidance, storage routine, and the everyday prep work each 8-inch chef’s knife supports.',
+    date: '2026-08-10',
+    summary: 'Which chef’s knife is the better buy for blade profile, published dimensions, grip, edge details, care routine, storage, and everyday prep?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Victorinox's extra-wide, dishwasher-safe Fibrox format and Mercer's published edge-detail, hand-wash-first Millennia routine.",
+    winnerLabel: 'Best chef’s knife pick',
+    winner: 'Victorinox Fibrox® Chef’s Knife Extra Wide, 8 in, 5.2063.20',
+    image: {
+      src: '/images/chefs-knife-comparison.webp',
+      url: 'https://worthadding.com/images/chefs-knife-comparison.webp',
+      alt: 'Two unbranded black-handled 8-inch chef’s knives on walnut cutting boards with onion, parsley, garlic, linen towel, and wooden spoon for the Victorinox Fibrox 8 in vs Mercer Millennia 8 in comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'owala-freesip-24-oz-vs-stanley-iceflow-flip-straw-tumbler-20-oz',
     title: 'Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz',
     schemaName: 'Owala FreeSip 24 oz vs Stanley IceFlow Flip Straw Tumbler 20 oz',
