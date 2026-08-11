@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-jumbo-joe-18-vs-char-griller-akorn-jr-portable-charcoal-grill',
+    title: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.',
+    schemaName: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.',
+    schemaTitle: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.: Which portable charcoal grill should you buy?',
+    category: 'Portable charcoal grills',
+    categorySummary: 'Cooking area, published footprint, grill construction, temperature-control approach, grate material, carry routine, ash management, storage, and the campsite or patio cooking pattern each portable charcoal grill supports.',
+    date: '2026-08-11',
+    summary: 'Which portable charcoal grill is the better buy for cooking area, temperature range, grill style, portability, cleanup, storage, and campsite or patio cooking?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Weber's larger-grate portable kettle and Char-Griller's insulated, damper-managed AKORN Jr. kamado format.",
+    winnerLabel: 'Best portable charcoal grill pick',
+    winner: 'Weber 18” Jumbo Joe® Charcoal Grill, 1211001',
+    image: {
+      src: '/images/portable-charcoal-grill-comparison.webp',
+      url: 'https://worthadding.com/images/portable-charcoal-grill-comparison.webp',
+      alt: 'Two unbranded portable charcoal grills, one glossy black kettle-style and one compact charcoal-gray kamado-style, beside grilling vegetables, tongs, charcoal, linen, and a cooler on a wood patio for the Weber Jumbo Joe 18 vs Char-Griller AKORN Jr. comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'victorinox-fibrox-8-inch-vs-mercer-millennia-8-inch-chefs-knife',
     title: 'Victorinox Fibrox 8 in vs Mercer Millennia 8 in',
     schemaName: 'Victorinox Fibrox 8 in vs Mercer Millennia 8 in',
