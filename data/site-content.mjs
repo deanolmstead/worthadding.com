@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'fiskars-power-tooth-7-vs-corona-razortooth-7-folding-pruning-saw',
+    title: 'Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in',
+    schemaName: 'Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in',
+    schemaTitle: 'Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in: Which folding pruning saw should you buy?',
+    category: 'Folding pruning saws',
+    categorySummary: 'Blade length and shape, tooth pattern, maker-published branch capacity, steel and coating details, locking positions, fold-closed storage, grip, replacement support, and the garden-pruning routine each compact saw supports.',
+    date: '2026-08-12',
+    summary: 'Which folding pruning saw is the better buy for blade design, branch capacity, tooth pattern, locking, storage, grip, replacement support, and routine yard pruning?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Fiskars’s simple two-position 7-inch folding saw and Corona’s curved, stated-capacity RazorTOOTH alternative.",
+    winnerLabel: 'Best folding pruning saw pick',
+    winner: 'Fiskars POWER TOOTH® Softgrip® Folding Saw, 7 in., 390680-1001',
+    image: {
+      src: '/images/folding-pruning-saw-comparison.webp',
+      url: 'https://worthadding.com/images/folding-pruning-saw-comparison.webp',
+      alt: 'Two unbranded compact folding pruning saws, one with a charcoal handle and straight blade and one with a red-and-black handle and curved blade, on a garden workbench with branches, gloves, twine, and a terracotta pot for the Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-jumbo-joe-18-vs-char-griller-akorn-jr-portable-charcoal-grill',
     title: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.',
     schemaName: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.',
