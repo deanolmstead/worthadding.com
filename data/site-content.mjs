@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'ooni-koda-2-vs-gozney-arc-gas-pizza-oven',
+    title: 'Ooni Koda 2 vs Gozney Arc',
+    schemaName: 'Ooni Koda 2 vs Gozney Arc',
+    schemaTitle: 'Ooni Koda 2 vs Gozney Arc: Which gas pizza oven should you buy?',
+    category: 'Gas pizza ovens',
+    categorySummary: 'Pizza capacity, fuel, published heat, weight, exterior and internal dimensions, stone format, temperature feedback, portability, setup routine, and the patio cooking pattern each compact propane pizza oven supports.',
+    date: '2026-08-13',
+    summary: 'Which gas pizza oven is the better buy for 14-inch pizza capacity, heat, portability, stone design, temperature feedback, counter space, storage, and backyard cooking?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Ooni’s lighter, carry-friendly Koda 2 and Gozney’s thermometer-equipped Arc cooking station.",
+    winnerLabel: 'Best gas pizza oven pick',
+    winner: 'Ooni Koda 2',
+    image: {
+      src: '/images/gas-pizza-oven-comparison.webp',
+      url: 'https://worthadding.com/images/gas-pizza-oven-comparison.webp',
+      alt: 'Two unbranded compact propane pizza ovens, one boxy and one rounded with a lateral flame, on a sunny patio counter with pizza dough, basil, flour, and a finished pizza for the Ooni Koda 2 vs Gozney Arc comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'fiskars-power-tooth-7-vs-corona-razortooth-7-folding-pruning-saw',
     title: 'Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in',
     schemaName: 'Fiskars POWER TOOTH 7 in vs Corona RazorTOOTH 7 in',
