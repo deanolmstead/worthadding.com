@@ -1,5 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { comparisons, pageFileForComparison, site } from '../data/site-content.mjs';
+import { comparisons, comparisonUrl, pageFileForComparison, site } from '../data/site-content.mjs';
 
 const root = process.cwd();
 
@@ -104,6 +104,8 @@ async function updatePage(comparison) {
     .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${htmlEscape(description)}">`)
     .replace(/<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${htmlEscape(title)}">`)
     .replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${htmlEscape(description)}">`)
+    .replace(/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${comparisonUrl(comparison)}">`)
+    .replace(/<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${comparisonUrl(comparison)}">`)
     .replace(/<meta property="og:image:type" content="[^"]*">\n?/, '')
     .replace(/<meta property="article:published_time" content="[^"]*">/, `<meta property="article:published_time" content="${dt}">`)
     .replace(/<meta property="article:modified_time" content="[^"]*">/, `<meta property="article:modified_time" content="${dt}">`)

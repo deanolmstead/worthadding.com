@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-09',
+  homepageUpdated: '2026-08-14',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'yeti-rambler-20-oz-vs-stanley-transit-flip-top-mug-20-oz',
+    title: 'YETI Rambler 20 oz vs Stanley Transit Flip Top Mug 20 oz',
+    schemaName: 'YETI Rambler 20 oz vs Stanley Transit Flip Top Mug 20 oz',
+    schemaTitle: 'YETI Rambler 20 oz vs Stanley Transit Flip Top Mug 20 oz: Which insulated travel mug should you buy?',
+    category: 'Insulated travel mugs',
+    categorySummary: 'Capacity, empty weight, physical footprint, handle versus handle-free carry, lid operation, cupholder fit, dishwasher care, maker-stated retention, bag routine, and the daily commute each 20-ounce insulated mug supports.',
+    date: '2026-08-14',
+    summary: 'Which insulated travel mug is the better buy for 20-ounce capacity, weight, lid operation, handle comfort, bag carry, cupholder fit, dishwasher care, and everyday commuting?',
+    featuredSummary: "A sourced comparison for shoppers choosing between YETI’s handled Stronghold-Lid commuter mug and Stanley’s lighter, slim flip-top carry format.",
+    winnerLabel: 'Best insulated travel mug pick',
+    winner: 'Stanley Transit Flip Top Mug, 20 oz',
+    image: {
+      src: '/images/insulated-travel-mug-comparison.webp',
+      url: 'https://worthadding.com/images/insulated-travel-mug-comparison.webp',
+      alt: 'Two unbranded insulated commuter travel mugs, one charcoal with a loop handle and one slim pale green with a flip lid, beside coffee beans, a dripper, notebook, linen, and keys for the YETI Rambler 20 oz vs Stanley Transit Flip Top Mug 20 oz comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'ooni-koda-2-vs-gozney-arc-gas-pizza-oven',
     title: 'Ooni Koda 2 vs Gozney Arc',
