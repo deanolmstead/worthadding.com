@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-14',
+  homepageUpdated: '2026-08-15',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'black-diamond-spot-400-r-vs-petzl-actik-core-headlamp',
+    title: 'Black Diamond Spot 400-R vs Petzl ACTIK CORE',
+    schemaName: 'Black Diamond Spot 400-R vs Petzl ACTIK CORE',
+    schemaTitle: 'Black Diamond Spot 400-R vs Petzl ACTIK CORE: Which rechargeable headlamp should you buy?',
+    category: 'Rechargeable headlamps',
+    categorySummary: 'Published brightness, weight, rechargeable battery design, AAA fallback, distance, high-mode runtime, beam pattern, red lighting, lockout, weather rating, and the trail or camp routine each compact headlamp supports.',
+    date: '2026-08-15',
+    summary: 'Which rechargeable headlamp is the better buy for brightness, battery flexibility, weather resistance, runtime, beam pattern, red light, and trail or camp use?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Black Diamond’s IP67, integrated-battery Spot 400-R and Petzl’s brighter ACTIK CORE with AAA fallback.",
+    winnerLabel: 'Best rechargeable headlamp pick',
+    winner: 'Petzl ACTIK CORE, E065AB',
+    image: {
+      src: '/images/headlamp-comparison.webp',
+      url: 'https://worthadding.com/images/headlamp-comparison.webp',
+      alt: 'Two unbranded compact headlamps, one graphite and one red, on a slate camp table at dusk with a map, rain shell, metal mug, and pine branch for the Black Diamond Spot 400-R vs Petzl ACTIK CORE comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'yeti-rambler-20-oz-vs-stanley-transit-flip-top-mug-20-oz',
     title: 'YETI Rambler 20 oz vs Stanley Transit Flip Top Mug 20 oz',
