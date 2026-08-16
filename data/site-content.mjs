@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-15',
+  homepageUpdated: '2026-08-16',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'cuisinart-perfectemp-cpk-17p1-vs-breville-temp-select-bke720-variable-temperature-electric-kettle',
+    title: 'Cuisinart PerfecTemp vs Breville Temp Select',
+    schemaName: 'Cuisinart PerfecTemp vs Breville Temp Select',
+    schemaTitle: 'Cuisinart PerfecTemp vs Breville Temp Select: Which variable-temperature electric kettle should you buy?',
+    category: 'Variable-temperature electric kettles',
+    categorySummary: 'Capacity, wattage, named temperature settings, Keep Warm duration, brief base-lift memory, published counter footprint, cordless-base design, steam-release lid behavior, maintenance details, and the tea or French-press routine each 1.7-liter kettle supports.',
+    date: '2026-08-16',
+    summary: 'Which variable-temperature electric kettle is the better buy for capacity, presets, keep-warm time, counter footprint, pouring, and everyday tea or coffee routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Cuisinart’s six-setting, 30-minute Keep Warm routine and Breville’s five-setting kettle with a Soft Top® lid.",
+    winnerLabel: 'Best variable-temperature electric kettle pick',
+    winner: 'Cuisinart PerfecTemp® Cordless Electric Kettle, CPK-17P1',
+    image: {
+      src: '/images/variable-temperature-electric-kettle-comparison.webp',
+      url: 'https://worthadding.com/images/variable-temperature-electric-kettle-comparison.webp',
+      alt: 'Two unbranded stainless-steel variable-temperature electric kettles beside loose tea, a glass teapot, French press, ceramic mug, linen, and a kitchen counter for the Cuisinart PerfecTemp vs Breville Temp Select comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'black-diamond-spot-400-r-vs-petzl-actik-core-headlamp',
     title: 'Black Diamond Spot 400-R vs Petzl ACTIK CORE',
