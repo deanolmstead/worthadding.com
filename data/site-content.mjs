@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'keter-brightwood-120-vs-suncast-bmdb1120-deck-box',
+    title: 'Keter Brightwood 120 vs Suncast BMDB1120',
+    schemaName: 'Keter Brightwood 120 vs Suncast BMDB1120',
+    schemaTitle: 'Keter Brightwood 120 vs Suncast BMDB1120: Which deck box should you buy?',
+    category: 'Deck boxes',
+    categorySummary: 'Stated capacity, exterior and interior dimensions, single versus split-lid access, piston or shock assist, resin construction, locking provision, published lid or load detail, warranty wording, patio footprint, and the storage routine each deck box supports.',
+    date: '2026-08-17',
+    summary: 'Which 120-gallon deck box is the better buy for capacity, footprint, lid access, construction, locking, seating, warranty, and patio storage routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Keter’s ventilated, single-lid Brightwood bench format and Suncast’s split-lid BMDB1120 access format.',
+    winnerLabel: 'Best deck box pick',
+    winner: 'Suncast 120 Gallon Split Lid Extra Large Deck Box, BMDB1120',
+    image: {
+      src: '/images/deck-box-comparison.webp',
+      url: 'https://worthadding.com/images/deck-box-comparison.webp',
+      alt: 'A warm brown single-lid resin deck box and a dove-gray split-lid resin deck box beside patio cushions, gardening gloves, a trowel, padlock, and poolside textiles for the Keter Brightwood 120 vs Suncast BMDB1120 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'cuisinart-perfectemp-cpk-17p1-vs-breville-temp-select-bke720-variable-temperature-electric-kettle',
     title: 'Cuisinart PerfecTemp vs Breville Temp Select',
     schemaName: 'Cuisinart PerfecTemp vs Breville Temp Select',
