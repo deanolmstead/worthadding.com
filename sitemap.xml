@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://worthadding.com/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://worthadding.com/comparisons/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://worthadding.com/instant-vortex-plus-6qt-vs-ninja-af141-air-fryer/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://worthadding.com/keter-brightwood-120-vs-suncast-bmdb1120-deck-box/</loc>

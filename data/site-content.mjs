@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-16',
+  homepageUpdated: '2026-08-18',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'instant-vortex-plus-6qt-vs-ninja-af141-air-fryer',
+    title: 'Instant Vortex Plus 6QT vs Ninja AF141',
+    schemaName: 'Instant Vortex Plus 6QT vs Ninja AF141',
+    schemaTitle: 'Instant Vortex Plus 6QT vs Ninja AF141: Which compact air fryer should you buy?',
+    category: 'Compact air fryers',
+    categorySummary: 'Basket capacity, published exterior size, wattage, cooking functions, viewing window, odor filtering, cleanup, warranty wording, and the weeknight cooking routine each single-basket air fryer supports.',
+    date: '2026-08-18',
+    summary: 'Which compact air fryer is the better buy for basket capacity, functions, viewing, power, footprint, cleanup, and weeknight cooking routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Instant’s window-equipped 6-quart Vortex Plus and Ninja’s compact, four-function AF141.",
+    winnerLabel: 'Best compact air fryer pick',
+    winner: 'Instant Pot® Vortex® Plus 6QT Stainless Steel Air Fryer with ClearCook and OdorErase',
+    image: {
+      src: '/images/air-fryer-comparison.webp',
+      url: 'https://worthadding.com/images/air-fryer-comparison.webp',
+      alt: 'Two unbranded compact countertop air fryers, one brushed stainless steel with a viewing window and one charcoal gray, beside potato wedges, rosemary, linen, tongs, and a ramekin in a warm kitchen for the Instant Vortex Plus 6QT vs Ninja AF141 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'keter-brightwood-120-vs-suncast-bmdb1120-deck-box',
     title: 'Keter Brightwood 120 vs Suncast BMDB1120',
