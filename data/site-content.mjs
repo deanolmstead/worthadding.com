@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-18',
+  homepageUpdated: '2026-08-19',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'anker-737-power-bank-vs-ugreen-nexode-25000mah-145w-power-bank',
+    title: 'Anker 737 vs UGREEN Nexode 25000mAh 145W',
+    schemaName: 'Anker 737 vs UGREEN Nexode 25000mAh 145W',
+    schemaTitle: 'Anker 737 vs UGREEN Nexode 25000mAh 145W: Which power bank should you buy?',
+    category: 'High-output laptop power banks',
+    categorySummary: 'Published capacity, output, port count, display, stated size and weight, included cable, wall-charger inclusion, warranty wording, and the laptop-and-phone travel routine each high-capacity power bank supports.',
+    date: '2026-08-19',
+    summary: 'Which high-output laptop power bank is the better buy for capacity, output, ports, display, included cable, travel packing, and multi-device USB-C charging?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Anker’s 24,000mAh 140W PowerCore 24K and UGREEN’s 25,000mAh 145W Nexode power bank.',
+    winnerLabel: 'Best high-output laptop power bank pick',
+    winner: 'UGREEN Nexode 25000mAh 145W Power Bank, 90597A',
+    image: {
+      src: '/images/laptop-power-bank-comparison.webp',
+      url: 'https://worthadding.com/images/laptop-power-bank-comparison.webp',
+      alt: 'Two unbranded high-capacity laptop power banks on a warm desk beside a cable, laptop, notebook, and phone for the Anker 737 vs UGREEN Nexode 25000mAh 145W comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'instant-vortex-plus-6qt-vs-ninja-af141-air-fryer',
     title: 'Instant Vortex Plus 6QT vs Ninja AF141',
