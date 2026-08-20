@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-19',
+  homepageUpdated: '2026-08-20',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'squirrel-buster-plus-vs-squirrel-buster-classic-bird-feeder',
+    title: 'Squirrel Buster Plus vs Squirrel Buster Classic',
+    schemaName: 'Squirrel Buster Plus vs Squirrel Buster Classic',
+    schemaTitle: 'Squirrel Buster Plus vs Squirrel Buster Classic: Which bird feeder should you buy?',
+    category: 'Squirrel-resistant bird feeders',
+    categorySummary: 'Seed capacity, feeding ports, Cardinal Ring, wire mesh shroud, published dimensions, hanging height, tension adjustment, mounting note, refill rhythm, and the backyard station each squirrel-resistant tube feeder supports.',
+    date: '2026-08-20',
+    summary: 'Which squirrel-resistant bird feeder is the better buy for seed capacity, port count, hanging height, dimensions, adjustment, cleanup, and backyard feeding routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between the Squirrel Buster Plus’s larger six-port capacity and the Squirrel Buster Classic’s slimmer four-port format.',
+    winnerLabel: 'Best squirrel-resistant bird feeder pick',
+    winner: 'Squirrel Buster Plus',
+    image: {
+      src: '/images/squirrel-proof-bird-feeder-comparison.webp',
+      url: 'https://worthadding.com/images/squirrel-proof-bird-feeder-comparison.webp',
+      alt: 'Two unbranded squirrel-resistant tube bird feeders hanging in a sunny backyard garden with songbirds and seed for the Squirrel Buster Plus vs Squirrel Buster Classic comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'anker-737-power-bank-vs-ugreen-nexode-25000mah-145w-power-bank',
     title: 'Anker 737 vs UGREEN Nexode 25000mAh 145W',
