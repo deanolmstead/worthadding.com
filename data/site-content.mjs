@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-20',
+  homepageUpdated: '2026-08-21',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'gci-outdoor-freestyle-rocker-vs-freestyle-rocker-xl-camping-chair',
+    title: 'GCI Outdoor Freestyle Rocker vs Freestyle Rocker XL',
+    schemaName: 'GCI Outdoor Freestyle Rocker vs Freestyle Rocker XL',
+    schemaTitle: 'GCI Outdoor Freestyle Rocker vs Freestyle Rocker XL: Which folding outdoor rocking chair should you buy?',
+    category: 'Folding outdoor rocking chairs',
+    categorySummary: 'The buyer-relevant differences in open width, folded size, carry weight, published capacity, rocking design, cupholder setup, phone storage, carrying, destination fit, and home storage routine.',
+    date: '2026-08-21',
+    summary: 'Which folding outdoor rocking chair is the better buy for chair width, weight capacity, packed size, carry weight, storage, cupholder use, and camp or sideline routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between the standard Freestyle Rocker’s lower carry weight and the Freestyle Rocker XL’s wider, higher-capacity format.',
+    winnerLabel: 'Best folding outdoor rocking chair pick',
+    winner: 'GCI Outdoor Freestyle Rocker',
+    image: {
+      src: '/images/folding-outdoor-rocking-chair-comparison.webp',
+      url: 'https://worthadding.com/images/folding-outdoor-rocking-chair-comparison.webp',
+      alt: 'Two unbranded folding outdoor rocking camp chairs beside a backyard patio with a cooler and tumblers for the GCI Outdoor Freestyle Rocker vs Freestyle Rocker XL comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'squirrel-buster-plus-vs-squirrel-buster-classic-bird-feeder',
     title: 'Squirrel Buster Plus vs Squirrel Buster Classic',
