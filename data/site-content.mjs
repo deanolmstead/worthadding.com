@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-21',
+  homepageUpdated: '2026-08-22',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'liberty-garden-712-vs-suncast-sta125b-wall-mount-hose-reel',
+    title: 'Liberty Garden 712 vs Suncast STA125B',
+    schemaName: 'Liberty Garden 712 vs Suncast STA125B',
+    schemaTitle: 'Liberty Garden 712 vs Suncast STA125B: Which wall-mount hose reel should you buy?',
+    category: 'Wall-mount hose reels',
+    categorySummary: 'The buyer-relevant differences in stated hose capacity, wall footprint, rotating carriage, guide system, material, included leader hose, removable storage, installation planning, and everyday garden watering routine.',
+    date: '2026-08-22',
+    summary: 'Which wall-mount hose reel is the better buy for hose capacity, rotation, guide system, material, dimensions, storage, installation, and everyday garden watering routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Liberty Garden’s rotating steel Navigator and Suncast’s compact, hose-guide Side Tracker.',
+    winnerLabel: 'Best wall-mount hose reel pick',
+    winner: 'Suncast STA125B Side Tracker Wall Mount Hose Reel',
+    image: {
+      src: '/images/wall-mount-hose-reel-comparison.webp',
+      url: 'https://worthadding.com/images/wall-mount-hose-reel-comparison.webp',
+      alt: 'An unbranded bronze rotating wall hose reel and a dark taupe hose-guide wall reel beside garden tools for the Liberty Garden 712 vs Suncast STA125B comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'gci-outdoor-freestyle-rocker-vs-freestyle-rocker-xl-camping-chair',
     title: 'GCI Outdoor Freestyle Rocker vs Freestyle Rocker XL',
