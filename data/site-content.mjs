@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'thule-force-3-l-vs-yakima-skybox-16-carbonite-roof-cargo-box',
+    title: 'Thule Force 3 L vs Yakima SkyBox 16 Carbonite',
+    schemaName: 'Thule Force 3 L vs Yakima SkyBox 16 Carbonite',
+    schemaTitle: 'Thule Force 3 L vs Yakima SkyBox 16 Carbonite: Which roof cargo box should you buy?',
+    category: 'Roof cargo boxes',
+    categorySummary: 'The buyer-relevant differences in stated volume, external and internal dimensions, listed box weight, load capacity, long-gear capacity, mounting feedback, locking, dual-side access, rack planning, storage, and family-trip routine.',
+    date: '2026-08-23',
+    summary: 'Which roof cargo box is the better buy for volume, dimensions, box weight, mounting, locks, long-gear capacity, rack planning, storage, and family-trip routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Thule’s lighter, shorter Force 3 L and Yakima’s longer SkyBox 16 Carbonite with explicit ski-length and crossbar-spread details.',
+    winnerLabel: 'Best roof cargo box pick',
+    winner: 'Thule Force 3 L',
+    image: {
+      src: '/images/roof-cargo-box-comparison.webp',
+      url: 'https://worthadding.com/images/roof-cargo-box-comparison.webp',
+      alt: 'Two unbranded hard-shell roof cargo boxes on a family SUV beside duffel bags, hiking boots, and travel gear for the Thule Force 3 L vs Yakima SkyBox 16 Carbonite comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'liberty-garden-712-vs-suncast-sta125b-wall-mount-hose-reel',
     title: 'Liberty Garden 712 vs Suncast STA125B',
     schemaName: 'Liberty Garden 712 vs Suncast STA125B',
