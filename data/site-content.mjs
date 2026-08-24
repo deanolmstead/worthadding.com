@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'flexzilla-garden-hose-vs-zero-g-garden-hose',
+    title: 'Flexzilla Garden Hose vs zero-G Garden Hose',
+    schemaName: 'Flexzilla Garden Hose vs zero-G Garden Hose',
+    schemaTitle: 'Flexzilla Garden Hose vs zero-G Garden Hose: Which lightweight garden hose should you buy?',
+    category: 'Lightweight garden hoses',
+    categorySummary: 'The buyer-relevant differences in selected 5/8-inch by 50-foot size, hose construction, published working or burst-pressure wording, temperature claim, fitting material, grip design, kink resistance, drinking-water wording, storage, and routine yard use.',
+    date: '2026-08-24',
+    summary: 'Which lightweight garden hose is the better buy for 50-foot reach, construction, pressure wording, fittings, grip, temperature, storage, and everyday yard watering routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Flexzilla’s smooth hybrid-polymer, 150-psi hose and zero-G’s woven-jacket, 600-plus-psi-burst alternative.',
+    winnerLabel: 'Best lightweight garden hose pick',
+    winner: 'Flexzilla Garden Hose, 5/8 in. x 50 ft.',
+    image: {
+      src: '/images/garden-hose-comparison.webp',
+      url: 'https://worthadding.com/images/garden-hose-comparison.webp',
+      alt: 'Two unbranded lightweight garden hoses, one lime green and smooth and one charcoal with a woven jacket, beside raised vegetable beds, watering tools, gloves, and terracotta pots for the Flexzilla Garden Hose vs zero-G Garden Hose comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'thule-force-3-l-vs-yakima-skybox-16-carbonite-roof-cargo-box',
     title: 'Thule Force 3 L vs Yakima SkyBox 16 Carbonite',
     schemaName: 'Thule Force 3 L vs Yakima SkyBox 16 Carbonite',
