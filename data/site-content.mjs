@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'cuisinart-ccg-190-vs-ccg-216a-portable-charcoal-grill',
+    title: 'Cuisinart CCG-190 vs CCG-216A',
+    schemaName: 'Cuisinart CCG-190 vs CCG-216A',
+    schemaTitle: 'Cuisinart CCG-190 vs CCG-216A: Which portable charcoal grill should you buy?',
+    category: 'Compact portable charcoal grills',
+    categorySummary: 'The buyer-relevant differences in published cooking area, grate material, carry weight, listed dimensions, airflow layout, lid locks, ash management, packing footprint, and the campsite, tailgate, patio, or picnic routine each compact charcoal grill supports.',
+    date: '2026-08-26',
+    summary: 'Which portable charcoal grill is the better buy for cooking area, carrying weight, dimensions, vents, lid locks, ash cleanup, campsite packing, and small-group grilling routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Cuisinart’s lighter 14-inch CCG-190 and its roomier 16-inch CCG-216A portable charcoal grill.',
+    winnerLabel: 'Best portable charcoal grill pick',
+    winner: 'Cuisinart CCG-216A 16-inch Portable Charcoal Grill',
+    image: {
+      src: '/images/compact-charcoal-grill-comparison.webp',
+      url: 'https://worthadding.com/images/compact-charcoal-grill-comparison.webp',
+      alt: 'Two unbranded compact charcoal grills, one larger and one smaller, at an upright lakeside picnic setup with a camp chair, towels, bottles, and duffel for the Cuisinart CCG-190 vs CCG-216A comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'yamaha-fg800-vs-fs800-acoustic-guitar',
     title: 'Yamaha FG800 vs FS800',
     schemaName: 'Yamaha FG800 vs FS800',
