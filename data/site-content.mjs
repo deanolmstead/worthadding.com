@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'yamaha-fg800-vs-fs800-acoustic-guitar',
+    title: 'Yamaha FG800 vs FS800',
+    schemaName: 'Yamaha FG800 vs FS800',
+    schemaTitle: 'Yamaha FG800 vs FS800: Which acoustic guitar should you buy?',
+    category: 'Acoustic guitars',
+    categorySummary: 'The buyer-relevant differences in body style, body width and depth, total length, scale length, shared nut width, solid-spruce-top construction, back and side materials, fingerboard details, electronics, and the practice routine each Yamaha acoustic guitar supports.',
+    date: '2026-08-25',
+    summary: 'Which Yamaha acoustic guitar is the better buy for body size, scale length, solid-spruce-top construction, neck width, electronics, fit, and everyday practice routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Yamaha’s larger dreadnought FG800 and its smaller concert-body FS800.',
+    winnerLabel: 'Best acoustic guitar pick',
+    winner: 'Yamaha FG800',
+    image: {
+      src: '/images/acoustic-guitar-comparison.webp',
+      url: 'https://worthadding.com/images/acoustic-guitar-comparison.webp',
+      alt: 'Two unbranded natural-finish acoustic guitars, one wider dreadnought and one smaller concert body, in a warm living room with a stool, practice notebook, capo, tuning fork, and mug for the Yamaha FG800 vs FS800 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'flexzilla-garden-hose-vs-zero-g-garden-hose',
     title: 'Flexzilla Garden Hose vs zero-G Garden Hose',
     schemaName: 'Flexzilla Garden Hose vs zero-G Garden Hose',
