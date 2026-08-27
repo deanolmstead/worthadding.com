@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'fiskars-isocore-16-oz-vs-estwing-e3-16c-curved-claw-hammer',
+    title: 'Fiskars IsoCore 16 oz vs Estwing E3-16C',
+    schemaName: 'Fiskars IsoCore 16 oz vs Estwing E3-16C',
+    schemaTitle: 'Fiskars IsoCore 16 oz vs Estwing E3-16C: Which curved claw hammer should you buy?',
+    category: 'Curved claw hammers',
+    categorySummary: 'The buyer-relevant differences in published head weight, overall length, claw and face style, handle design, vibration-control wording, construction, trim and household repair fit, nail pulling, storage, and everyday workbench routine.',
+    date: '2026-08-27',
+    summary: 'Which curved claw hammer is the better buy for head weight, length, handle design, vibration control, claw style, trim work, nail pulling, and everyday home repair routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Fiskars’s 13.5-inch IsoCore finishing hammer and Estwing’s 13-inch forged-steel E3-16C curved claw hammer.',
+    winnerLabel: 'Best curved claw hammer pick',
+    winner: 'Fiskars IsoCore 16 oz Finishing Hammer',
+    image: {
+      src: '/images/curved-claw-hammer-comparison.webp',
+      url: 'https://worthadding.com/images/curved-claw-hammer-comparison.webp',
+      alt: 'Two unbranded 16-ounce curved claw hammers with black-orange and blue handles on a maple workbench with trim, nails, pencil, and tape measure for the Fiskars IsoCore 16 oz vs Estwing E3-16C comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'cuisinart-ccg-190-vs-ccg-216a-portable-charcoal-grill',
     title: 'Cuisinart CCG-190 vs CCG-216A',
     schemaName: 'Cuisinart CCG-190 vs CCG-216A',
