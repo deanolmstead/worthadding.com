@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-22',
+  homepageUpdated: '2026-08-28',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'orbit-h2o-six-vs-melnor-xt45100-lawn-sprinkler',
+    title: 'Orbit H2O-Six vs Melnor XT45100',
+    schemaName: 'Orbit H2O-Six vs Melnor XT45100',
+    schemaTitle: 'Orbit H2O-Six vs Melnor XT45100: Which lawn sprinkler should you buy?',
+    category: 'Lawn sprinklers',
+    categorySummary: 'The buyer-relevant differences in published coverage shape, stated area, spray patterns, width and range adjustment, diffuser control, drive wording, lawn boundaries, hose placement, and the backyard watering routine each hose-end sprinkler supports.',
+    date: '2026-08-28',
+    summary: 'Which lawn sprinkler is the better buy for coverage shape, stated area, spray patterns, width and range adjustments, diffuser control, lawn layout, and everyday hose-end watering routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Orbit’s six-pattern circular gear-drive sprinkler and Melnor’s 20-nozzle oscillating lawn sprinkler with width and range controls.',
+    winnerLabel: 'Best lawn sprinkler pick',
+    winner: 'Melnor XT45100 4,500 Sq. Ft. Turbo Oscillating Sprinkler',
+    image: {
+      src: '/images/lawn-sprinkler-comparison.webp',
+      url: 'https://worthadding.com/images/lawn-sprinkler-comparison.webp',
+      alt: 'Two unbranded lawn sprinklers, one wheeled gear-drive and one oscillating, watering a sunny backyard beside flower beds, pots, hose, and garden tools for the Orbit H2O-Six vs Melnor XT45100 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'fiskars-isocore-16-oz-vs-estwing-e3-16c-curved-claw-hammer',
     title: 'Fiskars IsoCore 16 oz vs Estwing E3-16C',
