@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-28',
+  homepageUpdated: '2026-08-29',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'fiskars-powergear2-vs-corona-bp-3180d-bypass-pruner',
+    title: 'Fiskars PowerGear2 vs Corona BP 3180D',
+    schemaName: 'Fiskars PowerGear2 vs Corona BP 3180D',
+    schemaTitle: 'Fiskars PowerGear2 vs Corona BP 3180D: Which bypass pruner should you buy?',
+    category: 'Bypass pruners',
+    categorySummary: 'The buyer-relevant differences in published cutting capacity, leverage assistance, blade material, handle style, forged construction, sap management, wire cutting, replacement parts, routine garden trimming, and the flower-bed or shrub-care work each bypass pruner supports.',
+    date: '2026-08-29',
+    summary: 'Which bypass pruner is the better buy for cutting capacity, leverage assistance, blade material, handle style, sap management, replacement parts, flower beds, shrubs, and everyday pruning routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Fiskars’s leverage-focused PowerGear2 Softgrip pruner and Corona’s larger-capacity forged ClassicCUT bypass pruner.',
+    winnerLabel: 'Best bypass pruner pick',
+    winner: 'Fiskars PowerGear2 Softgrip Pruner',
+    image: {
+      src: '/images/bypass-pruner-comparison.webp',
+      url: 'https://worthadding.com/images/bypass-pruner-comparison.webp',
+      alt: 'Two unbranded handheld bypass pruning shears, one black and orange with a gear-assisted hinge and one red forged-steel pruner, on a cedar potting bench with rose cuttings, gloves, and twine for the Fiskars PowerGear2 vs Corona BP 3180D comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'orbit-h2o-six-vs-melnor-xt45100-lawn-sprinkler',
     title: 'Orbit H2O-Six vs Melnor XT45100',
