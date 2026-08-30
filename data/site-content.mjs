@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-29',
+  homepageUpdated: '2026-08-30',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'corona-ct3314-vs-corona-ct3010i-garden-trowel',
+    title: 'Corona CT 3314 vs Corona CT 3010I',
+    schemaName: 'Corona CT 3314 vs Corona CT 3010I',
+    schemaTitle: 'Corona CT 3314 vs Corona CT 3010I: Which garden trowel should you buy?',
+    category: 'Garden trowels',
+    categorySummary: 'The buyer-relevant differences in published blade material, depth markings, grip, tang construction, bag opening, tamping, planting, transplanting, lightweight construction, and everyday potting-bench routines.',
+    date: '2026-08-30',
+    summary: 'Which garden trowel is the better buy for blade material, depth markings, grip, tang construction, bag opening, planting, transplanting, and everyday potting-bench routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Corona’s stainless-steel, depth-marked ComfortGEL trowel and its simpler polished aluminum-alloy Comfort Trowel.',
+    winnerLabel: 'Best garden trowel pick',
+    winner: 'Corona CT 3314 ComfortGEL Trowel',
+    image: {
+      src: '/images/garden-trowel-comparison.webp',
+      url: 'https://worthadding.com/images/garden-trowel-comparison.webp',
+      alt: 'Two unbranded hand garden trowels, one pointed stainless steel with depth marks and one smooth aluminum alloy, on a potting bench with seedlings, soil, gloves, and a hand rake for the Corona CT 3314 vs Corona CT 3010I comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'fiskars-powergear2-vs-corona-bp-3180d-bypass-pruner',
     title: 'Fiskars PowerGear2 vs Corona BP 3180D',
