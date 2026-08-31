@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'lodge-l10sk3-vs-victoria-skl-212-cast-iron-skillet',
+    title: 'Lodge L10SK3 vs Victoria SKL-212',
+    schemaName: 'Lodge L10SK3 vs Victoria SKL-212',
+    schemaTitle: 'Lodge L10SK3 vs Victoria SKL-212: Which cast iron skillet should you buy?',
+    category: 'Cast iron skillets',
+    categorySummary: 'The buyer-relevant differences in published size, seasoning wording, vessel depth, cast-iron construction, edge shape, handles, assist handles, pour spouts, listed weight, cooking routine, and everyday kitchen fit.',
+    date: '2026-08-31',
+    summary: 'Which 12-inch cast iron skillet is the better buy for seasoning, vessel depth, edge construction, handles, pour spouts, listed weight, cooking routines, and everyday kitchen use?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Lodge’s familiar naturally seasoned 12-inch skillet and Victoria’s deeper, flaxseed-oil-preseasoned alternative.',
+    winnerLabel: 'Best cast iron skillet pick',
+    winner: 'Lodge L10SK3 12-inch Classic Cast Iron Skillet',
+    image: {
+      src: '/images/cast-iron-skillet-comparison.webp',
+      url: 'https://worthadding.com/images/cast-iron-skillet-comparison.webp',
+      alt: 'Two unbranded 12-inch cast iron skillets, one with dual pour spouts and one with a deeper vessel, on a bright kitchen counter with vegetables, garlic, a wooden spatula, and a notebook for the Lodge L10SK3 vs Victoria SKL-212 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'corona-ct3314-vs-corona-ct3010i-garden-trowel',
     title: 'Corona CT 3314 vs Corona CT 3010I',
     schemaName: 'Corona CT 3314 vs Corona CT 3010I',
