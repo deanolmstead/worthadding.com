@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'nemo-switchback-vs-thermarest-z-lite-sol-foam-sleeping-pad',
+    title: 'NEMO Switchback vs Therm-a-Rest Z Lite SOL',
+    schemaName: 'NEMO Switchback vs Therm-a-Rest Z Lite SOL',
+    schemaTitle: 'NEMO Switchback vs Therm-a-Rest Z Lite SOL: Which foam sleeping pad should you buy?',
+    category: 'Foam sleeping pads',
+    categorySummary: 'The buyer-relevant differences in published R-Value, Regular dimensions, thickness, listed weight, folded packed size, closed-cell foam construction, surface pattern, reflective layer wording, tent footprint, and straightforward camp setup routines.',
+    date: '2026-09-01',
+    summary: 'Which foam sleeping pad is the better buy for R-Value, Regular dimensions, thickness, listed weight, packed size, foam construction, surface pattern, tent fit, and everyday camp setup routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between NEMO’s thicker hexagonal-node Switchback and Therm-a-Rest’s slightly lighter dimpled Z Lite SOL.',
+    winnerLabel: 'Best foam sleeping pad pick',
+    winner: 'NEMO Switchback Ultralight Sleeping Pad, Regular',
+    image: {
+      src: '/images/foam-sleeping-pad-comparison.webp',
+      url: 'https://worthadding.com/images/foam-sleeping-pad-comparison.webp',
+      alt: 'Two unbranded folding closed-cell foam sleeping pads, one orange with hexagonal nodes and one silver with dimpled panels, outside a backpacking tent with a pack, trail shoes, camp mug, and map for the NEMO Switchback vs Therm-a-Rest Z Lite SOL comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'lodge-l10sk3-vs-victoria-skl-212-cast-iron-skillet',
     title: 'Lodge L10SK3 vs Victoria SKL-212',
     schemaName: 'Lodge L10SK3 vs Victoria SKL-212',
