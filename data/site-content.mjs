@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'nemo-tensor-trail-vs-sea-to-summit-pursuit-sleeping-pad',
+    title: 'NEMO Tensor Trail vs Sea to Summit Pursuit',
+    schemaName: 'NEMO Tensor Trail vs Sea to Summit Pursuit',
+    schemaTitle: 'NEMO Tensor Trail vs Sea to Summit Pursuit: Which three-season sleeping pad should you buy?',
+    category: 'Three-season sleeping pads',
+    categorySummary: 'The buyer-relevant differences in published R-Value, thickness, Regular dimensions, listed weight, packed size, inflation method, valve design, fabrics, baffle or foam construction, backpacking setup, and camp routine.',
+    date: '2026-09-02',
+    summary: 'Which three-season sleeping pad is the better buy for R-Value, thickness, inflation method, Regular dimensions, listed weight, packed size, valve design, fabrics, and backpacking routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between NEMO’s light, thick Tensor Trail air pad and Sea to Summit’s wider self-inflating Pursuit.',
+    winnerLabel: 'Best three-season sleeping pad pick',
+    winner: 'NEMO Tensor Trail Ultralight Insulated Sleeping Pad, Regular',
+    image: {
+      src: '/images/three-season-sleeping-pad-comparison.webp',
+      url: 'https://worthadding.com/images/three-season-sleeping-pad-comparison.webp',
+      alt: 'Two unbranded backpacking sleeping pads, one orange insulated air pad and one blue self-inflating pad, beside a tent with a pack, trail shoes, camp mug, and map for the NEMO Tensor Trail vs Sea to Summit Pursuit comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'nemo-switchback-vs-thermarest-z-lite-sol-foam-sleeping-pad',
     title: 'NEMO Switchback vs Therm-a-Rest Z Lite SOL',
     schemaName: 'NEMO Switchback vs Therm-a-Rest Z Lite SOL',
