@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'deuter-speed-lite-21-vs-gregory-miwok-24-hiking-daypack',
+    title: 'deuter Speed Lite 21 vs Gregory Miwok 24',
+    schemaName: 'deuter Speed Lite 21 vs Gregory Miwok 24',
+    schemaTitle: 'deuter Speed Lite 21 vs Gregory Miwok 24: Which hiking daypack should you buy?',
+    category: 'Hiking daypacks',
+    categorySummary: 'The buyer-relevant differences in published capacity, listed weight, dimensions, recommended load, torso range, hip range, suspension, pocket access, hydration compatibility, and everyday day-hike routine.',
+    date: '2026-09-03',
+    summary: 'Which hiking daypack is the better buy for volume, listed weight, dimensions, torso fit, suspension, hydration compatibility, access, pocket layout, and day-hike routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between deuter’s light, compact Speed Lite 21 and Gregory’s roomier, panel-access Miwok 24.',
+    winnerLabel: 'Best hiking daypack pick',
+    winner: 'deuter Speed Lite 21',
+    image: {
+      src: '/images/hiking-daypack-comparison.webp',
+      url: 'https://worthadding.com/images/hiking-daypack-comparison.webp',
+      alt: 'Two unbranded hiking daypacks, one slate blue and one forest green, beside trekking poles, boots, a water bottle, rain shell, and trail map at a trailhead for the deuter Speed Lite 21 vs Gregory Miwok 24 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'nemo-tensor-trail-vs-sea-to-summit-pursuit-sleeping-pad',
     title: 'NEMO Tensor Trail vs Sea to Summit Pursuit',
     schemaName: 'NEMO Tensor Trail vs Sea to Summit Pursuit',
