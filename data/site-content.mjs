@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'yeti-hopper-flip-12-vs-hopper-m20-soft-cooler',
+    title: 'YETI Hopper Flip 12 vs Hopper M20',
+    schemaName: 'YETI Hopper Flip 12 vs Hopper M20',
+    schemaTitle: 'YETI Hopper Flip 12 vs Hopper M20: Which soft cooler should you buy?',
+    category: 'Soft coolers',
+    categorySummary: 'The buyer-relevant differences in published can capacity, ice capacity, empty weight, dimensions, closure style, carry method, insulation, shell construction, access, packing, and outdoor routines.',
+    date: '2026-09-05',
+    summary: 'Which soft cooler is the better buy for capacity, empty weight, dimensions, closure, carry method, insulation, packing, and outdoor routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between YETI’s compact zipper-closed Hopper Flip 12 and its larger hands-free Hopper M20 backpack cooler.',
+    winnerLabel: 'Best soft cooler pick',
+    winner: 'YETI Hopper Flip 12',
+    image: {
+      src: '/images/yeti-soft-cooler-comparison.webp',
+      url: 'https://worthadding.com/images/yeti-soft-cooler-comparison.webp',
+      alt: 'Two unbranded soft-sided coolers, a compact charcoal flip-top and a navy backpack cooler, on a picnic table with drinks, lunch gear, towel, sunglasses, and a map for the YETI Hopper Flip 12 vs Hopper M20 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'deuter-speed-lite-21-vs-gregory-miwok-24-hiking-daypack',
     title: 'deuter Speed Lite 21 vs Gregory Miwok 24',
     schemaName: 'deuter Speed Lite 21 vs Gregory Miwok 24',
