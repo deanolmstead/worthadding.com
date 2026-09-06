@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'orbit-26812-vs-melnor-xt301-hose-nozzle',
+    title: 'Orbit 26812 vs Melnor XT301',
+    schemaName: 'Orbit 26812 vs Melnor XT301',
+    schemaTitle: 'Orbit 26812 vs Melnor XT301: Which hose nozzle should you buy?',
+    category: 'Heavy-duty hose nozzles',
+    categorySummary: 'The buyer-relevant differences in published spray-pattern count, thumb control, front trigger, flow control, trigger lock, metal-core construction, grip, watering jobs, cleanup chores, and everyday hose-end routines.',
+    date: '2026-09-06',
+    summary: 'Which heavy-duty hose nozzle is the better buy for spray patterns, flow control, trigger style, metal construction, grip, lock, watering jobs, cleaning chores, and everyday yard routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Orbit’s zinc-core eight-pattern thumb-control nozzle and Melnor’s metal-core eight-pattern front-trigger alternative.',
+    winnerLabel: 'Best hose nozzle pick',
+    winner: 'Orbit 26812 Pro Series 8-Pattern Thumb Control Nozzle',
+    image: {
+      src: '/images/heavy-duty-hose-nozzle-comparison.webp',
+      url: 'https://worthadding.com/images/heavy-duty-hose-nozzle-comparison.webp',
+      alt: 'Two unbranded heavy-duty multi-pattern hose nozzles, one charcoal and red thumb-control style and one black and yellow front-trigger style, on a garden potting bench with a green hose, raised beds, pots, gloves, and trowel for the Orbit 26812 vs Melnor XT301 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'yeti-hopper-flip-12-vs-hopper-m20-soft-cooler',
     title: 'YETI Hopper Flip 12 vs Hopper M20',
     schemaName: 'YETI Hopper Flip 12 vs Hopper M20',
