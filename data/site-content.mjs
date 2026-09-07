@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-go-anywhere-vs-cuisinart-ccg-190-portable-charcoal-grill',
+    title: 'Weber Go-Anywhere vs Cuisinart CCG-190',
+    schemaName: 'Weber Go-Anywhere vs Cuisinart CCG-190',
+    schemaTitle: 'Weber Go-Anywhere vs Cuisinart CCG-190: Which portable charcoal grill should you buy?',
+    category: 'Portable charcoal grills',
+    categorySummary: 'The buyer-relevant differences in published cooking area, listed weight, packed dimensions, grill format, airflow controls, charcoal access, transport locks, ash handling, campsite setup, and everyday outdoor cooking routines.',
+    date: '2026-09-07',
+    summary: 'Which portable charcoal grill is the better buy for cooking area, carry weight, dimensions, grill format, airflow, charcoal access, transport, cleanup, campsite setup, and outdoor cooking routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Weber’s flexible rectangular charcoal layout and Cuisinart’s lighter 14-inch portable grill.',
+    winnerLabel: 'Best portable charcoal grill pick',
+    winner: 'Weber Go-Anywhere Charcoal Grill',
+    image: {
+      src: '/images/portable-charcoal-grill-comparison.webp',
+      url: 'https://worthadding.com/images/portable-charcoal-grill-comparison.webp',
+      alt: 'Two unbranded portable charcoal grills, one rectangular and one round, on a lakeside picnic table with charcoal, tongs, vegetables, a blanket, and a cooler for the Weber Go-Anywhere vs Cuisinart CCG-190 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'orbit-26812-vs-melnor-xt301-hose-nozzle',
     title: 'Orbit 26812 vs Melnor XT301',
     schemaName: 'Orbit 26812 vs Melnor XT301',
