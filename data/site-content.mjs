@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'cuisinart-dbm-8p1-vs-dbm-t10-burr-coffee-grinder',
+    title: 'Cuisinart DBM-8P1 vs DBM-T10',
+    schemaName: 'Cuisinart DBM-8P1 vs DBM-T10',
+    schemaTitle: 'Cuisinart DBM-8P1 vs DBM-T10: Which burr coffee grinder should you buy?',
+    category: 'Coffee grinders',
+    categorySummary: 'The buyer-relevant differences in published grind settings, cup selectors, hopper and chamber capacity, controls, manual mode, dimensions, model status, and daily coffee routine.',
+    date: '2026-09-08',
+    summary: 'Which burr coffee grinder is the better buy for grind settings, cup selector, hopper capacity, chamber capacity, touchscreen controls, manual grinding, dimensions, model status, and daily coffee routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Cuisinart’s simple 4-to-18-cup DBM-8P1 and its touchscreen DBM-T10 with manual grinding.',
+    winnerLabel: 'Best burr coffee grinder pick',
+    winner: 'Cuisinart DBM-8P1 Supreme Grind Automatic Burr Mill',
+    image: {
+      src: '/images/cuisinart-burr-coffee-grinder-comparison.webp',
+      url: 'https://worthadding.com/images/cuisinart-burr-coffee-grinder-comparison.webp',
+      alt: 'Two unbranded electric burr coffee grinders on a warm kitchen counter with coffee beans, a pour-over carafe, mugs, and filters for the Cuisinart DBM-8P1 vs DBM-T10 comparison.',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-go-anywhere-vs-cuisinart-ccg-190-portable-charcoal-grill',
     title: 'Weber Go-Anywhere vs Cuisinart CCG-190',
     schemaName: 'Weber Go-Anywhere vs Cuisinart CCG-190',
