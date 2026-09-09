@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-smokey-joe-vs-cuisinart-ccg-190-kettle-charcoal-grill',
+    title: 'Weber Smokey Joe vs Cuisinart CCG-190',
+    schemaName: 'Weber Smokey Joe vs Cuisinart CCG-190',
+    schemaTitle: 'Weber Smokey Joe vs Cuisinart CCG-190: Which kettle charcoal grill should you buy?',
+    category: 'Kettle charcoal grills',
+    categorySummary: 'The buyer-relevant trade-offs are cooking area, published weight, dimensions, airflow, lid security, ash handling, materials, warranty, and car-to-campsite routine.',
+    date: '2026-09-09',
+    summary: 'Which kettle charcoal grill is the better buy for cooking area, published weight, dimensions, airflow, lid security, ash handling, materials, warranty, and campsite or patio routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Weber’s compact kettle hardware and Cuisinart’s larger published grate area with a listed light carry weight.",
+    winnerLabel: 'Best kettle charcoal grill pick',
+    winner: 'Weber Smokey Joe 14-inch Charcoal Grill',
+    image: {
+      src: '/images/kettle-charcoal-grill-comparison.webp',
+      url: 'https://worthadding.com/images/kettle-charcoal-grill-comparison.webp',
+      alt: 'Two unbranded 14-inch kettle charcoal grills on a picnic table with charcoal, tongs, corn, vegetables, a blanket, and a cooler for the Weber Smokey Joe vs Cuisinart CCG-190 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'cuisinart-dbm-8p1-vs-dbm-t10-burr-coffee-grinder',
     title: 'Cuisinart DBM-8P1 vs DBM-T10',
     schemaName: 'Cuisinart DBM-8P1 vs DBM-T10',
