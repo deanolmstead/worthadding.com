@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'swingline-747-vs-bostitch-ascend-desktop-stapler',
+    title: 'Swingline 747 vs Bostitch Ascend',
+    schemaName: 'Swingline 747 vs Bostitch Ascend',
+    schemaTitle: 'Swingline 747 vs Bostitch Ascend: Which desktop stapler should you buy?',
+    category: 'Desktop staplers',
+    categorySummary: 'The buyer-relevant differences are sheet capacity, staple storage, construction, tacking, pinning, staple removal, grip, reload routine, and everyday paperwork.',
+    date: '2026-09-10',
+    summary: 'Which desktop stapler is the better buy for sheet capacity, staple storage, construction, tacking, pinning, staple removal, grip, reload routine, and everyday paperwork?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Swingline’s metal full-strip 747 Classic and Bostitch’s convenience-led Ascend with storage and a built-in remover.',
+    winnerLabel: 'Best desktop stapler pick',
+    winner: 'Swingline 747 Classic Desktop Stapler',
+    image: {
+      src: '/images/desktop-stapler-comparison.webp',
+      url: 'https://worthadding.com/images/desktop-stapler-comparison.webp',
+      alt: 'An unbranded steel-gray metal desktop stapler and black ergonomic desktop stapler on a light wood desk with paper, folders, loose staples, pencils, and a notebook for the Swingline 747 vs Bostitch Ascend comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-smokey-joe-vs-cuisinart-ccg-190-kettle-charcoal-grill',
     title: 'Weber Smokey Joe vs Cuisinart CCG-190',
     schemaName: 'Weber Smokey Joe vs Cuisinart CCG-190',
