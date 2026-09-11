@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'cole-mason-derwent-vs-fletchers-mill-federal-pepper-mill',
+    title: "Cole & Mason Derwent vs Fletchers' Mill Federal",
+    schemaName: "Cole & Mason Derwent vs Fletchers' Mill Federal",
+    schemaTitle: "Cole & Mason Derwent vs Fletchers' Mill Federal: Which pepper mill should you buy?",
+    category: 'Manual pepper mills',
+    categorySummary: 'The buyer-relevant differences are grind settings, adjustment style, mechanism, materials, dimensions, size options, contents visibility, refill routine, warranty language, and counter or table fit.',
+    date: '2026-09-11',
+    summary: 'Which manual pepper mill is the better buy for grind settings, adjustment style, mechanism, materials, dimensions, size options, contents visibility, refill routine, warranty language, and counter or table fit?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Cole & Mason’s visible six-setting Derwent and Fletchers’ Mill’s made-in-Maine hardwood Federal.',
+    winnerLabel: 'Best pepper mill pick',
+    winner: 'Cole & Mason Derwent Pepper Mill',
+    image: {
+      src: '/images/pepper-grinder-comparison.webp',
+      url: 'https://worthadding.com/images/pepper-grinder-comparison.webp',
+      alt: "An unbranded clear metal-accent pepper grinder and a dark contoured pepper grinder with peppercorns, cutting board, and kitchen prep props for the Cole & Mason Derwent vs Fletchers' Mill Federal comparison",
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'swingline-747-vs-bostitch-ascend-desktop-stapler',
     title: 'Swingline 747 vs Bostitch Ascend',
     schemaName: 'Swingline 747 vs Bostitch Ascend',
