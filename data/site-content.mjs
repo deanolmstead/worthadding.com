@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'bodum-chambord-vs-espro-p3-french-press',
+    title: 'Bodum Chambord vs ESPRO P3',
+    schemaName: 'Bodum Chambord vs ESPRO P3',
+    schemaTitle: 'Bodum Chambord vs ESPRO P3: Which French press should you buy?',
+    category: 'French presses',
+    categorySummary: 'The buyer-relevant differences are published capacity, minimum brew size, dimensions, carafe and frame materials, filtering design, glass protection, cleaning routine, optional paper filters, and shared-coffee fit.',
+    date: '2026-09-12',
+    summary: 'Which French press is the better buy for capacity, minimum brew size, dimensions, materials, filter design, glass protection, cleaning routine, optional paper filters, and everyday coffee routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Bodum’s classic 34-ounce Chambord and ESPRO’s filter-focused 32-ounce P3.',
+    winnerLabel: 'Best French press pick',
+    winner: 'Bodum Chambord 8-Cup French Press',
+    image: {
+      src: '/images/french-press-comparison.webp',
+      url: 'https://worthadding.com/images/french-press-comparison.webp',
+      alt: 'An unbranded classic silver-frame glass French press and a contemporary black-frame double-filter glass French press with coffee beans, mug, kettle, linen, and tray for the Bodum Chambord vs ESPRO P3 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'cole-mason-derwent-vs-fletchers-mill-federal-pepper-mill',
     title: "Cole & Mason Derwent vs Fletchers' Mill Federal",
     schemaName: "Cole & Mason Derwent vs Fletchers' Mill Federal",
