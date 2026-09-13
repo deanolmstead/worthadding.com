@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'droll-yankees-flipper-vs-brome-squirrel-buster-plus-bird-feeder',
+    title: 'Droll Yankees Flipper vs Brome Squirrel Buster Plus',
+    schemaName: 'Droll Yankees Flipper vs Brome Squirrel Buster Plus',
+    schemaTitle: 'Droll Yankees Flipper vs Brome Squirrel Buster Plus: Which squirrel-proof bird feeder should you buy?',
+    category: 'Squirrel-proof bird feeders',
+    categorySummary: 'The buyer-relevant differences are seed capacity, published height, deterrent mechanism, rechargeable perch, weight-sensitive shroud, feeding ports, Cardinal Ring, construction, cleaning, placement, and backyard routine.',
+    date: '2026-09-13',
+    summary: 'Which squirrel-proof bird feeder is the better buy for seed capacity, height, deterrent mechanism, rechargeable perch, shroud, feeding ports, Cardinal Ring, construction, cleaning, placement, and backyard routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Droll Yankees’ rechargeable spinning-perch Flipper and Brome’s six-port, shroud-based Squirrel Buster Plus.',
+    winnerLabel: 'Best squirrel-proof bird feeder pick',
+    winner: 'Brome Squirrel Buster Plus',
+    image: {
+      src: '/images/squirrel-proof-bird-feeder-comparison.webp',
+      url: 'https://worthadding.com/images/squirrel-proof-bird-feeder-comparison.webp',
+      alt: 'Two unbranded green squirrel-deterrent bird feeders on shepherd hooks with sunflower seeds, binoculars, a notebook, and backyard foliage for the Droll Yankees Flipper vs Brome Squirrel Buster Plus comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'bodum-chambord-vs-espro-p3-french-press',
     title: 'Bodum Chambord vs ESPRO P3',
     schemaName: 'Bodum Chambord vs ESPRO P3',
