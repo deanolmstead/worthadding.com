@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'black-diamond-trail-back-vs-cascade-mountain-tech-aluminum-quick-lock-trekking-poles',
+    title: 'Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock',
+    schemaName: 'Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock',
+    schemaTitle: 'Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock: Which trekking poles should you buy?',
+    category: 'Trekking poles',
+    categorySummary: 'The buyer-relevant differences are shaft alloy, usable range, collapsed length, lock type, grip extensions, straps, tip material, baskets, included accessories, pack carry, and hiking routine.',
+    date: '2026-09-14',
+    summary: 'Which trekking poles are the better buy for shaft alloy, adjustable range, collapsed length, lock type, grip layout, straps, tips, baskets, accessories, pack carry, and hiking routines?',
+    featuredSummary: 'A sourced comparison for hikers choosing between Black Diamond’s 7075-aluminum Trail Back and Cascade Mountain Tech’s cork-grip Aluminum Quick Lock pair.',
+    winnerLabel: 'Best trekking pole pick',
+    winner: 'Black Diamond Trail Back Trekking Poles',
+    image: {
+      src: '/images/trekking-pole-comparison.webp',
+      url: 'https://worthadding.com/images/trekking-pole-comparison.webp',
+      alt: 'Two unbranded telescoping aluminum trekking pole pairs with a daypack, hiking boots, trail map, and water bottle at a pine-forest trailhead for the Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'droll-yankees-flipper-vs-brome-squirrel-buster-plus-bird-feeder',
     title: 'Droll Yankees Flipper vs Brome Squirrel Buster Plus',
     schemaName: 'Droll Yankees Flipper vs Brome Squirrel Buster Plus',
