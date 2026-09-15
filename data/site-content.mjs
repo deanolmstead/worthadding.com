@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'o-cedar-easywring-vs-libman-tornado-spin-mop',
+    title: 'O-Cedar EasyWring vs Libman Tornado',
+    schemaName: 'O-Cedar EasyWring vs Libman Tornado',
+    schemaTitle: 'O-Cedar EasyWring vs Libman Tornado: Which spin mop should you buy?',
+    category: 'Spin mops',
+    categorySummary: 'The buyer-relevant differences are wringing control, head shape, handle range, microfiber care, bucket mechanism, storage, replacement parts, floor-care routine, and household fit.',
+    date: '2026-09-15',
+    summary: 'Which spin mop is the better buy for wringing control, head shape, handle range, microfiber care, bucket mechanism, storage, replacement parts, floor-care routines, and household fit?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between O-Cedar’s foot-pedal EasyWring system and Libman’s push-down Tornado spin mop.',
+    winnerLabel: 'Best spin mop pick',
+    winner: 'O-Cedar EasyWring Spin Mop & Bucket System',
+    image: {
+      src: '/images/spin-mop-comparison.webp',
+      url: 'https://worthadding.com/images/spin-mop-comparison.webp',
+      alt: 'Two unbranded spin mop bucket systems with white microfiber mop heads, a cleaning cloth, spray bottle, tile floor, and sunlit kitchen doorway for the O-Cedar EasyWring vs Libman Tornado comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'black-diamond-trail-back-vs-cascade-mountain-tech-aluminum-quick-lock-trekking-poles',
     title: 'Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock',
     schemaName: 'Black Diamond Trail Back vs Cascade Mountain Tech Aluminum Quick Lock',
