@@ -1,7 +1,7 @@
 export const site = {
   name: 'Worth Adding',
   url: 'https://worthadding.com',
-  homepageUpdated: '2026-08-30',
+  homepageUpdated: '2026-09-16',
   socialImage: {
     src: '/images/worth-adding-social-card.webp',
     url: 'https://worthadding.com/images/worth-adding-social-card.webp',
@@ -17,6 +17,26 @@ export const site = {
 };
 
 export const comparisons = [
+  {
+    slug: 'turtle-wax-ceramic-wet-wax-vs-ceramic-spray-coating',
+    title: 'Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating',
+    schemaName: 'Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating',
+    schemaTitle: 'Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating: Which ceramic car wax should you buy?',
+    category: 'Ceramic car wax sprays',
+    categorySummary: 'The buyer-relevant differences are bottle size, wet versus dry application, wash timing, towel workflow, panel sequence, second-coat instructions, finish routine, and car-care fit.',
+    date: '2026-09-16',
+    summary: 'Which ceramic car wax spray is the better buy for bottle size, wet versus dry application, wash timing, towel workflow, panel sequence, second-coat instructions, finish routine, and car-care fit?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Turtle Wax’s wet-surface Ceramic Wet Wax and dry-surface Ceramic Spray Coating.',
+    winnerLabel: 'Best ceramic car wax pick',
+    winner: 'Turtle Wax Hybrid Solutions Ceramic Wet Wax',
+    image: {
+      src: '/images/ceramic-car-wax-comparison.webp',
+      url: 'https://worthadding.com/images/ceramic-car-wax-comparison.webp',
+      alt: 'Two unbranded spray bottles, microfiber towels, and a freshly washed blue car in a bright driveway for the Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
   {
     slug: 'o-cedar-easywring-vs-libman-tornado-spin-mop',
     title: 'O-Cedar EasyWring vs Libman Tornado',
