@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-performer-premium-vs-master-touch-charcoal-grill',
+    title: 'Weber Performer Premium vs Master-Touch Charcoal Grill',
+    schemaName: 'Weber Performer Premium vs Master-Touch Charcoal Grill',
+    schemaTitle: 'Weber Performer Premium vs Master-Touch Charcoal Grill: Which charcoal grill should you buy?',
+    category: 'Charcoal grill carts',
+    categorySummary: 'The buyer-relevant trade-offs are primary cooking area, warming-rack space, prep surface, closed dimensions, wheels, storage footprint, and cookout routine.',
+    date: '2026-09-18',
+    summary: 'Which Weber charcoal grill is the better buy for patio cooking, a compact storage footprint, prep space, warming capacity, and everyday backyard meals?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between a cart-mounted prep station and a compact kettle with a warming rack.',
+    winnerLabel: 'Best charcoal grill pick',
+    winner: 'Weber Master-Touch Charcoal Grill 22”',
+    image: {
+      src: '/images/charcoal-grill-cart-comparison.webp',
+      url: 'https://worthadding.com/images/charcoal-grill-cart-comparison.webp',
+      alt: 'A black charcoal kettle grill on a prep cart beside a blue standalone kettle grill with outdoor cooking tools for the Weber Performer Premium vs Master-Touch Charcoal Grill comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'turtle-wax-ceramic-wet-wax-vs-ceramic-spray-coating',
     title: 'Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating',
     schemaName: 'Turtle Wax Ceramic Wet Wax vs Ceramic Spray Coating',
