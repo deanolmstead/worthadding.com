@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'olfa-rty-2-g-vs-rty-2-c-rotary-cutter',
+    title: 'OLFA RTY-2/G vs RTY-2/C Rotary Cutter',
+    schemaName: 'OLFA RTY-2/G vs RTY-2/C Rotary Cutter',
+    schemaTitle: 'OLFA RTY-2/G vs RTY-2/C Rotary Cutter: Which 45 mm rotary cutter should you buy?',
+    category: '45 mm rotary cutters',
+    categorySummary: 'The buyer-relevant trade-offs are 45 mm blade size, handle format, blade-change process, blade cover, included blade, cotton-layer capacity, handedness, and routine sewing or quilting workflow.',
+    date: '2026-09-20',
+    summary: 'Which 45 mm rotary cutter is the better buy for quilting, sewing, fabric layers, blade changes, hand fit, protective covers, and everyday cutting routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between OLFA’s classic straight-handle cutter and its quick-change alternative.',
+    winnerLabel: 'Best 45 mm rotary cutter pick',
+    winner: 'OLFA RTY-2/C Quick-Change Rotary Cutter',
+    image: {
+      src: '/images/rotary-cutter-comparison.webp',
+      url: 'https://worthadding.com/images/rotary-cutter-comparison.webp',
+      alt: 'Two unbranded 45 mm rotary cutters, one charcoal and one aqua, on a cream cutting mat with quilting cotton, thread, ruler, and tailor’s chalk for the OLFA RTY-2/G vs RTY-2/C Rotary Cutter comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-performer-premium-vs-master-touch-charcoal-grill',
     title: 'Weber Performer Premium vs Master-Touch Charcoal Grill',
     schemaName: 'Weber Performer Premium vs Master-Touch Charcoal Grill',
