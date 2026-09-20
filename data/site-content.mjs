@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'jbl-charge-6-vs-bose-soundlink-plus-portable-speaker',
+    title: 'JBL Charge 6 vs Bose SoundLink Plus',
+    schemaName: 'JBL Charge 6 vs Bose SoundLink Plus',
+    schemaTitle: 'JBL Charge 6 vs Bose SoundLink Plus: Which portable Bluetooth speaker should you buy?',
+    category: 'Portable Bluetooth speakers',
+    categorySummary: 'The buyer-relevant trade-offs are published battery life, charging time, dimensions, weight, enclosure rating, carry hardware, USB-C functions, app controls, multi-speaker expansion, included parts, and outdoor routine.',
+    date: '2026-09-20',
+    summary: 'Which portable Bluetooth speaker is the better buy for battery life, ruggedness, carrying, charging, app controls, multi-speaker listening, and outdoor routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between JBL’s battery-forward Charge 6 and Bose’s ecosystem-focused SoundLink Plus.',
+    winnerLabel: 'Best portable Bluetooth speaker pick',
+    winner: 'JBL Charge 6',
+    image: {
+      src: '/images/portable-speaker-comparison.webp',
+      url: 'https://worthadding.com/images/portable-speaker-comparison.webp',
+      alt: 'Two unbranded portable Bluetooth speakers with carry loops on a bright poolside patio for the JBL Charge 6 vs Bose SoundLink Plus comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'olfa-rty-2-g-vs-rty-2-c-rotary-cutter',
     title: 'OLFA RTY-2/G vs RTY-2/C Rotary Cutter',
     schemaName: 'OLFA RTY-2/G vs RTY-2/C Rotary Cutter',
