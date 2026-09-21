@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'eno-doublenest-vs-kammok-roo-double-camping-hammock',
+    title: 'ENO DoubleNest vs Kammok Roo Double',
+    schemaName: 'ENO DoubleNest vs Kammok Roo Double',
+    schemaTitle: 'ENO DoubleNest vs Kammok Roo Double: Which camping hammock should you buy?',
+    category: 'Camping hammocks',
+    categorySummary: 'The buyer-relevant trade-offs are published capacity, body and packed dimensions, listed weight, fabric, included hardware, tree-strap requirements, ecosystem, lounging versus sleep guidance, and campsite routine.',
+    date: '2026-09-21',
+    summary: 'Which camping hammock is the better buy for packed weight, capacity, dimensions, fabric, included hardware, setup flexibility, and campsite routines?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between ENO’s flexible DoubleNest classic and Kammok’s lighter, hardware-included Roo Double.',
+    winnerLabel: 'Best camping hammock pick',
+    winner: 'ENO DoubleNest',
+    image: {
+      src: '/images/camping-hammock-comparison.webp',
+      url: 'https://worthadding.com/images/camping-hammock-comparison.webp',
+      alt: 'A forest green and a burnt-orange unbranded camping hammock at a wooded lakeside campsite with a backpack, blanket, mug, and map for the ENO DoubleNest vs Kammok Roo Double comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'jbl-charge-6-vs-bose-soundlink-plus-portable-speaker',
     title: 'JBL Charge 6 vs Bose SoundLink Plus',
     schemaName: 'JBL Charge 6 vs Bose SoundLink Plus',
