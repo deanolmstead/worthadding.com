@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'milwaukee-fastback-6-in-1-vs-fastback-blade-storage-folding-utility-knife',
+    title: 'Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage',
+    schemaName: 'Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage',
+    schemaTitle: 'Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage: Which folding utility knife should you buy?',
+    category: 'Folding utility knives',
+    categorySummary: 'The buyer-relevant trade-offs are one-handed opening, tool-free blade changes, spare-blade storage, wire stripping, screwdriver and bit-holder functions, dimensions, weight, pocket carry, and everyday cutting routine.',
+    date: '2026-09-22',
+    summary: 'Which folding utility knife is the better buy for one-handed opening, blade storage, wire stripping, screwdriver capability, pocket carry, dimensions, and everyday cutting tasks?',
+    featuredSummary: 'A sourced comparison for shoppers choosing between Milwaukee’s compact five-blade FASTBACK and its larger driver-equipped 6-in-1.',
+    winnerLabel: 'Best folding utility knife pick',
+    winner: 'Milwaukee FASTBACK Blade Storage',
+    image: {
+      src: '/images/folding-utility-knife-comparison.webp',
+      url: 'https://worthadding.com/images/folding-utility-knife-comparison.webp',
+      alt: 'Two unbranded red and black folding utility knives on a maple workbench with a blank cardboard box, gloves, tape measure, pencil, and wood offcuts for the Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'eno-doublenest-vs-kammok-roo-double-camping-hammock',
     title: 'ENO DoubleNest vs Kammok Roo Double',
     schemaName: 'ENO DoubleNest vs Kammok Roo Double',
