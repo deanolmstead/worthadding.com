@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'felco-2-vs-felco-6-bypass-pruner',
+    title: 'FELCO 2 vs FELCO 6',
+    schemaName: 'FELCO 2 vs FELCO 6',
+    schemaTitle: 'FELCO 2 vs FELCO 6: Which bypass pruner should you buy?',
+    category: 'Professional bypass pruners',
+    categorySummary: 'The buyer-relevant axes this comparison weighs: hand size, cutting diameter, length, weight, handle shape, blade construction, adjustment, replaceable parts, reach, and routine pruning fit.',
+    date: '2026-09-23',
+    summary: 'Which bypass pruner is the better buy for hand size, cutting diameter, reach, weight, handle shape, replaceable parts, woody stems, and routine garden pruning?',
+    featuredSummary: 'A sourced comparison for gardeners choosing between the FELCO 2’s full-size large-hand capacity and the FELCO 6’s compact medium-hand fit.',
+    winnerLabel: 'Best bypass pruner pick',
+    winner: 'FELCO 6',
+    image: {
+      src: '/images/professional-bypass-pruner-comparison.webp',
+      url: 'https://worthadding.com/images/professional-bypass-pruner-comparison.webp',
+      alt: 'Two unbranded red-handled bypass pruners on a cedar potting bench with gloves, woody stems, twine, terracotta pot, and green leaves for the FELCO 2 vs FELCO 6 comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'milwaukee-fastback-6-in-1-vs-fastback-blade-storage-folding-utility-knife',
     title: 'Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage',
     schemaName: 'Milwaukee FASTBACK 6-in-1 vs FASTBACK Blade Storage',
