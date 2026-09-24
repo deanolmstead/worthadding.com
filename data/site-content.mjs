@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'fiskars-ergo-cultivator-vs-corona-comfortgel-cultivator-hand-cultivator',
+    title: 'Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator',
+    schemaName: 'Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator',
+    schemaTitle: 'Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator: Which hand cultivator should you buy?',
+    category: 'Hand cultivators',
+    categorySummary: 'The buyer-relevant trade-offs are tine construction, material, ergonomic handle shape, grip features, rust resistance, storage, soil-loosening routine, container work, and hand comfort.',
+    date: '2026-09-24',
+    summary: 'Which hand cultivator is the better buy for tine construction, ergonomic grip, rust resistance, storage, soil loosening, container work, and everyday garden routines?',
+    featuredSummary: 'A sourced comparison for gardeners choosing between Fiskars’ simple ergonomic cast-aluminum tool and Corona’s stainless-steel, grip-featured cultivator.',
+    winnerLabel: 'Best hand cultivator pick',
+    winner: 'Fiskars Ergo Cultivator',
+    image: {
+      src: '/images/hand-cultivator-comparison.webp',
+      url: 'https://worthadding.com/images/hand-cultivator-comparison.webp',
+      alt: 'Two unbranded hand cultivators on a cedar potting bench with terracotta pots, soil, gloves, and herb seedlings for the Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'felco-2-vs-felco-6-bypass-pruner',
     title: 'FELCO 2 vs FELCO 6',
     schemaName: 'FELCO 2 vs FELCO 6',
