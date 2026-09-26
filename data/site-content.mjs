@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'microplane-professional-y-peeler-vs-professional-xl-peeler',
+    title: 'Microplane Professional Y Peeler vs Professional XL Peeler',
+    schemaName: 'Microplane Professional Y Peeler vs Professional XL Peeler',
+    schemaTitle: 'Microplane Professional Y Peeler vs Professional XL Peeler: Which vegetable peeler should you buy?',
+    category: 'Vegetable peelers',
+    categorySummary: 'The buyer-relevant trade-offs are blade width, blade construction, published dimensions, handle fit, both-hand use, potato-eye removal, dishwasher-safe care, tough-skinned produce, broad produce, and everyday prep routine.',
+    date: '2026-09-26',
+    summary: 'Which vegetable peeler is the better buy for blade width, tough-skinned produce, broad produce, handle fit, dishwasher-safe care, potato-eye removal, dimensions, and everyday kitchen prep?',
+    featuredSummary: 'A sourced comparison for cooks choosing between Microplane’s standard-width daily Y peeler and its extra-wide XL alternative for broad, tough produce.',
+    winnerLabel: 'Best vegetable peeler pick',
+    winner: 'Microplane Professional Y Peeler',
+    image: {
+      src: '/images/professional-y-peeler-comparison.webp',
+      url: 'https://worthadding.com/images/professional-y-peeler-comparison.webp',
+      alt: 'Two unbranded stainless-steel Y vegetable peelers with a butternut squash, sweet potato, cabbage, carrot ribbons, cutting board, and linen towel for the Microplane Professional Y Peeler vs Professional XL Peeler comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'fiskars-ergo-cultivator-vs-corona-comfortgel-cultivator-hand-cultivator',
     title: 'Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator',
     schemaName: 'Fiskars Ergo Cultivator vs Corona ComfortGEL Cultivator',
