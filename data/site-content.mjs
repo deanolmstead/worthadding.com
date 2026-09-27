@@ -338,26 +338,6 @@ export const comparisons = [
     }
   },
   {
-    slug: 'weber-smokey-joe-vs-cuisinart-ccg-190-kettle-charcoal-grill',
-    title: 'Weber Smokey Joe vs Cuisinart CCG-190',
-    schemaName: 'Weber Smokey Joe vs Cuisinart CCG-190',
-    schemaTitle: 'Weber Smokey Joe vs Cuisinart CCG-190: Which kettle charcoal grill should you buy?',
-    category: 'Kettle charcoal grills',
-    categorySummary: 'The buyer-relevant trade-offs are cooking area, published weight, dimensions, airflow, lid security, ash handling, materials, warranty, and car-to-campsite routine.',
-    date: '2026-09-09',
-    summary: 'Which kettle charcoal grill is the better buy for cooking area, published weight, dimensions, airflow, lid security, ash handling, materials, warranty, and campsite or patio routines?',
-    featuredSummary: "A sourced comparison for shoppers choosing between Weber’s compact kettle hardware and Cuisinart’s larger published grate area with a listed light carry weight.",
-    winnerLabel: 'Best kettle charcoal grill pick',
-    winner: 'Weber Smokey Joe 14-inch Charcoal Grill',
-    image: {
-      src: '/images/kettle-charcoal-grill-comparison.webp',
-      url: 'https://worthadding.com/images/kettle-charcoal-grill-comparison.webp',
-      alt: 'Two unbranded 14-inch kettle charcoal grills on a picnic table with charcoal, tongs, corn, vegetables, a blanket, and a cooler for the Weber Smokey Joe vs Cuisinart CCG-190 comparison',
-      width: 1448,
-      height: 1086
-    }
-  },
-  {
     slug: 'cuisinart-dbm-8p1-vs-dbm-t10-burr-coffee-grinder',
     title: 'Cuisinart DBM-8P1 vs DBM-T10',
     schemaName: 'Cuisinart DBM-8P1 vs DBM-T10',
@@ -493,26 +473,6 @@ export const comparisons = [
       src: '/images/foam-sleeping-pad-comparison.webp',
       url: 'https://worthadding.com/images/foam-sleeping-pad-comparison.webp',
       alt: 'Two unbranded folding closed-cell foam sleeping pads, one orange with hexagonal nodes and one silver with dimpled panels, outside a backpacking tent with a pack, trail shoes, camp mug, and map for the NEMO Switchback vs Therm-a-Rest Z Lite SOL comparison.',
-      width: 1448,
-      height: 1086
-    }
-  },
-  {
-    slug: 'lodge-l10sk3-vs-victoria-skl-212-cast-iron-skillet',
-    title: 'Lodge L10SK3 vs Victoria SKL-212',
-    schemaName: 'Lodge L10SK3 vs Victoria SKL-212',
-    schemaTitle: 'Lodge L10SK3 vs Victoria SKL-212: Which cast iron skillet should you buy?',
-    category: 'Cast iron skillets',
-    categorySummary: 'The buyer-relevant differences in published size, seasoning wording, vessel depth, cast-iron construction, edge shape, handles, assist handles, pour spouts, listed weight, cooking routine, and everyday kitchen fit.',
-    date: '2026-08-31',
-    summary: 'Which 12-inch cast iron skillet is the better buy for seasoning, vessel depth, edge construction, handles, pour spouts, listed weight, cooking routines, and everyday kitchen use?',
-    featuredSummary: 'A sourced comparison for shoppers choosing between Lodge’s familiar naturally seasoned 12-inch skillet and Victoria’s deeper, flaxseed-oil-preseasoned alternative.',
-    winnerLabel: 'Best cast iron skillet pick',
-    winner: 'Lodge L10SK3 12-inch Classic Cast Iron Skillet',
-    image: {
-      src: '/images/cast-iron-skillet-comparison.webp',
-      url: 'https://worthadding.com/images/cast-iron-skillet-comparison.webp',
-      alt: 'Two unbranded 12-inch cast iron skillets, one with dual pour spouts and one with a deeper vessel, on a bright kitchen counter with vegetables, garlic, a wooden spatula, and a notebook for the Lodge L10SK3 vs Victoria SKL-212 comparison.',
       width: 1448,
       height: 1086
     }
@@ -905,7 +865,7 @@ export const comparisons = [
     category: 'Portable charcoal grills',
     categorySummary: 'Cooking area, published footprint, grill construction, temperature-control approach, grate material, carry routine, ash management, storage, and the campsite or patio cooking pattern each portable charcoal grill supports.',
     date: '2026-08-11',
-    summary: 'Which portable charcoal grill is the better buy for cooking area, temperature range, grill style, portability, cleanup, storage, and campsite or patio cooking?',
+    summary: 'Weber Jumbo Joe 18 vs Char-Griller AKORN Jr.: which portable charcoal grill is the better buy for cooking area, temperature range, grill style, portability, cleanup, storage, and campsite or patio cooking?',
     featuredSummary: "A sourced comparison for shoppers choosing between Weber's larger-grate portable kettle and Char-Griller's insulated, damper-managed AKORN Jr. kamado format.",
     winnerLabel: 'Best portable charcoal grill pick',
     winner: 'Weber 18” Jumbo Joe® Charcoal Grill, 1211001',
@@ -1051,7 +1011,7 @@ export const comparisons = [
     category: 'Cast iron skillets',
     categorySummary: 'Cooking-surface shape, depth, flat-bottom size, overall footprint, handle design, stovetop and oven fit, retailer model clarity, and the everyday routine each skillet supports.',
     date: '2026-08-03',
-    summary: 'Which Lodge 12-inch cast iron skillet is the better buy for cooking-surface shape, depth, weight, handle design, everyday stovetop use, and long-term kitchen routines?',
+    summary: 'Which Lodge 12-inch cast iron skillet is the better buy for cooking-surface shape, depth, weight, handle design, everyday stovetop use, and long-term kitchen routines — plus how Victoria\u2019s deeper-vessel SKL-212 compares?',
     featuredSummary: "A sourced comparison for shoppers choosing between Lodge's deeper Classic skillet and its lower, spatula-friendly Chef Collection profile.",
     winnerLabel: 'Best cast iron skillet pick',
     winner: 'Lodge Classic 12-Inch Cast Iron Skillet L10SK3',
