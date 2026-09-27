@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'fiskars-stand-up-weed-puller-vs-grampas-weeder-stand-up-weeder',
+    title: "Fiskars Stand-up Weed Puller vs Grampa's Weeder",
+    schemaName: "Fiskars Stand-up Weed Puller vs Grampa's Weeder",
+    schemaTitle: "Fiskars Stand-up Weed Puller vs Grampa's Weeder: Which stand-up weeder should you buy?",
+    category: 'Stand-up weeders',
+    categorySummary: 'The buyer-relevant trade-offs are claw design, foot-platform placement, viewing window, cleanup mechanism, shaft length, listed weight, handle material, head construction, lever operation, and routine lawn weed-pulling fit.',
+    date: '2026-09-27',
+    summary: 'Which stand-up weeder is the better buy for claw design, placement, cleanup, handle material, length, listed weight, simple lever operation, and routine lawn weed pulling?',
+    featuredSummary: "A sourced comparison for gardeners choosing between Fiskars' placement-and-eject four-claw tool and Grampa's simple bamboo-and-steel lever design.",
+    winnerLabel: 'Best stand-up weeder pick',
+    winner: 'Fiskars Stand-up Weed Puller',
+    image: {
+      src: '/images/stand-up-weeder-comparison.webp',
+      url: 'https://worthadding.com/images/stand-up-weeder-comparison.webp',
+      alt: "Two unbranded stand-up weed pullers on a lawn with dandelions, garden gloves, a hand trowel, soil plugs, and flower beds for the Fiskars Stand-up Weed Puller vs Grampa's Weeder comparison",
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'microplane-professional-y-peeler-vs-professional-xl-peeler',
     title: 'Microplane Professional Y Peeler vs Professional XL Peeler',
     schemaName: 'Microplane Professional Y Peeler vs Professional XL Peeler',
