@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'black-diamond-trail-back-vs-leki-legacy-lite-trekking-poles',
+    title: 'Black Diamond Trail Back vs LEKI Legacy Lite',
+    schemaName: 'Black Diamond Trail Back vs LEKI Legacy Lite',
+    schemaTitle: 'Black Diamond Trail Back vs LEKI Legacy Lite: Which trekking poles should you buy?',
+    category: 'Trekking poles',
+    categorySummary: 'The buyer-relevant trade-offs are shaft material, adjustable range, packed length, listed per-pole weight, grip construction, lock system, straps, tips, baskets, snow-basket inclusion, and hiking routine.',
+    date: '2026-09-28',
+    summary: 'Which trekking poles are the better buy for shaft material, adjustable range, packed length, listed weight, grip, lock system, tips, baskets, snow-basket inclusion, and hiking routine?',
+    featuredSummary: 'A sourced comparison for hikers choosing between Black Diamond’s longer-range, snow-basket-included Trail Back and LEKI’s lighter Legacy Lite with EVOCON CorTec grips.',
+    winnerLabel: 'Best trekking pole pick',
+    winner: 'Black Diamond Trail Back',
+    image: {
+      src: '/images/trekking-pole-comparison.webp',
+      url: 'https://worthadding.com/images/trekking-pole-comparison.webp',
+      alt: 'Two unbranded adjustable aluminum trekking pole pairs beside a rocky forest trail with a daypack, map, hiking boots, pine needles, and a mountain lake for the Black Diamond Trail Back vs LEKI Legacy Lite comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'fiskars-stand-up-weed-puller-vs-grampas-weeder-stand-up-weeder',
     title: "Fiskars Stand-up Weed Puller vs Grampa's Weeder",
     schemaName: "Fiskars Stand-up Weed Puller vs Grampa's Weeder",
