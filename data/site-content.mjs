@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'weber-rapidfire-vs-kingsford-heavy-duty-deluxe-charcoal-chimney-starter',
+    title: 'Weber Rapidfire vs Kingsford Heavy Duty Deluxe',
+    schemaName: 'Weber Rapidfire vs Kingsford Heavy Duty Deluxe',
+    schemaTitle: 'Weber Rapidfire vs Kingsford Heavy Duty Deluxe: Which charcoal chimney starter should you buy?',
+    category: 'Charcoal chimney starters',
+    categorySummary: 'The buyer-relevant trade-offs are published capacity, briquette load, external dimensions, construction material, airflow chamber, heat shield, handle layout, helper handle, storage footprint, and charcoal-grilling routine.',
+    date: '2026-09-30',
+    summary: 'Which charcoal chimney starter is the better buy for capacity, briquette load, dimensions, material, heat shield, handles, storage footprint, and everyday charcoal grilling?',
+    featuredSummary: 'A sourced comparison for charcoal grillers choosing between Weber’s larger-capacity, helper-handle Rapidfire and Kingsford’s compact zinc-steel alternative.',
+    winnerLabel: 'Best charcoal chimney starter pick',
+    winner: 'Weber Rapidfire Chimney Starter',
+    image: {
+      src: '/images/charcoal-chimney-starter-comparison.webp',
+      url: 'https://worthadding.com/images/charcoal-chimney-starter-comparison.webp',
+      alt: 'Two unbranded charcoal chimney starters with charcoal, grilling gloves, a paper fire-starter bag, and a charcoal grill on a cedar outdoor table for the Weber Rapidfire vs Kingsford Heavy Duty Deluxe comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'black-diamond-trail-back-vs-leki-legacy-lite-trekking-poles',
     title: 'Black Diamond Trail Back vs LEKI Legacy Lite',
     schemaName: 'Black Diamond Trail Back vs LEKI Legacy Lite',
