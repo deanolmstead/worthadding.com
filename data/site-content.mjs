@@ -18,6 +18,26 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'lodge-10-25-inch-vs-victoria-10-inch-cast-iron-skillet',
+    title: 'Lodge 10.25-Inch vs Victoria 10-Inch Skillet',
+    schemaName: 'Lodge 10.25-Inch vs Victoria 10-Inch Skillet',
+    schemaTitle: 'Lodge 10.25-Inch vs Victoria 10-Inch Skillet: Which cast iron skillet should you buy?',
+    category: 'Cast iron skillets',
+    categorySummary: 'The buyer-relevant trade-offs are nominal cooking size, published overall dimensions, listed weight, vessel profile, handle layout, seasoning, heat-source compatibility, storage, care, and everyday cooking routine.',
+    date: '2026-10-04',
+    summary: 'Which cast iron skillet is the better buy for nominal size, listed weight, dimensions, vessel depth, handle layout, seasoning, heat-source use, storage, care, and everyday cooking?',
+    featuredSummary: 'A sourced comparison for cooks choosing between Lodge’s traditional assist-handle 10.25-inch format and Victoria’s lighter-listed, deeper-vessel 10-inch alternative.',
+    winnerLabel: 'Best cast iron skillet pick',
+    winner: 'Lodge 10.25-Inch Cast Iron Skillet',
+    image: {
+      src: '/images/cast-iron-skillet-comparison.webp',
+      url: 'https://worthadding.com/images/cast-iron-skillet-comparison.webp',
+      alt: 'Two unbranded cast iron skillets with a wooden spatula, eggs, herbs, vegetables, and linen towel for the Lodge 10.25-Inch vs Victoria 10-Inch Skillet comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+  {
     slug: 'weber-rapidfire-vs-kingsford-heavy-duty-deluxe-charcoal-chimney-starter',
     title: 'Weber Rapidfire vs Kingsford Heavy Duty Deluxe',
     schemaName: 'Weber Rapidfire vs Kingsford Heavy Duty Deluxe',
