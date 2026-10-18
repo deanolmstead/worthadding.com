@@ -18,6 +18,27 @@ export const site = {
 
 export const comparisons = [
   {
+    slug: 'marcato-atlas-150-vs-imperia-ipasta-classic-pasta-machine',
+    title: 'Marcato Atlas 150 vs Imperia iPasta Classic',
+    schemaName: 'Marcato Atlas 150 vs Imperia iPasta Classic',
+    schemaTitle: 'Marcato Atlas 150 vs Imperia iPasta Classic: Which pasta machine should you buy?',
+    category: 'Manual pasta machines',
+    categorySummary: 'The buyer-relevant trade-offs this comparison weighs: thickness settings, cutter formats, roller construction, included hopper and clamp, dimensions, accessories, cleaning guidance, and routine fit.',
+    date: '2026-10-18',
+    summary: 'Which manual pasta machine is the better buy for thickness settings, cutter formats, included parts, accessory options, cleanup, counter setup, and everyday fresh-pasta routines?',
+    featuredSummary: "A sourced comparison for shoppers choosing between Marcato's broader adjustment path and Imperia's focused hopper-and-cutter setup.",
+    winnerLabel: 'Best pasta machine pick',
+    winner: 'Marcato Atlas 150',
+    image: {
+      src: '/images/manual-pasta-machine-comparison.webp',
+      url: 'https://worthadding.com/images/manual-pasta-machine-comparison.webp',
+      alt: 'Two unbranded hand-cranked pasta machines with fresh dough, flour, eggs, and pasta ribbons for the Marcato Atlas 150 vs Imperia iPasta Classic comparison',
+      width: 1448,
+      height: 1086
+    }
+  },
+
+  {
     slug: 'lodge-10-25-inch-vs-victoria-10-inch-cast-iron-skillet',
     title: 'Lodge 10.25-Inch vs Victoria 10-Inch Skillet',
     schemaName: 'Lodge 10.25-Inch vs Victoria 10-Inch Skillet',
